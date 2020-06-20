@@ -122,6 +122,7 @@
 	if(judgement_guilty_votes.len > judgement_innocent_votes.len) //strictly need majority guilty to lynch
 		send_message("<span class='big red'>Guilty wins majority, [on_trial.body.real_name] has been lynched.</span>")
 		on_trial.kill(src, lynch = TRUE)
+		addtimer(CALLBACK(src, .proc/returnlynched, on_trial), judgement_lynch_period)
 	else
 		send_message("<span class='big green'>Innocent wins majority, [on_trial.body.real_name] has been spared.</span>")
 		on_trial.body.forceMove(get_turf(on_trial.assigned_landmark))
@@ -131,6 +132,9 @@
 	on_trial = null
 	//day votes are already cleared, so this will skip the trial and check victory/lockdown/whatever else
 	next_phase_timer = addtimer(CALLBACK(src, .proc/check_trial, FALSE),judgement_lynch_period,TIMER_STOPPABLE)// small pause to see the guy dead, no verbosity since we already did this
+
+/datum/mafia_controller/proc/returnlynched(datum/mafia_role/R)
+	R.body.forceMove(get_turf(R.assigned_landmark))
 
 /datum/mafia_controller/proc/check_victory()
 	var/alive_town = 0
@@ -149,9 +153,11 @@
 				if(MAFIA_TEAM_TOWN)
 					alive_town++
 				if(MAFIA_TEAM_SOLO)
+					if(R.solo_counts_as_town)
+						alive_town++
 					solos_to_ask += R
 
-	///PHASE TWO: SEND STATS TO SOLO ANTAGS, SEE IF THEY WON OR TOWNS CAN'T WIN
+	///PHASE TWO: SEND STATS TO SOLO ANTAGS, SEE IF THEY WON OR TEAMS CANNOT WIN
 
 	for(var/datum/mafia_role/solo in solos_to_ask)
 		if(solo.check_total_victory(alive_town, alive_mafia))
@@ -178,6 +184,9 @@
 /datum/mafia_controller/proc/start_the_end(message)
 	if(message)
 		send_message(message)
+	for(var/datum/mafia_role/R in all_roles)
+		R.reveal_role(src)
+		R.body.Stun(INFINITY,ignore_canstun = TRUE)//so they don't grief the area around them with their outfit
 	phase = MAFIA_PHASE_VICTORY_LAP
 	next_phase_timer = addtimer(CALLBACK(src,.proc/end_game),victory_lap_period,TIMER_STOPPABLE)
 
@@ -373,7 +382,9 @@
 					deltimer(next_phase_timer)
 					tc.InvokeAsync()
 				return TRUE
-	if(!user_role)
+	if(!user_role)//ghosts
+		return
+	if(user_role.game_status == MAFIA_DEAD)//dead people?
 		return
 	//User actions
 	switch(action)
@@ -407,7 +418,6 @@
 			if(phase != MAFIA_PHASE_JUDGEMENT)
 				return
 			to_chat(user_role.body,"Your vote on [on_trial.body.real_name] submitted as INNOCENT!")
-			//
 			judgement_innocent_votes -= user_role//no double voting
 			judgement_guilty_votes -= user_role//no radical centrism
 			judgement_innocent_votes += user_role
