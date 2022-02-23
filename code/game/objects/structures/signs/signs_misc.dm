@@ -5,3 +5,9 @@
 
 /obj/structure/sign/gym/right
     icon_state = "gym-right"
+
+/obj/structure/sign/gym/mirrored
+    icon_state = "gymmirror-left"
+
+/obj/structure/sign/gym/mirrored/right
+    icon_state = "gymmirror-right"
