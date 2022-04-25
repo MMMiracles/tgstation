@@ -8,20 +8,19 @@
 "ak" = (
 /turf/open/chasm/lavaland,
 /area/space)
+"as" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet,
+/area/space)
 "au" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/obj/machinery/reagentgrinder,
-/obj/effect/spawner/random/food_or_drink/condiment,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
+/obj/machinery/door/firedoor/border_only/closed{
+	dir = 8
 	},
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
 /area/space)
-"az" = (
-/turf/open/floor/wood/parquet,
-/area/space)
-"aS" = (
-/obj/machinery/light/red/directional/east,
+"aU" = (
+/obj/effect/landmark/awaystart,
 /turf/open/floor/iron,
 /area/space)
 "bp" = (
@@ -34,29 +33,42 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"bv" = (
-/obj/structure/rack,
-/obj/item/tank/internals/emergency_oxygen,
-/obj/item/tank/internals/emergency_oxygen,
-/obj/item/tank/internals/emergency_oxygen,
-/turf/open/floor/iron,
+"bw" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"bB" = (
+/obj/structure/table_frame/wood,
+/obj/item/stack/sheet/mineral/wood,
+/turf/open/floor/carpet{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "bC" = (
-/obj/item/tank/internals/emergency_oxygen/empty,
-/turf/open/floor/iron{
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"bV" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"bY" = (
-/obj/effect/turf_decal/box,
-/turf/open/floor/iron,
+"bE" = (
+/obj/structure/lattice,
+/obj/item/storage/medkit/regular,
+/turf/open/chasm/lavaland,
 /area/space)
 "bZ" = (
 /obj/structure/lattice,
@@ -82,18 +94,14 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"co" = (
-/obj/structure/railing,
+"cn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
 	},
 /turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"cs" = (
-/obj/structure/table,
-/turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -101,7 +109,26 @@
 /obj/structure/girder,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"da" = (
+"cI" = (
+/obj/item/stack/cable_coil/cut,
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/obj/structure/sign/warning/xeno_mining{
+	pixel_x = 32
+	},
+/turf/open/floor/iron,
+/area/space)
+"cQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"cS" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/vending/cigarette,
 /obj/machinery/light/red/directional/north,
@@ -109,75 +136,7 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"do" = (
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/plating,
-/area/space)
-"dp" = (
-/turf/closed/mineral/volcanic,
-/area/space)
-"dY" = (
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"ef" = (
-/obj/structure/door_assembly/door_assembly_mhatch,
-/obj/item/stack/cable_coil/cut,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"ei" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"ej" = (
-/turf/open/floor/iron/freezer,
-/area/space)
-"et" = (
-/obj/structure/chair/stool/directional/west,
-/turf/open/floor/wood/parquet,
-/area/space)
-"eF" = (
-/obj/effect/landmark/tram/left_part{
-	destination_id = "caves_top";
-	tram_id = "caves"
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/space)
-"fm" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"fy" = (
-/turf/open/floor/carpet,
-/area/space)
-"fM" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/window/reinforced/spawner,
-/obj/item/shard,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"fQ" = (
-/obj/structure/sign/warning{
-	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
-	name = "WARNING: Lethal Fall Hazard";
-	pixel_x = 32
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"fV" = (
-/obj/item/chair/stool,
-/turf/open/floor/carpet,
-/area/space)
-"fX" = (
+"cT" = (
 /obj/structure/railing{
 	dir = 4
 	},
@@ -191,41 +150,141 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"gd" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/food_or_drink/snack,
-/turf/open/floor/carpet,
-/area/space)
-"gY" = (
-/obj/structure/table_frame,
-/turf/open/floor/iron/white{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"hd" = (
-/obj/structure/filingcabinet,
+"cU" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/punching_bag,
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"hP" = (
-/obj/structure/curtain,
+"cW" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "48"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/space)
+"dp" = (
+/turf/closed/mineral/volcanic,
+/area/space)
+"ef" = (
+/obj/structure/door_assembly/door_assembly_mhatch,
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"ej" = (
 /turf/open/floor/iron/freezer,
+/area/space)
+"eu" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/item/chair,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"eF" = (
+/obj/effect/landmark/tram/left_part{
+	destination_id = "caves_top";
+	tram_id = "caves"
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"eL" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/space)
+"eV" = (
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating,
+/area/space)
+"ff" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"fi" = (
+/obj/machinery/suit_storage_unit/open,
+/obj/structure/sign/warning/gasmask{
+	pixel_x = 32
+	},
+/turf/open/floor/iron,
+/area/space)
+"fm" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"ft" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/space)
+"fy" = (
+/turf/open/floor/carpet,
+/area/space)
+"fM" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner,
+/obj/item/shard,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"fO" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron,
+/area/space)
+"gg" = (
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/carpet,
+/area/space)
+"gH" = (
+/obj/item/tank/internals/emergency_oxygen/empty,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"gJ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "id" = (
 /obj/item/shard,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"iy" = (
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
+"iM" = (
+/obj/structure/dresser,
+/turf/open/floor/wood/parquet,
+/area/space)
+"iW" = (
+/obj/item/chair/stool,
+/turf/open/floor/carpet,
+/area/space)
+"jh" = (
+/obj/machinery/computer/tram_controls{
+	dir = 4;
+	tram_id = "caves"
 	},
 /turf/open/floor/iron,
 /area/space)
-"jz" = (
-/obj/structure/table_frame/wood,
-/obj/item/stack/sheet/mineral/wood,
-/turf/open/floor/carpet{
+"jx" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"jJ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -236,17 +295,37 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"kz" = (
-/obj/structure/toilet{
-	dir = 4
+"jV" = (
+/obj/structure/bed,
+/turf/open/floor/wood/parquet,
+/area/space)
+"ka" = (
+/obj/structure/frame/computer,
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/turf/open/floor/iron/freezer,
+/area/space)
+"ku" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
 /area/space)
 "kE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating,
+/area/space)
+"kH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "kU" = (
 /obj/structure/industrial_lift/tram{
@@ -259,65 +338,40 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"lc" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"ld" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 10
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"lo" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/space)
-"ls" = (
-/obj/structure/ore_box,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"lx" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/turf/open/floor/carpet,
-/area/space)
 "lz" = (
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"lM" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
+"lK" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/space)
+"lL" = (
+/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
 /area/space)
-"mo" = (
-/obj/structure/lattice,
-/obj/item/bedsheet/brown,
-/turf/open/chasm/lavaland,
-/area/space)
-"mu" = (
-/obj/structure/railing/corner{
+"lR" = (
+/obj/structure/railing{
 	dir = 4
 	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
+/obj/structure/frame/computer,
+/obj/item/stack/cable_coil/cut,
+/obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"mc" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
 /area/space)
 "mA" = (
 /obj/machinery/door/firedoor/border_only/closed{
@@ -325,17 +379,21 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"mZ" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/floor/iron/smooth{
+"nc" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/turf/open/floor/carpet,
+/area/space)
+"nd" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"nl" = (
+/obj/item/chair/stool,
+/obj/effect/spawner/random/food_or_drink/booze,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "no" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -351,46 +409,19 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"ot" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/frame/computer,
-/obj/item/stack/cable_coil/cut,
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "ov" = (
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "oC" = (
 /turf/closed/wall/r_wall,
 /area/space)
-"oF" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 5
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "oK" = (
 /obj/structure/lattice/catwalk,
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"oP" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+"oQ" = (
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/floor/iron,
 /area/space)
 "pk" = (
 /obj/structure/industrial_lift/tram{
@@ -402,73 +433,68 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"pn" = (
+/turf/open/floor/wood/parquet,
+/area/space)
 "pr" = (
 /obj/machinery/mineral/processing_unit{
 	dir = 1
 	},
 /turf/open/floor/plating,
 /area/space)
-"pR" = (
-/obj/structure/bed,
-/turf/open/floor/carpet{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"qj" = (
-/obj/item/bedsheet/brown,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"qp" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+"pW" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"qz" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"pY" = (
+/obj/structure/lattice,
+/obj/item/bedsheet/brown,
+/turf/open/chasm/lavaland,
+/area/space)
 "qI" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 12
+/obj/structure/table_frame,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/obj/structure/mirror/directional/east,
-/turf/open/floor/iron/freezer,
 /area/space)
 "rv" = (
 /obj/machinery/suit_storage_unit/mining,
 /turf/open/floor/iron,
+/area/space)
+"rH" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"rR" = (
+/obj/structure/holosign/barrier/atmos,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"rV" = (
+/obj/structure/lattice/catwalk,
+/obj/item/shard,
+/turf/open/lava/smooth/lava_land_surface,
 /area/space)
 "sd" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/engine,
 /area/space)
-"sl" = (
-/obj/structure/lattice/catwalk,
-/obj/item/shard,
-/turf/open/lava/smooth/lava_land_surface,
-/area/space)
-"sz" = (
+"sm" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 5
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 8
+	dir = 10
 	},
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
@@ -478,45 +504,21 @@
 /obj/machinery/recharge_station,
 /turf/open/floor/iron,
 /area/space)
-"sS" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet,
-/area/space)
-"sZ" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 9
+"sE" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
 	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"te" = (
-/obj/item/stack/sheet/iron,
-/obj/structure/bed,
-/turf/open/floor/carpet{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"tl" = (
-/obj/machinery/shower{
-	pixel_y = 16
-	},
-/obj/structure/curtain,
-/turf/open/floor/iron/freezer,
+/turf/open/floor/iron,
 /area/space)
 "tq" = (
 /obj/structure/plasticflaps,
 /turf/open/floor/plating,
 /area/space)
-"tT" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/space)
-"tX" = (
-/obj/structure/toilet{
-	dir = 1
+"uf" = (
+/obj/structure/table,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/turf/open/floor/iron/freezer,
 /area/space)
 "un" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -542,34 +544,54 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
+"uJ" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet,
+/area/space)
 "uL" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"vY" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/item/chair,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"wo" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair{
+"vc" = (
+/obj/structure/railing/corner,
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/iron,
-/area/space)
-"wq" = (
-/obj/item/holosign_creator/atmos,
-/turf/open/floor/iron,
-/area/space)
-"wR" = (
-/obj/item/stack/sheet/iron,
-/obj/structure/holosign/barrier/atmos,
-/turf/open/floor/iron{
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"vr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"wF" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/space)
+"wO" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/structure/mirror/directional/east,
+/turf/open/floor/iron/freezer,
 /area/space)
 "wV" = (
 /obj/machinery/computer/mech_bay_power_console,
@@ -592,22 +614,38 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"xm" = (
-/obj/structure/chair/stool/directional/north,
-/turf/open/floor/carpet,
+"xM" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
-"xX" = (
+"xP" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"yj" = (
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"ys" = (
+/obj/structure/table,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"yF" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet,
-/area/space)
-"yt" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
-/area/space)
-"yu" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet,
 /area/space)
@@ -615,13 +653,9 @@
 /obj/item/crowbar,
 /turf/open/floor/iron,
 /area/space)
-"yR" = (
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet,
-/area/space)
-"zg" = (
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/floor/iron,
+"zo" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "zz" = (
 /obj/item/stack/rods,
@@ -629,28 +663,18 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"zC" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/punching_bag,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "zH" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
-"zK" = (
-/obj/structure/railing{
+"Af" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
 	},
-/area/space)
-"Aj" = (
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron{
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -661,48 +685,62 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"Bl" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/chair{
-	dir = 8
+"Bf" = (
+/obj/item/stack/rods,
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"Bt" = (
+/obj/item/chair/stool,
+/turf/open/floor/carpet{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/turf/open/floor/iron,
 /area/space)
 "Bx" = (
 /obj/structure/lattice,
 /turf/open/chasm/lavaland,
+/area/space)
+"BE" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/obj/effect/spawner/random/food_or_drink/condiment,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "BX" = (
 /turf/open/floor/iron/white{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Ca" = (
-/obj/machinery/suit_storage_unit/open,
-/obj/structure/sign/warning/gasmask{
-	pixel_x = 32
+"BZ" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Ci" = (
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/space)
 "Cq" = (
 /turf/open/floor/iron,
 /area/space)
+"CF" = (
+/obj/structure/table_frame,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "CH" = (
 /obj/structure/holosign/barrier/atmos/sturdy,
 /turf/open/floor/plating,
 /area/space)
-"CJ" = (
-/obj/machinery/power/rtg,
-/turf/open/floor/plating,
-/area/space)
-"CP" = (
-/obj/machinery/computer/tram_controls{
-	dir = 4;
-	tram_id = "caves"
-	},
-/turf/open/floor/iron,
-/area/space)
-"Eg" = (
+"CR" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 9
@@ -713,29 +751,31 @@
 /obj/item/stack/cable_coil/cut,
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"EP" = (
-/obj/structure/frame/machine,
-/obj/item/stack/cable_coil/cut,
-/turf/open/floor/plating/lavaland_atmos,
+"CT" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Showers"
+	},
+/turf/open/floor/iron/freezer,
 /area/space)
-"ER" = (
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
-/area/space)
-"EZ" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/obj/effect/spawner/random/food_or_drink/refreshing_beverage,
+"Dl" = (
+/obj/item/stack/sheet/iron,
+/obj/structure/holosign/barrier/atmos,
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Fh" = (
-/obj/effect/turf_decal/stripes/line,
+"Ds" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/obj/machinery/microwave,
 /turf/open/floor/iron,
 /area/space)
-"Fk" = (
-/obj/effect/turf_decal/stripes/corner,
+"EE" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron,
+/area/space)
+"EV" = (
+/obj/item/holosign_creator/atmos,
 /turf/open/floor/iron,
 /area/space)
 "Ft" = (
@@ -744,44 +784,11 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/space)
-"FA" = (
-/obj/structure/table_frame,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"FB" = (
-/obj/structure/holosign/barrier/atmos,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "FE" = (
 /obj/machinery/door/firedoor/border_only/closed{
 	dir = 8
 	},
 /turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"FJ" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"Go" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -792,25 +799,8 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"Gy" = (
-/obj/structure/lattice,
-/obj/item/storage/medkit/regular,
-/turf/open/chasm/lavaland,
-/area/space)
 "GI" = (
 /turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"GX" = (
-/obj/structure/railing/corner,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -820,14 +810,6 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"Hd" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 6
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "Hl" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner,
@@ -836,23 +818,23 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"HL" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth{
+"Hm" = (
+/obj/item/stack/sheet/iron,
+/obj/structure/bed,
+/turf/open/floor/carpet{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"HN" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+"Hv" = (
+/obj/item/bedsheet/brown,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"HW" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/chair{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/turf/open/floor/iron,
 /area/space)
 "Ij" = (
 /obj/structure/industrial_lift/tram{
@@ -861,10 +843,6 @@
 	},
 /obj/structure/railing,
 /turf/open/floor/plating,
-/area/space)
-"Im" = (
-/obj/structure/bed,
-/turf/open/floor/wood/parquet,
 /area/space)
 "Io" = (
 /obj/machinery/door/firedoor/border_only/closed{
@@ -875,10 +853,6 @@
 "IN" = (
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"IQ" = (
-/obj/item/shard,
-/turf/open/floor/iron,
-/area/space)
 "IW" = (
 /obj/structure/table,
 /turf/open/floor/iron,
@@ -888,9 +862,30 @@
 /obj/structure/railing,
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"JE" = (
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plating,
+"Jj" = (
+/obj/structure/table,
+/obj/item/storage/medkit/brute,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"JH" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"JJ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "Kr" = (
 /obj/item/stack/sheet/iron,
@@ -898,41 +893,17 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"KB" = (
-/obj/structure/frame/computer,
-/obj/item/stack/cable_coil/cut,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"KC" = (
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"KG" = (
-/obj/item/chair/stool,
-/obj/effect/spawner/random/food_or_drink/booze,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"KZ" = (
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"Li" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood/parquet,
-/area/space)
-"Lp" = (
-/obj/item/shard,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"Ly" = (
-/obj/machinery/door/airlock{
-	name = "Unisex Showers"
-	},
+"KA" = (
+/obj/structure/curtain,
 /turf/open/floor/iron/freezer,
+/area/space)
+"LU" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "Mq" = (
 /obj/effect/turf_decal/stripes/box,
@@ -942,16 +913,14 @@
 /obj/structure/lattice,
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
-"MI" = (
-/obj/item/chair/stool,
+"ML" = (
+/obj/structure/table/wood,
 /turf/open/floor/carpet{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"MZ" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/obj/machinery/microwave,
+"MQ" = (
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/space)
 "Nd" = (
@@ -964,54 +933,28 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"NB" = (
-/obj/item/stack/rods,
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating/lavaland_atmos,
+"Nj" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/food_or_drink/snack,
+/turf/open/floor/carpet,
 /area/space)
-"NO" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/turf/open/floor/iron,
-/area/space)
-"Ol" = (
-/obj/machinery/door/firedoor/border_only/closed{
-	dir = 8
-	},
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/space)
-"OU" = (
-/obj/structure/table,
-/obj/item/storage/medkit/brute,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"Pc" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12
-	},
-/obj/structure/mirror/directional/west,
-/turf/open/floor/iron/freezer,
-/area/space)
-"Pp" = (
-/obj/item/stack/cable_coil/cut,
-/obj/structure/frame/computer{
-	dir = 8
-	},
-/obj/structure/sign/warning/xeno_mining{
-	pixel_x = 32
-	},
-/turf/open/floor/iron,
-/area/space)
-"PB" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 9
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/floor/iron/smooth{
+"NQ" = (
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"NY" = (
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet,
+/area/space)
+"OX" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plating,
+/area/space)
+"PJ" = (
+/obj/machinery/light/red/directional/east,
+/turf/open/floor/iron,
 /area/space)
 "PN" = (
 /obj/structure/table,
@@ -1052,49 +995,32 @@
 /obj/item/stack/sheet/iron,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"QI" = (
-/obj/structure/table,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/iron,
+"QE" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/parquet,
 /area/space)
-"Rg" = (
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "48"
-	},
-/turf/open/floor/plating,
-/area/space)
-"Sf" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"Sh" = (
-/obj/item/storage/medkit/o2,
+"QZ" = (
+/obj/structure/frame/machine,
+/obj/item/stack/cable_coil/cut,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"Sk" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth{
+"Rx" = (
+/obj/machinery/power/rtg,
+/turf/open/floor/plating,
+/area/space)
+"Sm" = (
+/obj/item/shard,
+/turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
 "Sn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
+/area/space)
+"So" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/wood/parquet,
 /area/space)
 "Sp" = (
 /turf/closed/wall,
@@ -1112,9 +1038,23 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"SH" = (
+/obj/item/storage/medkit/o2,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"SV" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "Ti" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
+/area/space)
+"TO" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
 /area/space)
 "TW" = (
 /obj/structure/industrial_lift/tram{
@@ -1126,6 +1066,25 @@
 	},
 /turf/open/floor/plating,
 /area/space)
+"TZ" = (
+/obj/structure/bed,
+/turf/open/floor/carpet{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Un" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/space)
+"Uq" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "UD" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner,
@@ -1134,14 +1093,38 @@
 "UI" = (
 /turf/open/floor/plating,
 /area/space)
-"Vu" = (
-/obj/structure/dresser,
-/turf/open/floor/wood/parquet,
+"Vb" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Vj" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "48"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/space)
+"Vy" = (
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/curtain,
+/turf/open/floor/iron/freezer,
 /area/space)
 "VG" = (
 /turf/open/floor/circuit{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"VI" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
 "Wp" = (
 /obj/item/stack/sheet/iron,
@@ -1149,18 +1132,34 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Wt" = (
-/obj/effect/landmark/awaystart,
+"Ws" = (
+/obj/effect/turf_decal/box,
+/obj/structure/ore_box,
 /turf/open/floor/iron,
+/area/space)
+"Wt" = (
+/obj/item/clothing/mask/gas/explorer,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/space)
+"WC" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/structure/mirror/directional/west,
+/turf/open/floor/iron/freezer,
 /area/space)
 "WD" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/engine,
 /area/space)
-"Xd" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet{
+"WV" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/obj/effect/spawner/random/food_or_drink/refreshing_beverage,
+/turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -1171,6 +1170,15 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
+"Xm" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "XT" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/vending/snack,
@@ -1178,17 +1186,18 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"XY" = (
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "48"
-	},
-/turf/open/floor/iron,
-/area/space)
 "XZ" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"Yg" = (
+/obj/structure/rack,
+/obj/item/tank/internals/emergency_oxygen,
+/obj/item/tank/internals/emergency_oxygen,
+/obj/item/tank/internals/emergency_oxygen,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
 /area/space)
 "Yi" = (
 /turf/open/floor/iron/recharge_floor,
@@ -1203,18 +1212,25 @@
 /obj/item/shard,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
+"YP" = (
+/obj/structure/sign/warning{
+	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
+	name = "WARNING: Lethal Fall Hazard";
+	pixel_x = 32
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
 "Zi" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
+"Zq" = (
+/obj/item/shard,
+/turf/open/floor/iron,
+/area/space)
 "Zv" = (
 /obj/item/storage/bag/tray,
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"ZQ" = (
-/obj/effect/turf_decal/box,
-/obj/structure/ore_box,
-/turf/open/floor/iron,
 /area/space)
 
 (1,1,1) = {"
@@ -2265,7 +2281,7 @@ ov
 oC
 oC
 oC
-CJ
+Rx
 UI
 UI
 UI
@@ -2274,7 +2290,7 @@ Sp
 ej
 ej
 ej
-hP
+KA
 Sp
 dp
 dp
@@ -2522,7 +2538,7 @@ ov
 GI
 VG
 oC
-JE
+OX
 UI
 UI
 UI
@@ -2779,7 +2795,7 @@ ov
 VG
 VG
 oC
-JE
+OX
 UI
 UI
 UI
@@ -2788,7 +2804,7 @@ Sp
 ej
 ej
 ej
-hP
+KA
 Sp
 dp
 dp
@@ -3042,7 +3058,7 @@ Gv
 Sp
 Sp
 Sp
-Ly
+CT
 Sp
 Sp
 Sp
@@ -3060,7 +3076,7 @@ zH
 zH
 zH
 zH
-zH
+JH
 zH
 zH
 zH
@@ -3314,10 +3330,10 @@ zH
 zH
 zH
 zH
-PB
-Sf
-Sf
-zH
+cQ
+kH
+kH
+Af
 zH
 zH
 zH
@@ -3548,33 +3564,33 @@ Bx
 ak
 ov
 GY
-ER
-aS
+lL
+PJ
 Cq
 Cq
 Cq
 Cq
 Cq
-aS
+PJ
 Cq
-Rg
+cW
 UI
-Rg
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-qz
+cW
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+Af
 zH
 zH
-zH
+JH
 zH
 zH
 zH
@@ -3800,10 +3816,10 @@ Bx
 ak
 ak
 uL
-Sh
+SH
 Bx
 ak
-KC
+zo
 Sp
 Sp
 Sp
@@ -3828,7 +3844,7 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 Sp
@@ -4051,7 +4067,7 @@ dp
 zH
 zH
 Sp
-gY
+qI
 BX
 Zi
 ov
@@ -4062,19 +4078,19 @@ ak
 ak
 uL
 Sp
-sS
-xm
+as
+gg
 Sp
-gd
-fV
+Nj
+iW
 Sp
-Pc
-tX
+WC
+mc
 Sp
-Xd
-MI
+ML
+Bt
 Sp
-ls
+VI
 zH
 zH
 zH
@@ -4085,11 +4101,11 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 zH
-zH
+VI
 dp
 dp
 dp
@@ -4309,7 +4325,7 @@ dp
 dp
 Sp
 PN
-Gy
+bE
 Bx
 Bx
 ak
@@ -4319,19 +4335,19 @@ ak
 Bx
 Qn
 Sp
-yu
+uJ
 fy
 Sp
-lx
-yR
+nc
+NY
 Sp
 ej
 ej
 Sp
-pR
-dY
+TZ
+NQ
 Sp
-ls
+VI
 zH
 zH
 zH
@@ -4342,7 +4358,7 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 zH
@@ -4411,9 +4427,9 @@ dp
 dp
 dp
 Sp
-tl
+Vy
 Sp
-kz
+lK
 Sp
 dp
 dp
@@ -4565,7 +4581,7 @@ dp
 dp
 dp
 Sp
-OU
+Jj
 ak
 ak
 ak
@@ -4586,7 +4602,7 @@ Ft
 Sp
 Sp
 ct
-qj
+Hv
 Sp
 dp
 dp
@@ -4599,7 +4615,7 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 zH
@@ -4835,7 +4851,7 @@ ak
 ak
 lz
 ov
-NB
+Bf
 ak
 Bx
 Bx
@@ -4856,7 +4872,7 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 zH
@@ -5078,8 +5094,8 @@ aa
 dp
 dp
 Sp
-zC
-vY
+cU
+eu
 Bx
 ak
 ak
@@ -5113,7 +5129,7 @@ zH
 zH
 zH
 zH
-lc
+JH
 zH
 zH
 zH
@@ -5182,7 +5198,7 @@ dp
 dp
 dp
 Sp
-qI
+wO
 ej
 ej
 Sp
@@ -5335,14 +5351,14 @@ aa
 dp
 dp
 Sp
-au
+BE
 uo
 no
 Zv
 Bx
 ak
 Bx
-KZ
+yj
 ov
 Qn
 Bx
@@ -5370,7 +5386,7 @@ ak
 ak
 zH
 zH
-lc
+JH
 zH
 zH
 zH
@@ -5592,7 +5608,7 @@ aa
 dp
 dp
 Sp
-da
+cS
 uo
 PT
 uo
@@ -5600,7 +5616,7 @@ un
 Bx
 Bx
 ov
-bC
+gH
 uL
 ov
 ov
@@ -5694,13 +5710,13 @@ Sp
 Sp
 Sp
 Sp
-Li
-Im
+QE
+jV
 Sp
 Cq
 Sp
-Im
-Li
+jV
+QE
 Sp
 IN
 IN
@@ -5870,7 +5886,7 @@ Sp
 Sp
 ct
 ak
-mo
+pY
 ak
 ak
 ak
@@ -5884,7 +5900,7 @@ zH
 zH
 zH
 zH
-zH
+JH
 zH
 zH
 zH
@@ -5948,16 +5964,16 @@ zH
 zH
 zH
 Sp
-MZ
-NO
+Ds
+wF
 Sp
-et
-az
+So
+pn
 Sp
 Cq
 Sp
-az
-et
+pn
+So
 Sp
 IN
 IN
@@ -6107,26 +6123,26 @@ dp
 dp
 Sp
 Sp
-bV
+BZ
 oo
-EZ
-vY
+WV
+eu
 Ti
 lz
 lz
-Aj
+SV
 Sp
-lx
+nc
 fy
 Sp
-lx
+nc
 fy
 Sp
 ej
 ej
 Sp
-te
-KG
+Hm
+nl
 Sp
 zH
 zH
@@ -6205,16 +6221,16 @@ zH
 zH
 zH
 Sn
-lM
-lM
+TO
+TO
 Sp
-Vu
-az
-az
+iM
+pn
+pn
 Cq
-az
-az
-Vu
+pn
+pn
+iM
 Sp
 IN
 IN
@@ -6369,21 +6385,21 @@ Sp
 Sp
 Sp
 Sp
-Ol
+au
 Io
 Io
 Sp
-xX
-xm
+yF
+gg
 Sp
-xX
-xm
+yF
+gg
 Sp
-qI
-tX
+wO
+mc
 Sp
-jz
-dY
+bB
+NQ
 Sp
 dp
 zH
@@ -6462,8 +6478,8 @@ zH
 zH
 zH
 Sn
-wo
-lM
+HW
+TO
 Sp
 Sp
 Sp
@@ -6624,11 +6640,11 @@ dp
 Sp
 IW
 Cq
-Wt
+aU
 Sn
-Wt
+aU
 Cq
-Wt
+aU
 Sp
 Sp
 Sp
@@ -6655,27 +6671,27 @@ zH
 zH
 zH
 zH
-zH
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
+cn
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+kH
 IN
 zH
 zH
@@ -6719,9 +6735,9 @@ zH
 zH
 zH
 Sn
-NO
-lM
-lM
+wF
+TO
+TO
 Cq
 Cq
 Cq
@@ -6882,18 +6898,18 @@ Sp
 IW
 Cq
 Cq
+Un
 Cq
 Cq
 Cq
-Cq
-iy
-Cq
+Ci
 Cq
 Cq
+MQ
 Cq
-Wt
-wq
-wR
+aU
+EV
+Dl
 ct
 zH
 zH
@@ -6976,8 +6992,8 @@ zH
 zH
 zH
 Sp
-Bl
-lM
+ff
+TO
 Ti
 Cq
 Cq
@@ -7136,21 +7152,21 @@ dp
 dp
 dp
 Sp
-bv
-Wt
+Yg
+aU
 Cq
 Sn
-Wt
+aU
 Cq
-Wt
-iy
-Cq
-Wt
-Cq
-Cq
+aU
+Ci
+lL
+aU
 Cq
 Cq
-FB
+Cq
+Cq
+rR
 ov
 zH
 zH
@@ -7396,7 +7412,7 @@ Sp
 Cq
 Cq
 Cq
-Cq
+Un
 Cq
 Cq
 Cq
@@ -7404,9 +7420,9 @@ Sp
 Sp
 Sp
 Sp
-Cq
+Un
 Ti
-Cq
+Un
 Sp
 Sp
 Sp
@@ -7478,8 +7494,8 @@ dp
 dp
 dp
 dp
-dp
-dp
+zH
+zH
 zH
 zH
 zH
@@ -7652,11 +7668,11 @@ dp
 Sp
 sA
 Cq
-Wt
+aU
 Sn
 yI
 Cq
-Wt
+aU
 Sp
 UI
 cf
@@ -7664,7 +7680,7 @@ Cq
 Cq
 Cq
 Cq
-Cq
+MQ
 Cq
 Sp
 dp
@@ -7734,9 +7750,9 @@ dp
 dp
 dp
 dp
-dp
-dp
-dp
+zH
+zH
+zH
 zH
 zH
 zH
@@ -7912,13 +7928,13 @@ Sp
 Sp
 Sp
 Sn
-XY
+Vj
 Sn
 Sp
 UI
 Ti
 Cq
-Wt
+aU
 Cq
 Cq
 Cq
@@ -7990,9 +8006,9 @@ dp
 dp
 dp
 dp
-dp
-dp
-dp
+zH
+zH
+zH
 zH
 zH
 zH
@@ -8167,10 +8183,10 @@ Sp
 uq
 rv
 uq
-zg
-Cq
-Cq
 Wt
+Cq
+Cq
+aU
 Sp
 UI
 Sp
@@ -8219,7 +8235,7 @@ zH
 IN
 IN
 IN
-lc
+JH
 zH
 zH
 zH
@@ -8421,11 +8437,11 @@ dp
 dp
 dp
 Sp
-zg
-Wt
+oQ
+aU
 Cq
 Cq
-Wt
+aU
 Cq
 Yk
 Sp
@@ -8475,9 +8491,9 @@ dp
 zH
 IN
 zH
-sZ
-qp
-ld
+xM
+xP
+sm
 zH
 zH
 IN
@@ -8498,10 +8514,10 @@ zH
 zH
 zH
 zH
-dp
-dp
-dp
-dp
+zH
+zH
+zH
+zH
 zH
 zH
 zH
@@ -8680,9 +8696,9 @@ dp
 Sp
 uq
 uq
-Ca
-Pp
-IQ
+fi
+cI
+Zq
 Cq
 Cq
 Sp
@@ -8757,11 +8773,11 @@ zH
 zH
 zH
 zH
-dp
-IN
-IN
-IN
-IN
+zH
+zH
+zH
+zH
+zH
 IN
 IN
 IN
@@ -8940,7 +8956,7 @@ Sp
 Sp
 Sp
 Sn
-XY
+Vj
 Sn
 Sp
 IN
@@ -11045,7 +11061,7 @@ MA
 Mq
 MA
 MA
-Eg
+CR
 ca
 jS
 MA
@@ -11093,7 +11109,7 @@ MA
 Sp
 Sp
 Cq
-CP
+jh
 Cq
 Cq
 Cq
@@ -11303,7 +11319,7 @@ MA
 MA
 MA
 Xf
-sl
+rV
 Je
 MA
 IN
@@ -12587,9 +12603,9 @@ IN
 dp
 zH
 zH
-oF
-HN
-Hd
+LU
+jJ
+jx
 zH
 zH
 zH
@@ -12845,7 +12861,7 @@ dp
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -13088,9 +13104,9 @@ Sp
 Sp
 Sn
 Sp
-oP
-oP
-oP
+rH
+rH
+rH
 dp
 dp
 zH
@@ -13102,7 +13118,7 @@ zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -13339,27 +13355,27 @@ dp
 Sp
 wV
 Yi
-lo
+sE
 Cq
 Cq
 UI
 UI
 UI
-FJ
-Sk
-Sk
-Sk
-Sk
-Sf
-mZ
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-Sf
-qz
+Vb
+bC
+bC
+bC
+bC
+kH
+pW
+kH
+kH
+kH
+kH
+kH
+kH
+kH
+Af
 zH
 zH
 zH
@@ -13598,7 +13614,7 @@ Cq
 Cq
 Cq
 Cq
-Fk
+eL
 Sp
 Sn
 Sp
@@ -13608,7 +13624,7 @@ zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -13616,7 +13632,7 @@ zH
 zH
 zH
 zH
-HL
+Xm
 zH
 Sp
 Sn
@@ -13855,17 +13871,17 @@ Cq
 Cq
 Cq
 Cq
-Fh
-do
+ft
+eV
 kE
-yt
-do
+ku
+eV
 zH
 zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -13873,8 +13889,8 @@ zH
 zH
 zH
 zH
-sz
-ei
+cn
+JJ
 UI
 UI
 UI
@@ -14110,19 +14126,19 @@ dp
 Sp
 wV
 Yi
-lo
+sE
 Cq
-Fh
-do
+ft
+eV
 kE
-yt
-do
+ku
+eV
 zH
 zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -14136,11 +14152,11 @@ Sp
 Sn
 Sp
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
 Sp
 dp
@@ -14369,17 +14385,17 @@ Cq
 Cq
 Cq
 Cq
-Fh
-do
+ft
+eV
 kE
-yt
-do
+ku
+eV
 zH
 zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -14388,16 +14404,16 @@ zH
 zH
 zH
 zH
-do
+eV
 kE
-yt
-do
+ku
+eV
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
 Sp
 dp
@@ -14626,17 +14642,17 @@ Cq
 Cq
 Cq
 Cq
-Fh
-do
+ft
+eV
 kE
-yt
-do
+ku
+eV
 zH
 zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -14645,16 +14661,16 @@ zH
 zH
 zH
 zH
-do
+eV
 kE
-yt
-do
+ku
+eV
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
 Sp
 dp
@@ -14690,7 +14706,7 @@ ct
 MA
 lz
 lz
-EP
+QZ
 lz
 MA
 IN
@@ -14881,19 +14897,19 @@ dp
 Sp
 wV
 Yi
-lo
+sE
 Cq
-Fh
-do
+ft
+eV
 kE
-yt
-do
+ku
+eV
 zH
 zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -14902,10 +14918,10 @@ zH
 zH
 zH
 zH
-do
+eV
 kE
-yt
-do
+ku
+eV
 Cq
 Cq
 Cq
@@ -14944,7 +14960,7 @@ dp
 IN
 IN
 Sp
-cs
+uf
 lz
 ov
 IN
@@ -15140,7 +15156,7 @@ Cq
 Cq
 Cq
 Cq
-QI
+ys
 Sp
 Sn
 Sn
@@ -15150,7 +15166,7 @@ zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -15159,16 +15175,16 @@ zH
 zH
 zH
 zH
-do
+eV
 kE
-yt
-do
+ku
+eV
 Cq
-bY
+fO
 Cq
-ZQ
+Ws
 Cq
-bY
+fO
 Cq
 Sp
 dp
@@ -15201,13 +15217,13 @@ dp
 IN
 IN
 Sp
-KB
+ka
 ov
 ov
 MA
 IN
 MA
-dp
+IN
 IN
 IN
 IN
@@ -15407,7 +15423,7 @@ zH
 zH
 zH
 zH
-HL
+Xm
 zH
 zH
 zH
@@ -15416,16 +15432,16 @@ zH
 zH
 zH
 zH
-do
+eV
 kE
-yt
-do
+ku
+eV
 Cq
-bY
+fO
 Cq
-ZQ
+Ws
 Cq
-ZQ
+Ws
 Cq
 Sp
 dp
@@ -15458,13 +15474,13 @@ zH
 IN
 IN
 ov
-FA
-Lp
+CF
+Sm
 lz
 ov
 ov
 Sp
-dp
+IN
 IN
 IN
 IN
@@ -15650,7 +15666,7 @@ Sp
 Sp
 UI
 Sp
-tT
+EE
 Sn
 Cq
 Sp
@@ -15661,13 +15677,13 @@ zH
 zH
 zH
 zH
-fQ
+YP
 zH
 Yl
-HL
+Xm
 zH
 zH
-fQ
+YP
 zH
 zH
 zH
@@ -15678,11 +15694,11 @@ Sn
 Sn
 Sp
 Cq
-bY
+fO
 Cq
-bY
+fO
 Cq
-ZQ
+Ws
 Cq
 Sp
 dp
@@ -15719,9 +15735,9 @@ Kr
 lz
 lz
 ov
-hd
+nd
 Sp
-dp
+IN
 IN
 IN
 IN
@@ -15919,11 +15935,11 @@ zH
 zH
 zH
 Sp
-ot
-mu
-Go
-GX
-fX
+lR
+bw
+vr
+vc
+cT
 Sp
 zH
 zH
@@ -15978,7 +15994,7 @@ ct
 MA
 Sp
 Sp
-dp
+IN
 IN
 IN
 IN
@@ -16175,13 +16191,13 @@ zH
 zH
 zH
 zH
-co
+Uq
 ak
 ak
 ak
 ak
 ak
-zK
+gJ
 zH
 zH
 zH
@@ -16432,13 +16448,13 @@ zH
 zH
 zH
 zH
-co
+Uq
 ak
 ak
 ak
 ak
 ak
-zK
+gJ
 zH
 zH
 zH
@@ -16689,13 +16705,13 @@ zH
 zH
 zH
 zH
-co
+Uq
 ak
 ak
 ak
 ak
 ak
-zK
+gJ
 zH
 zH
 zH
@@ -16943,16 +16959,16 @@ Sp
 dp
 dp
 zH
-ls
-ls
+VI
+VI
 zH
-co
+Uq
 ak
 ak
 ak
 ak
 ak
-zK
+gJ
 zH
 zH
 zH
@@ -17203,13 +17219,13 @@ dp
 dp
 dp
 zH
-co
+Uq
 ak
 ak
 ak
 ak
 ak
-zK
+gJ
 zH
 zH
 zH
