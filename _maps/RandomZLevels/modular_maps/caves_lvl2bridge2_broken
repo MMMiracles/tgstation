@@ -1,0 +1,88 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/railing/corner,
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/space)
+"c" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"d" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"h" = (
+/turf/open/chasm/lavaland,
+/area/space)
+"o" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm/lavaland,
+/area/space)
+"s" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/end,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"w" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"D" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"J" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"N" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"S" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+
+(1,1,1) = {"
+N
+w
+h
+h
+a
+N
+N
+"}
+(2,1,1) = {"
+J
+c
+o
+h
+h
+s
+J
+"}
+(3,1,1) = {"
+J
+S
+d
+h
+D
+d
+J
+"}
