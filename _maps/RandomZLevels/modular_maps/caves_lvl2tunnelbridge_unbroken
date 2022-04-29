@@ -1,0 +1,231 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"c" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"g" = (
+/turf/open/chasm/lavaland,
+/area/space)
+"o" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"r" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"t" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"u" = (
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/space)
+"E" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"K" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm/lavaland,
+/area/space)
+"L" = (
+/obj/structure/lattice,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"P" = (
+/obj/structure/lattice/catwalk,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+
+(1,1,1) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(2,1,1) = {"
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+"}
+(3,1,1) = {"
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+"}
+(4,1,1) = {"
+c
+c
+g
+g
+g
+g
+g
+g
+g
+g
+g
+g
+c
+c
+"}
+(5,1,1) = {"
+L
+L
+L
+u
+u
+u
+u
+u
+u
+u
+u
+L
+L
+L
+"}
+(6,1,1) = {"
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+"}
+(7,1,1) = {"
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+L
+L
+L
+"}
+(8,1,1) = {"
+c
+c
+c
+c
+g
+g
+g
+g
+g
+g
+g
+g
+c
+c
+"}
+(9,1,1) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+o
+"}
+(10,1,1) = {"
+P
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+K
+"}
+(11,1,1) = {"
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+E
+"}

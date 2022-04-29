@@ -78,6 +78,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"aB" = (
+/obj/structure/grille/broken,
+/obj/item/shard,
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "aD" = (
 /obj/effect/step_trigger/teleport_fancy{
 	locationx = 120;
@@ -114,13 +121,6 @@
 /obj/effect/landmark/awaystart,
 /turf/open/floor/iron,
 /area/space)
-"ba" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/chasm/lavaland,
-/area/space)
 "be" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt,
@@ -138,6 +138,18 @@
 	id = "caves_base"
 	},
 /turf/open/floor/plating,
+/area/space)
+"bk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "bp" = (
 /obj/structure/industrial_lift/tram{
@@ -158,14 +170,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"bC" = (
+"bt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning{
-	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
-	name = "WARNING: Lethal Fall Hazard";
-	pixel_x = -32
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
 	},
-/turf/open/floor/iron/smooth{
+/obj/item/storage/briefcase,
+/turf/open/floor/mineral/titanium/tiled{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -310,16 +321,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"cI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/comfy/shuttle{
-	dir = 8
-	},
-/obj/item/storage/briefcase,
-/turf/open/floor/mineral/titanium/tiled{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "cL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
@@ -367,6 +368,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/space)
+"dc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/machinery/porta_turret/centcom_shuttle{
+	lethal_projectile = /obj/projectile/bullet/c46x30mm;
+	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "de" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/terminal{
@@ -375,17 +385,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/space)
-"df" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/space)
 "dp" = (
 /turf/closed/mineral/volcanic,
+/area/space)
+"dq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "du" = (
 /obj/structure/cable,
@@ -489,6 +498,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/space)
+"ee" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning{
+	name = "MAKE OUTPOST LAYOUT RANDOMIZED VIA MODULAR MAPS"
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "ej" = (
 /turf/open/floor/iron/freezer,
 /area/space)
@@ -503,13 +521,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor/closed,
 /turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"er" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair,
-/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -560,6 +571,11 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"eO" = (
+/obj/structure/lattice,
+/obj/structure/railing,
+/turf/open/chasm/lavaland,
+/area/space)
 "eS" = (
 /turf/open/floor/iron/stairs,
 /area/space)
@@ -575,6 +591,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/space)
+"fa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "ff" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/chair{
@@ -582,11 +607,9 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"fi" = (
+"fj" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/xeno_mining{
-	pixel_x = 32
-	},
+/obj/machinery/light/directional/west,
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
@@ -600,6 +623,16 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/freezer,
 /area/space)
+"fq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/caution/red{
+	dir = 1
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "ft" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
@@ -607,6 +640,23 @@
 "fw" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/circuit{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"fy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/rods,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"fz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/shard,
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -643,6 +693,18 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"fR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "fV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -656,22 +718,6 @@
 	id = "caverobooutter"
 	},
 /turf/open/floor/plating,
-/area/space)
-"fY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 6
-	},
-/turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"gf" = (
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/obj/structure/lattice,
-/turf/open/chasm/lavaland,
 /area/space)
 "gj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -693,9 +739,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"gx" = (
-/obj/item/stack/sheet/iron,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+"gz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing/corner,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "gA" = (
 /obj/structure/flora/ash/cap_shroom,
@@ -708,12 +755,6 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"gE" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/space)
 "gF" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
@@ -725,6 +766,13 @@
 "gG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/red/directional/east,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"gK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/chair,
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
@@ -764,13 +812,6 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
-"hm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/lattice/catwalk,
-/turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "hq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
@@ -778,10 +819,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
-"hv" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "hw" = (
 /obj/machinery/mineral/processing_unit_console,
@@ -816,6 +853,10 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"hQ" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
+/area/space)
 "hW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/smes,
@@ -833,6 +874,14 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/space)
+"ie" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/porta_turret/centcom_shuttle{
+	lethal_projectile = /obj/projectile/bullet/c46x30mm;
+	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
+	},
+/turf/open/floor/plating,
+/area/space)
 "im" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
@@ -841,16 +890,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
-"io" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants/dead{
-	desc = "A seemingly long-forgotten plastic plant, left to be buried under the constant light ash in the air.";
-	name = "ashen potted plant"
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "iq" = (
 /obj/structure/cable,
@@ -894,6 +933,11 @@
 /obj/structure/flora/ash/seraka,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
+"iJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/smooth,
+/area/space)
 "iK" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/decal/cleanable/dirt,
@@ -915,6 +959,10 @@
 "iT" = (
 /obj/structure/sign/departments/security,
 /turf/closed/wall,
+/area/space)
+"iU" = (
+/obj/item/stack/sheet/iron,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
 "iW" = (
 /obj/vehicle/sealed/mecha/working/ripley/mining,
@@ -961,6 +1009,24 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"jw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants/dead{
+	desc = "A seemingly long-forgotten plastic plant, left to be buried under the constant light ash in the air.";
+	name = "ashen potted plant"
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"jD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "jE" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
@@ -972,16 +1038,6 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/space)
-"jJ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/turretid{
-	icon_state = "control_stun";
-	name = "AI Chamber turret control";
-	pixel_x = 3;
-	pixel_y = 23
-	},
-/turf/open/floor/iron,
 /area/space)
 "jS" = (
 /obj/structure/lattice/catwalk,
@@ -1016,6 +1072,20 @@
 /obj/item/stack/rods,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
+"kl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/obj/item/food/grown/banana{
+	desc = "shh... its a secret";
+	name = "secret banana"
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "kn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/shuttle/engine/propulsion/in_wall{
@@ -1044,6 +1114,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/item/wormhole_jaunter,
 /turf/open/floor/carpet,
+/area/space)
+"kN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/shard,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "kT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1108,6 +1185,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"ls" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "lt" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "caves_base";
@@ -1153,6 +1237,15 @@
 	dir = 4
 	},
 /turf/open/chasm/lavaland,
+/area/space)
+"lO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "lU" = (
 /obj/structure/chair/stool/directional/north{
@@ -1202,9 +1295,9 @@
 	},
 /area/space)
 "mk" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 1
+/obj/structure/lattice/catwalk,
+/obj/structure/sign/warning{
+	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
 	},
 /turf/open/chasm/lavaland,
 /area/space)
@@ -1214,19 +1307,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/space)
-"mp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "mt" = (
 /obj/effect/turf_decal/stripes/line,
@@ -1334,11 +1414,6 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"nP" = (
-/obj/structure/lattice,
-/obj/structure/railing,
-/turf/open/chasm/lavaland,
-/area/space)
 "nT" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -1369,19 +1444,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"ol" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 8
-	},
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "on" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1398,14 +1460,6 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"os" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/wallframe/button,
-/obj/item/stack/cable_coil/cut,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "ou" = (
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall,
@@ -1414,17 +1468,6 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron,
 /area/space)
-"oy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning{
-	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
-	name = "WARNING: Lethal Fall Hazard";
-	pixel_x = 32
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "oC" = (
 /turf/closed/wall/r_wall,
 /area/space)
@@ -1432,6 +1475,13 @@
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mineral/titanium/survival/pod,
+/area/space)
+"oG" = (
+/obj/machinery/light/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "oK" = (
 /obj/structure/lattice/catwalk,
@@ -1443,13 +1493,6 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
-"oN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "oO" = (
 /obj/structure/lattice/catwalk,
@@ -1477,6 +1520,13 @@
 /area/space)
 "pn" = (
 /turf/open/floor/wood/parquet,
+/area/space)
+"pp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "pr" = (
 /obj/machinery/mineral/processing_unit{
@@ -1544,19 +1594,13 @@
 	},
 /turf/open/floor/plating,
 /area/space)
-"pP" = (
-/obj/structure/lattice,
-/obj/structure/flora/rock/pile,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"pU" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/holopad,
-/obj/effect/turf_decal/box,
-/obj/item/disk/holodisk,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
+"pW" = (
+/obj/machinery/door/puzzle/keycard{
+	name = "External Operations Access";
+	puzzle_id = "welovefortnite"
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
 /area/space)
 "pY" = (
 /obj/structure/lattice,
@@ -1583,11 +1627,6 @@
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"qj" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/effect/decal/cleanable/blood/splatter/over_window,
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "qn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -1735,20 +1774,6 @@
 /obj/effect/decal/cleanable/oil,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
-"rM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning{
-	name = "MAKE OUTPOST LAYOUT RANDOMIZED VIA MODULAR MAPS"
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"rO" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Central Terminal Access"
-	},
-/area/space)
 "rV" = (
 /obj/structure/lattice/catwalk,
 /obj/item/shard,
@@ -1770,24 +1795,17 @@
 /obj/structure/table,
 /turf/open/floor/iron,
 /area/space)
+"sn" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/space)
 "sq" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/structure/closet/emcloset,
 /turf/open/floor/iron,
-/area/space)
-"st" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/space)
-"su" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 12
-	},
-/obj/structure/mirror/directional/east,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/freezer,
 /area/space)
 "sw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1847,6 +1865,10 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
+"tb" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron,
+/area/space)
 "td" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/iron/fifty,
@@ -1875,6 +1897,11 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"tq" = (
+/obj/structure/lattice,
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
 "tr" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/spawner/random/food_or_drink/booze,
@@ -1894,30 +1921,6 @@
 /obj/structure/holosign/barrier/atmos/sturdy,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/space)
-"tK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/item/shard,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"tM" = (
-/obj/effect/turf_decal/tile/red/anticorner/contrasted{
-	dir = 8
-	},
-/obj/structure/closet/secure_closet/security,
-/turf/open/floor/iron,
-/area/space)
-"tO" = (
-/obj/item/food/grown/banana{
-	desc = "shh... its a secret";
-	name = "secret banana"
-	},
-/turf/open/floor/iron/smooth,
 /area/space)
 "tQ" = (
 /obj/effect/step_trigger/teleport_fancy{
@@ -2049,9 +2052,6 @@
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/space)
-"vb" = (
-/turf/open/floor/carpet,
-/area/space)
 "vc" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -2129,6 +2129,20 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/plating,
 /area/space)
+"vK" = (
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/security,
+/turf/open/floor/iron,
+/area/space)
+"vN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "vQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -2189,6 +2203,22 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"wj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/wallframe/button,
+/obj/item/stack/cable_coil/cut,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"wl" = (
+/obj/machinery/door/poddoor{
+	id = "loldontopenthisplsthx"
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "wn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -2221,14 +2251,6 @@
 /area/space)
 "wz" = (
 /turf/open/floor/iron/dark,
-/area/space)
-"wA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair,
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "wC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2273,15 +2295,6 @@
 /obj/structure/mirror/directional/east,
 /turf/open/floor/iron/freezer,
 /area/space)
-"wT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "wV" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/iron,
@@ -2293,13 +2306,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
-"xf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/screwdriver,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "xg" = (
 /obj/structure/industrial_lift/tram{
@@ -2341,6 +2347,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
+"xr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/caution/stand_clear{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "xu" = (
 /obj/item/clothing/mask/gas/explorer,
 /obj/structure/extinguisher_cabinet/directional/north,
@@ -2356,10 +2371,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/stairs,
 /area/space)
-"xy" = (
+"xD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/shard,
-/turf/open/floor/iron/smooth{
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/caution/red,
+/turf/open/floor/iron/dark{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -2372,6 +2390,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
+/area/space)
+"xL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/tank/internals/emergency_oxygen/empty,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "xO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -2442,27 +2467,15 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/space)
-"ys" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating,
-/area/space)
-"yw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "yE" = (
 /turf/cordon,
 /area/space)
 "yF" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
+/turf/open/floor/carpet,
+/area/space)
+"yL" = (
 /turf/open/floor/carpet,
 /area/space)
 "yT" = (
@@ -2524,6 +2537,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"zk" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "zm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/emcloset,
@@ -2534,16 +2554,6 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/iron/dark,
 /area/space)
-"zw" = (
-/obj/structure/lattice,
-/obj/item/stack/rods,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"zA" = (
-/obj/structure/grille,
-/obj/item/shard,
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "zB" = (
 /obj/effect/landmark/awaystart,
 /obj/structure/cable,
@@ -2553,13 +2563,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/space)
-"zF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/tank/internals/emergency_oxygen/empty,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "zH" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -2613,13 +2616,6 @@
 /turf/open/floor/carpet{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"zZ" = (
-/obj/structure/grille/broken,
-/obj/item/shard,
-/obj/item/stack/rods,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "Aa" = (
 /obj/structure/sink{
@@ -2687,6 +2683,16 @@
 	dir = 6
 	},
 /turf/open/lava/smooth/lava_land_surface,
+/area/space)
+"AE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/item/shard,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "AH" = (
 /obj/structure/cable,
@@ -2760,6 +2766,12 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Bj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "Bl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing/corner,
@@ -2779,16 +2791,6 @@
 /obj/machinery/firealarm/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
-"Bu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/shard,
-/obj/structure/chair{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "Bw" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
@@ -2842,12 +2844,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/space)
-"BO" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 4
-	},
+"BP" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_atmos,
+/obj/machinery/light/red/directional/east,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "BQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2891,15 +2894,19 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
-"Cp" = (
+"Cq" = (
+/turf/open/floor/iron,
+/area/space)
+"Cu" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/stack/rods,
+/obj/structure/sign/warning{
+	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
+	name = "WARNING: Lethal Fall Hazard";
+	pixel_x = 32
+	},
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"Cq" = (
-/turf/open/floor/iron,
 /area/space)
 "Cw" = (
 /obj/effect/turf_decal/delivery,
@@ -2921,12 +2928,6 @@
 /obj/structure/flora/ash/leaf_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
-"CI" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/space)
 "CO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2934,14 +2935,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"CQ" = (
-/obj/machinery/door/poddoor{
-	id = "loldontopenthisplsthx"
-	},
-/turf/open/floor/iron/dark{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -2963,18 +2956,36 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet,
 /area/space)
+"CX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning/xeno_mining{
+	pixel_x = 32
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Dc" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "Dg" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/space)
-"Dh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/chair,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
+"Di" = (
+/obj/structure/table/reinforced,
+/obj/machinery/turretid{
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = 23
 	},
+/turf/open/floor/iron,
 /area/space)
 "Dl" = (
 /obj/structure/frame/machine,
@@ -3003,6 +3014,10 @@
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"DF" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
 /area/space)
 "DG" = (
 /obj/structure/table,
@@ -3104,6 +3119,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
+/area/space)
+"ES" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
 /area/space)
 "EV" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -3236,6 +3260,15 @@
 /obj/structure/grille,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/space)
+"Gy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "Gz" = (
 /turf/open/floor/iron/stairs{
 	dir = 1
@@ -3267,13 +3300,6 @@
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"GM" = (
-/obj/effect/turf_decal/stripes/end{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "GX" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk,
@@ -3311,15 +3337,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
-"HF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "HI" = (
 /obj/structure/table,
@@ -3395,16 +3412,14 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Iq" = (
-/obj/machinery/light/directional/west,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "Ir" = (
 /obj/structure/rack,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"Iu" = (
+/obj/structure/grille,
+/obj/item/shard,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "Ix" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3417,12 +3432,6 @@
 /turf/open/floor/iron/dark{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"IH" = (
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/chasm/lavaland,
 /area/space)
 "IN" = (
 /turf/open/lava/smooth/lava_land_surface,
@@ -3541,10 +3550,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"JM" = (
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/space)
 "JN" = (
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/dirt,
@@ -3562,30 +3567,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/freezer,
 /area/space)
-"JZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 8
-	},
-/obj/item/food/grown/banana{
-	desc = "shh... its a secret";
-	name = "secret banana"
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/space)
 "Ka" = (
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow/half/contrasted,
-/turf/open/floor/iron,
-/area/space)
-"Kc" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
 /turf/open/floor/iron,
 /area/space)
 "Kg" = (
@@ -3643,6 +3628,10 @@
 "KA" = (
 /obj/structure/curtain,
 /turf/open/floor/iron/freezer,
+/area/space)
+"KC" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "KT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3757,18 +3746,29 @@
 	},
 /turf/open/floor/carpet/black,
 /area/space)
+"LT" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/space)
 "LZ" = (
 /obj/effect/landmark/awaystart,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/space)
-"Ma" = (
-/obj/machinery/door/puzzle/keycard{
-	name = "External Operations Access";
-	puzzle_id = "welovefortnite"
-	},
+"Mc" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/obj/structure/sign/warning{
+	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
+	},
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "Mh" = (
 /obj/structure/railing{
@@ -3779,6 +3779,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Mi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/food/drinks/coffee{
+	list_reagents = list(/datum/reagent/consumable/coffee = 10)
+	},
+/turf/open/floor/mineral/titanium/tiled{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -3815,6 +3824,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/space)
+"MP" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
 "MR" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -3826,13 +3842,6 @@
 /turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
-"MT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "MU" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3877,16 +3886,6 @@
 /obj/item/storage/toolbox/electrical,
 /turf/open/floor/iron,
 /area/space)
-"Np" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/caution/red,
-/turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "Nu" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Mining Station Maintenance";
@@ -3916,11 +3915,6 @@
 	dir = 4
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"NP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing/corner,
-/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "NR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3965,15 +3959,6 @@
 	},
 /obj/structure/lattice,
 /turf/open/chasm/lavaland,
-/area/space)
-"Ou" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "Oy" = (
 /obj/structure/plasticflaps,
@@ -4047,6 +4032,12 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
+"Pt" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
 "Pv" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -4073,6 +4064,12 @@
 /obj/item/storage/medkit/brute,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"PK" = (
+/obj/structure/sign/warning{
+	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
+	},
+/turf/open/chasm/lavaland,
 /area/space)
 "PM" = (
 /obj/machinery/stasis/survival_pod,
@@ -4126,10 +4123,6 @@
 	},
 /turf/open/floor/iron,
 /area/space)
-"Qb" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/iron,
-/area/space)
 "Qd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -4148,11 +4141,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
-"Qz" = (
-/obj/structure/railing/corner{
+"Qt" = (
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/floor/iron,
 /area/space)
 "QC" = (
 /obj/structure/cable,
@@ -4164,23 +4157,35 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"QD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning{
+	desc = "A sign warning you about how falling into the elevator shaft is a bad idea.";
+	name = "WARNING: Lethal Fall Hazard";
+	pixel_x = -32
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "QE" = (
 /obj/structure/mecha_wreckage/ripley,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron/recharge_floor,
 /area/space)
-"QG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "QI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/tank/oxygen,
 /turf/open/floor/plating,
+/area/space)
+"QK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/box,
+/obj/item/disk/holodisk,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "QN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4191,10 +4196,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
-/area/space)
-"QS" = (
-/obj/structure/barricade/sandbags,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
 "QV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4218,10 +4219,12 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Rj" = (
+"Rl" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron/smooth,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "Ro" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4236,6 +4239,13 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/space)
+"Rq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/screwdriver,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "Rt" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted,
 /turf/open/floor/iron,
@@ -4247,6 +4257,20 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"Ry" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mob_spawn/corpse/human/scientist{
+	brute_damage = 125;
+	burn_damage = 0;
+	mob_name = "Elisabeth Queef";
+	oxy_damage = 75
+	},
+/obj/item/clothing/mask/gas/explorer,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -4273,15 +4297,6 @@
 "RJ" = (
 /obj/structure/table,
 /turf/open/floor/iron/dark,
-/area/space)
-"RL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_containers/food/drinks/coffee{
-	list_reagents = list(/datum/reagent/consumable/coffee = 10)
-	},
-/turf/open/floor/mineral/titanium/tiled{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "RM" = (
 /obj/effect/landmark/awaystart,
@@ -4346,6 +4361,10 @@
 "Sp" = (
 /turf/closed/wall,
 /area/space)
+"Sy" = (
+/obj/structure/barricade/sandbags,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
 "SD" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium_purple";
@@ -4365,6 +4384,11 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet{
 	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"SN" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Central Terminal Access"
 	},
 /area/space)
 "SS" = (
@@ -4387,6 +4411,13 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/space)
+"SX" = (
+/obj/item/food/grown/banana{
+	desc = "shh... its a secret";
+	name = "secret banana"
+	},
+/turf/open/floor/iron/smooth,
+/area/space)
 "Td" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -4405,26 +4436,6 @@
 "Tw" = (
 /obj/structure/chair/stool/directional/east,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"Tx" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
-"Ty" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/red/directional/east,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "Tz" = (
 /obj/item/tank/internals/emergency_oxygen/empty,
@@ -4448,6 +4459,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/space)
+"TB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "TF" = (
 /obj/effect/turf_decal/stripes/box,
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -4455,6 +4475,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"TG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/smooth{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/space)
 "TO" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -4508,15 +4541,6 @@
 "Un" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
-/area/space)
-"Uo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/railing{
-	dir = 5
-	},
-/turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "Up" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
@@ -4583,22 +4607,12 @@
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/space)
-"UY" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron,
-/area/space)
 "Vf" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/floor,
 /turf/open/floor/plating,
-/area/space)
-"Vg" = (
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/chasm/lavaland,
 /area/space)
 "Vi" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -4629,18 +4643,6 @@
 "Vs" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
-"Vz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "VA" = (
 /obj/effect/turf_decal/stripes/box,
@@ -4701,13 +4703,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/space)
-"VX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/directional/west,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "VY" = (
 /obj/structure/table,
 /obj/machinery/airalarm/directional/north,
@@ -4747,16 +4742,6 @@
 	pixel_y = 24
 	},
 /turf/open/floor/iron,
-/area/space)
-"Wm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/caution/red{
-	dir = 1
-	},
-/turf/open/floor/iron/dark{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "Wq" = (
 /obj/structure/railing/corner,
@@ -4855,6 +4840,13 @@
 /obj/structure/ore_box,
 /turf/open/lava/smooth/lava_land_surface,
 /area/space)
+"Xw" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/space)
 "Xx" = (
 /obj/item/gps/computer,
 /turf/open/floor/pod,
@@ -4870,6 +4862,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
+"XM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
@@ -4906,6 +4907,11 @@
 /turf/open/floor/iron/dark{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/space)
+"Yd" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/plating/lavaland_atmos,
 /area/space)
 "Yi" = (
 /turf/open/floor/iron/recharge_floor,
@@ -4951,15 +4957,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"Yy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/space)
 "YA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard,
@@ -4973,15 +4970,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron,
-/area/space)
-"YJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/caution/stand_clear{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/space)
 "YL" = (
 /obj/structure/cable,
@@ -5013,6 +5001,13 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/space)
+"YZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/iron/dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/space)
 "Zh" = (
 /obj/structure/chair/stool/directional/west,
 /obj/machinery/light/directional/north,
@@ -5037,6 +5032,15 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plating,
+/area/space)
+"Zk" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/structure/mirror/directional/east,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/freezer,
 /area/space)
 "Zp" = (
 /obj/structure/door_assembly/door_assembly_mhatch,
@@ -5070,6 +5074,11 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/space)
+"ZH" = (
+/obj/structure/lattice,
+/obj/item/stack/rods,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
 "ZI" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
@@ -5097,19 +5106,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/space)
-"ZO" = (
+"ZN" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/corpse/human/scientist{
-	brute_damage = 125;
-	burn_damage = 0;
-	mob_name = "Elisabeth Queef";
-	oxy_damage = 75
-	},
-/obj/item/clothing/mask/gas/explorer,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark,
 /area/space)
 "ZW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10076,7 +10076,7 @@ Sp
 Xi
 dR
 cX
-tM
+vK
 Sp
 Sp
 Sp
@@ -10593,7 +10593,7 @@ cX
 iR
 Ft
 ej
-su
+Zk
 Sp
 dp
 zH
@@ -31389,7 +31389,7 @@ qY
 An
 An
 An
-VX
+fj
 An
 DQ
 yE
@@ -32377,9 +32377,9 @@ eS
 wz
 wz
 wz
-st
+ZN
 eG
-df
+ES
 MR
 MR
 uS
@@ -32891,9 +32891,9 @@ eS
 AH
 AH
 AH
-JM
+hQ
 eG
-df
+ES
 MR
 FF
 yX
@@ -33445,7 +33445,7 @@ qY
 An
 An
 An
-oN
+ls
 An
 DQ
 yE
@@ -35991,7 +35991,7 @@ Bc
 qs
 qY
 qY
-tO
+SX
 qY
 aa
 ab
@@ -37795,7 +37795,7 @@ dp
 dp
 dp
 qY
-Rj
+iJ
 DJ
 rJ
 DJ
@@ -39059,7 +39059,7 @@ DQ
 An
 An
 An
-Iq
+oG
 An
 An
 An
@@ -39081,7 +39081,7 @@ An
 An
 An
 An
-Iq
+oG
 An
 An
 An
@@ -39092,10 +39092,10 @@ An
 An
 An
 An
-Iq
+oG
 An
 An
-bC
+QD
 UK
 UK
 UK
@@ -39110,22 +39110,22 @@ UK
 UK
 UK
 UK
-bC
+QD
 An
 An
 An
-Iq
-An
-An
-An
-An
+oG
 An
 An
 An
 An
 An
 An
-Iq
+An
+An
+An
+An
+oG
 An
 An
 An
@@ -39147,7 +39147,7 @@ An
 An
 An
 An
-Iq
+oG
 An
 An
 An
@@ -39158,7 +39158,7 @@ An
 An
 An
 An
-Iq
+oG
 An
 An
 An
@@ -39169,10 +39169,10 @@ An
 An
 An
 An
-Iq
-xf
-os
-rO
+oG
+Rq
+wj
+SN
 An
 An
 An
@@ -39391,7 +39391,7 @@ uv
 uv
 uv
 uv
-Qz
+Pt
 zH
 ak
 ak
@@ -39399,7 +39399,7 @@ ak
 zH
 PW
 PW
-MT
+Rl
 uv
 uv
 uv
@@ -39609,7 +39609,7 @@ qD
 qD
 qD
 qD
-Wm
+fq
 zH
 zH
 ak
@@ -39624,7 +39624,7 @@ ak
 ak
 zH
 zH
-Np
+xD
 qD
 qD
 qD
@@ -39686,7 +39686,7 @@ qD
 qD
 qD
 qD
-CQ
+wl
 qD
 qD
 qD
@@ -39910,7 +39910,7 @@ ak
 Bx
 Bx
 PW
-pP
+tq
 PW
 kT
 kT
@@ -39943,7 +39943,7 @@ IR
 IR
 IR
 IR
-CQ
+wl
 IR
 IR
 IR
@@ -40093,7 +40093,7 @@ Qd
 Qd
 Jo
 Pq
-RL
+Mi
 Pq
 cS
 Ba
@@ -40130,7 +40130,7 @@ Qd
 Qd
 Qd
 Qd
-ol
+Mc
 Qd
 Qd
 Qd
@@ -40200,9 +40200,9 @@ Qd
 Qd
 Qd
 Qd
-CQ
+wl
 Qd
-JZ
+kl
 Qd
 Ro
 yE
@@ -40349,7 +40349,7 @@ zS
 zS
 zS
 Jo
-cI
+bt
 NR
 Pq
 yc
@@ -40457,7 +40457,7 @@ zS
 zS
 zS
 zS
-CQ
+wl
 zS
 zS
 zS
@@ -40637,7 +40637,7 @@ qD
 qD
 qD
 qD
-Wm
+fq
 zH
 zH
 zH
@@ -40652,7 +40652,7 @@ ak
 ak
 zH
 zH
-Np
+xD
 qD
 qD
 qD
@@ -40672,7 +40672,7 @@ qD
 qD
 dz
 PW
-zw
+ZH
 PW
 Bx
 Bx
@@ -40714,7 +40714,7 @@ qD
 qD
 qD
 qD
-CQ
+wl
 qD
 qD
 qD
@@ -40927,7 +40927,7 @@ BE
 BE
 BE
 BE
-yw
+vN
 zH
 Km
 ak
@@ -40935,9 +40935,9 @@ ak
 ak
 ak
 ak
-gx
+iU
 zH
-NP
+gz
 BE
 BE
 BE
@@ -40949,12 +40949,12 @@ BE
 BE
 BE
 BE
-fY
-hm
-Uo
-fY
-hm
-Uo
+lO
+YZ
+Gy
+lO
+YZ
+Gy
 BE
 BE
 BE
@@ -41115,7 +41115,7 @@ DQ
 An
 An
 An
-oN
+ls
 An
 An
 An
@@ -41137,7 +41137,7 @@ An
 An
 An
 An
-oN
+ls
 An
 An
 An
@@ -41148,10 +41148,10 @@ An
 An
 An
 An
-oN
-fi
+ls
+CX
 An
-oy
+Cu
 oO
 UK
 UK
@@ -41166,13 +41166,11 @@ UK
 UK
 UK
 UK
-oy
+Cu
 An
-fi
+CX
 An
-oN
-An
-An
+ls
 An
 An
 An
@@ -41181,7 +41179,9 @@ An
 An
 An
 An
-oN
+An
+An
+ls
 An
 An
 An
@@ -41207,10 +41207,10 @@ gG
 An
 An
 An
-YJ
+xr
 An
 An
-YJ
+xr
 An
 An
 An
@@ -41225,10 +41225,10 @@ An
 An
 An
 An
-oN
+ls
 An
 An
-rO
+SN
 An
 An
 An
@@ -41462,13 +41462,13 @@ qY
 qY
 qY
 An
-Cp
-io
-xy
+fy
+jw
+kN
 An
 An
 An
-io
+jw
 An
 An
 qY
@@ -41718,16 +41718,16 @@ qY
 qY
 qY
 qY
-HF
-Vz
-zZ
-er
+TB
+bk
+aB
+pp
 An
 An
-tK
-zZ
-wA
-HF
+AE
+aB
+dq
+TB
 qY
 qY
 qY
@@ -41975,16 +41975,16 @@ dp
 dp
 qY
 qY
-wT
-Tx
-hv
-er
-rM
+dc
+fR
+KC
+pp
+ee
 An
-Bu
-hv
-QG
-wT
+fz
+KC
+jD
+dc
 qY
 qY
 dp
@@ -42232,16 +42232,16 @@ dp
 dp
 qY
 qY
-Yy
-mp
-qj
-Dh
+XM
+TG
+Yd
+gK
 An
 An
-Dh
-zA
-Ou
-Yy
+gK
+Iu
+fa
+XM
 qY
 qY
 dp
@@ -42489,16 +42489,16 @@ dp
 dp
 qY
 qY
-zF
-ZO
-Ty
+xL
+Ry
+BP
 An
-pU
+QK
 An
 An
 gG
 An
-Dh
+gK
 qY
 qY
 dp
@@ -42747,14 +42747,14 @@ dp
 qY
 qY
 qY
-Ma
+pW
 qY
 qY
 qY
 qY
 qY
 qY
-Ma
+pW
 qY
 qY
 qY
@@ -42967,7 +42967,7 @@ zH
 zH
 zH
 zH
-QS
+Sy
 zH
 zH
 dp
@@ -43006,7 +43006,7 @@ oC
 eG
 eG
 oC
-Qb
+tb
 Cq
 Cq
 Cq
@@ -43224,7 +43224,7 @@ zH
 zH
 zH
 zH
-QS
+Sy
 zH
 zH
 zH
@@ -43266,7 +43266,7 @@ oC
 Cq
 Bi
 Cq
-Qb
+tb
 oC
 eG
 eG
@@ -43520,10 +43520,10 @@ oC
 wz
 wz
 oC
-jJ
+Di
 Cq
 Cq
-Qb
+tb
 oC
 wz
 eG
@@ -43738,7 +43738,7 @@ zH
 zH
 zH
 zH
-QS
+Sy
 ak
 ak
 ak
@@ -43775,14 +43775,14 @@ oC
 oC
 oC
 oC
-JM
+hQ
 oC
 Sn
 Cq
 Cq
 Sn
 oC
-JM
+hQ
 oC
 oC
 oC
@@ -43995,7 +43995,7 @@ zH
 zH
 zH
 zH
-QS
+Sy
 zH
 ak
 ak
@@ -44252,7 +44252,7 @@ dp
 zH
 zH
 zH
-QS
+Sy
 zH
 zH
 ak
@@ -44289,14 +44289,14 @@ Cq
 Un
 Cq
 Cq
-UY
-CI
-Kc
+DF
+Bj
+Dc
 Cq
 Cq
-UY
-CI
-Kc
+DF
+Bj
+Dc
 Cq
 Cq
 Un
@@ -44547,12 +44547,12 @@ Sp
 Sp
 Sp
 Sp
-ys
-gE
+ie
+Qt
 Cq
 Cq
 ft
-ys
+ie
 Sp
 Sp
 Sp
@@ -45830,16 +45830,16 @@ dp
 dp
 dp
 Sp
-vb
-vb
-vb
+yL
+yL
+yL
 Cq
 Cq
 Cq
 Cq
-vb
-vb
-vb
+yL
+yL
+yL
 Sp
 dp
 dp
@@ -46087,16 +46087,16 @@ dp
 dp
 dp
 Sp
-vb
-vb
+yL
+yL
 Sp
 Cq
 Cq
 Cq
 Cq
 Sp
-vb
-vb
+yL
+yL
 Sp
 dp
 dp
@@ -46288,7 +46288,7 @@ zH
 zH
 zH
 zH
-GM
+MP
 zH
 ak
 ak
@@ -46546,7 +46546,7 @@ zH
 zH
 zH
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -46601,16 +46601,16 @@ dp
 dp
 dp
 Sp
-vb
-vb
-vb
+yL
+yL
+yL
 Cq
 Cq
 Cq
 Cq
-vb
-vb
-vb
+yL
+yL
+yL
 Sp
 dp
 dp
@@ -46795,7 +46795,7 @@ dp
 dp
 zH
 zH
-QS
+Sy
 zH
 zH
 zH
@@ -46803,7 +46803,7 @@ zH
 zH
 zH
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -46858,16 +46858,16 @@ dp
 dp
 dp
 Sp
-vb
-vb
+yL
+yL
 Sp
 Cq
 Cq
 Cq
 Cq
 Sp
-vb
-vb
+yL
+yL
 Sp
 dp
 dp
@@ -47052,15 +47052,15 @@ zH
 zH
 zH
 zH
-QS
+Sy
 zH
 zH
 ak
 ak
 ak
-nP
+eO
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -47315,9 +47315,9 @@ ak
 ak
 ak
 ak
-nP
+eO
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -47572,9 +47572,9 @@ ak
 ak
 ak
 ak
-nP
-ba
+eO
 mk
+Xw
 ak
 ak
 ak
@@ -47829,9 +47829,9 @@ ak
 ak
 ak
 ak
-nP
+eO
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -48086,9 +48086,9 @@ ak
 ak
 zH
 zH
-nP
+eO
 UK
-mk
+Xw
 ak
 ak
 ak
@@ -48344,8 +48344,8 @@ zH
 zH
 zH
 zH
-BO
-mk
+zk
+Xw
 ak
 ak
 ak
@@ -48595,14 +48595,14 @@ ak
 ak
 ak
 ak
-QS
+Sy
 zH
 zH
 zH
 dp
 zH
 zH
-mk
+Xw
 ak
 ak
 ak
@@ -48852,7 +48852,7 @@ ak
 ak
 zH
 zH
-QS
+Sy
 zH
 zH
 zH
@@ -49109,7 +49109,7 @@ zH
 zH
 zH
 zH
-QS
+Sy
 zH
 zH
 dp
@@ -57335,7 +57335,7 @@ UK
 ak
 ak
 ak
-Vg
+PK
 UK
 UK
 UK
@@ -57589,10 +57589,10 @@ zH
 zH
 Mn
 Mn
-IH
+LT
 ak
 ak
-gf
+sn
 Mn
 Mn
 Mn
@@ -57868,7 +57868,7 @@ zH
 zH
 gD
 UK
-ba
+mk
 UK
 mB
 zH

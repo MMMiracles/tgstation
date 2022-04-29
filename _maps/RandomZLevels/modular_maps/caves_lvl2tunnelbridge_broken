@@ -1,0 +1,272 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/obj/structure/lattice,
+/obj/structure/railing/corner,
+/turf/open/chasm/lavaland,
+/area/space)
+"g" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"k" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"n" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"o" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"x" = (
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/space)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/space)
+"A" = (
+/obj/structure/lattice/catwalk,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"C" = (
+/turf/open/chasm/lavaland,
+/area/space)
+"D" = (
+/obj/structure/lattice,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/space)
+"E" = (
+/obj/structure/lattice,
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"F" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"K" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+"L" = (
+/obj/structure/railing/corner,
+/turf/open/chasm/lavaland,
+/area/space)
+"M" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/space)
+"Y" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm/lavaland,
+/area/space)
+"Z" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/space)
+
+(1,1,1) = {"
+F
+F
+F
+K
+C
+C
+C
+C
+C
+b
+F
+F
+F
+F
+"}
+(2,1,1) = {"
+Y
+Y
+Y
+C
+C
+C
+C
+C
+C
+C
+C
+Y
+Y
+Y
+"}
+(3,1,1) = {"
+o
+o
+o
+g
+C
+C
+C
+C
+C
+C
+Z
+o
+o
+o
+"}
+(4,1,1) = {"
+n
+n
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+n
+n
+"}
+(5,1,1) = {"
+D
+D
+D
+C
+C
+C
+C
+C
+C
+C
+x
+D
+D
+D
+"}
+(6,1,1) = {"
+z
+z
+z
+z
+x
+C
+C
+C
+C
+C
+z
+z
+z
+z
+"}
+(7,1,1) = {"
+x
+x
+x
+C
+C
+C
+C
+C
+C
+x
+x
+D
+D
+D
+"}
+(8,1,1) = {"
+n
+n
+n
+n
+C
+C
+C
+C
+C
+C
+C
+C
+n
+n
+"}
+(9,1,1) = {"
+F
+F
+F
+F
+F
+K
+C
+C
+C
+C
+C
+L
+F
+k
+"}
+(10,1,1) = {"
+A
+Y
+Y
+Y
+Y
+C
+C
+C
+C
+C
+C
+C
+Y
+Y
+"}
+(11,1,1) = {"
+o
+o
+o
+o
+o
+E
+x
+C
+C
+C
+Z
+M
+o
+o
+"}
