@@ -3,6 +3,7 @@
 /area/awaymission/caves/bmp_asteroid
 	name = "\improper BMP Asteroid Level 1"
 	icon_state = "awaycontent1"
+	sound_environment = SOUND_AREA_LAVALAND
 
 /area/awaymission/caves/bmp_asteroid/level_two
 	name = "\improper BMP Asteroid Level 2"
@@ -20,6 +21,63 @@
 	name = "Research Outpost"
 	icon_state = "awaycontent5"
 	static_lighting = TRUE
+
+/area/awaymission/caves/main_outpost
+	name = "Mining Outpost Delta"
+	icon_state = "awaycontent1"
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+
+/area/awaymission/caves/main_outpost/storage
+	name = "Mining Outpost Delta Suit Storage"
+
+/area/awaymission/caves/main_outpost/dorm
+	name = "Mining Outpost Delta Living Quarters"
+
+/area/awaymission/caves/main_outpost/engineering
+	name = "Mining Outpost Delta Power Wing"
+
+/area/awaymission/caves/main_outpost/depo
+	name = "Mining Outpost Delta Ore Processing"
+
+/area/awaymission/caves/main_outpost/rec
+	name = "Mining Outpost Delta Mess Hall"
+
+/area/awaymission/caves/main_outpost/seconadry/storage
+	name = "Delta Outpost Storage Lot"
+
+/area/awaymission/caves/main_outpost/seconadry/engineering
+	name = "Delta Outpost Life Support"
+
+/area/awaymission/caves/main_outpost/seconadry/mecha
+	name = "Delta Outpost Mecha Bay"
+
+/area/awaymission/caves/main_outpost/seconadry/mecha/living
+	name = "Delta Outpost Mecha Bay Living Quarters"
+
+/area/awaymission/caves/main_outpost/seconadry/secpost
+	name = "Delta Outpost Security Post"
+
+/area/awaymission/caves/main_outpost/seconadry/research
+	name = "Delta Outpost Research Post"
+
+/area/awaymission/caves/main_outpost/seconadry/research/living
+	name = "Delta Outpost Research Post Living Quarters"
+
+/area/awaymission/caves/main_outpost/seconadry/gateway
+	name = "Gateway Terminal Delta"
+
+/area/awaymission/caves/main_outpost/seconadry/between_access
+	name = "Level Transit Delta"
+
+/area/awaymission/caves/second_outpost
+	name = "Mining Outpost Echo"
+	sound_environment = SOUND_ENVIRONMENT_ROOM
+
+/area/awaymission/caves/second_outpost/tunnel
+	name = "Transit Tunnel Access"
+
+/area/awaymission/caves/second_outpost/rest
+	name = "Mining Outpost Echo Rest Area"
 
 /area/awaymission/caves/northblock //engineering, bridge (not really north but it doesnt really need its own APC)
 
