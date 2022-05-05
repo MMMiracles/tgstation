@@ -1,14 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabin1";
-	name = "Cabin 1"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "ab" = (
 /turf/cordon,
 /area/cordon)
@@ -78,6 +68,17 @@
 /obj/effect/turf_decal/tile/purple/half/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
+"aE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Life Support Access";
+	req_access_txt = "204"
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/second_outpost/rest)
 "aG" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table,
@@ -151,13 +152,6 @@
 "be" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/depo)
-"bn" = (
-/obj/effect/turf_decal/tile/red/anticorner/contrasted{
-	dir = 8
-	},
-/obj/structure/closet/secure_closet/security,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "bo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -180,15 +174,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
-"by" = (
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabinB";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/wood/parquet,
-/area/awaymission/caves/main_outpost/seconadry/research/living)
 "bz" = (
 /obj/effect/landmark/awaystart,
 /obj/structure/cable,
@@ -206,6 +191,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
+"bB" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "bF" = (
 /turf/open/floor/plating,
 /area/awaymission/caves/bmp_asteroid/level_two)
@@ -213,12 +203,6 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"bI" = (
-/obj/effect/landmark/awaystart,
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
 "bP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tank_dispenser/oxygen{
@@ -226,12 +210,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/second_outpost/tunnel)
-"bR" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/chair/stool/directional/west,
-/turf/open/floor/carpet/black,
-/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "bW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
@@ -258,10 +236,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
-"cn" = (
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/main_outpost/seconadry/gateway)
 "cq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -316,13 +290,6 @@
 /obj/structure/lattice,
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/second_outpost/tunnel)
-"cD" = (
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "cI" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/tile/red/half/contrasted,
@@ -344,23 +311,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"cL" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/button/door{
-	id = "caveroboinner";
-	pixel_x = -24;
-	pixel_y = 4;
-	req_access_txt = "200"
-	},
-/obj/machinery/button/door{
-	id = "caverobooutter";
-	pixel_x = -24;
-	pixel_y = -4;
-	req_access_txt = "200"
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "cN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -434,12 +384,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"ds" = (
-/obj/machinery/light/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/firealarm/directional/west,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/depo)
 "du" = (
 /obj/machinery/door/firedoor/closed,
 /turf/open/floor/iron,
@@ -448,6 +392,13 @@
 /obj/structure/sign/departments/cargo,
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/seconadry/storage)
+"dA" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "dC" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -476,6 +427,15 @@
 "dO" = (
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"dR" = (
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/security{
+	req_access = list(203)
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "dT" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
@@ -488,25 +448,13 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
-"dW" = (
+"dY" = (
 /obj/machinery/door/airlock{
 	id_tag = "CavesCabinC";
 	name = "Personal Quarters B"
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"dY" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabin2";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "ec" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/directional/west,
@@ -549,12 +497,19 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"el" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
+"eo" = (
+/obj/effect/landmark/awaystart,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
+"eq" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/light/directional/west,
+/obj/structure/chair/stool/directional/north,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "ev" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
@@ -570,12 +525,30 @@
 "eB" = (
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"eC" = (
+/obj/machinery/button/door{
+	id = "caverobooutter";
+	pixel_x = 4;
+	pixel_y = 24;
+	req_access_txt = "200"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "eD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/tiled{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"eE" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "eG" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -602,6 +575,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
+"eY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/second_outpost/rest)
 "fd" = (
 /obj/structure/lattice,
 /turf/open/chasm/lavaland,
@@ -631,16 +616,6 @@
 "fq" = (
 /turf/closed/wall/mineral/titanium/survival/pod,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"fv" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Recreational Lounge"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "fy" = (
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/west,
@@ -660,31 +635,10 @@
 	},
 /turf/open/floor/carpet/black,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"fF" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabinA";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet/black,
-/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "fI" = (
 /obj/machinery/atmospherics/components/tank/oxygen,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/engineering)
-"fL" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "fM" = (
 /obj/machinery/computer/security,
 /obj/effect/turf_decal/tile/red/half/contrasted{
@@ -698,6 +652,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/second_outpost/rest)
+"fT" = (
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "fU" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -767,18 +728,6 @@
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/depo)
-"gH" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "203"
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "gI" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/decal/cleanable/dirt,
@@ -817,6 +766,15 @@
 /obj/structure/railing,
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"hb" = (
+/obj/machinery/button/door{
+	id = "cavecargooutter";
+	pixel_x = 4;
+	pixel_y = -24;
+	req_access_txt = "200"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "hd" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -918,14 +876,11 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/depo)
-"hX" = (
-/obj/machinery/button/door{
-	id = "cavecargooutter";
-	pixel_x = 4;
-	pixel_y = -24;
-	req_access_txt = "200"
+"hW" = (
+/obj/structure/lattice{
+	obj_flags = 4612
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
 "ia" = (
 /obj/effect/turf_decal/tile/brown{
@@ -965,15 +920,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"ik" = (
-/obj/machinery/button/door{
-	id = "caverobooutter";
-	pixel_x = 4;
-	pixel_y = 24;
-	req_access_txt = "200"
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "il" = (
 /obj/effect/turf_decal/box,
 /obj/structure/closet/crate,
@@ -1035,24 +981,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
-"iC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/second_outpost/rest)
-"iD" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabin4";
-	name = "Cabin 4"
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "iH" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
@@ -1089,17 +1017,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"iT" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabinSec";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "iW" = (
 /obj/structure/holosign/barrier/atmos,
 /obj/effect/decal/cleanable/dirt,
@@ -1108,6 +1025,17 @@
 "ja" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_three)
+"jd" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Life Support Access";
+	req_access_txt = "204"
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/engineering)
 "je" = (
 /obj/structure/lattice,
 /obj/item/storage/medkit/regular,
@@ -1150,13 +1078,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"jl" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 8
-	},
-/obj/machinery/door/firedoor/closed,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
 "jn" = (
 /obj/machinery/stasis/survival_pod,
 /turf/open/floor/pod,
@@ -1168,6 +1089,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"ju" = (
+/obj/structure/window/reinforced/spawner,
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "jw" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/iron,
@@ -1200,13 +1128,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"jG" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/light/directional/west,
-/obj/structure/chair/stool/directional/north,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "jP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new/end{
@@ -1214,19 +1135,6 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"jR" = (
-/obj/machinery/door/firedoor,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost)
 "jV" = (
 /obj/item/stack/sheet/iron,
 /obj/effect/decal/cleanable/dirt,
@@ -1236,25 +1144,22 @@
 /obj/machinery/mineral/processing_unit_console,
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/depo)
-"jY" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "kf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"kh" = (
-/obj/structure/window/reinforced/spawner,
-/obj/structure/lattice{
-	obj_flags = 4612
+"kg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
 	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/second_outpost/rest)
 "kj" = (
 /obj/structure/grille/broken,
 /obj/item/shard,
@@ -1272,6 +1177,34 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
+"kn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabin2";
+	name = "Cabin 2"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
+"kp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "cavecargooutter";
+	pixel_x = -24;
+	pixel_y = 4;
+	req_access_txt = "200"
+	},
+/obj/machinery/button/door{
+	id = "cavecargoinner";
+	pixel_x = -24;
+	pixel_y = -4;
+	req_access_txt = "200"
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/storage)
 "kr" = (
 /obj/structure/sink{
 	dir = 4;
@@ -1355,20 +1288,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost)
-"kF" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "Life Support Access";
-	req_access_txt = "204"
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
 "kG" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron/freezer,
@@ -1406,30 +1325,21 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/depo)
-"kW" = (
-/obj/effect/step_trigger/teleport_fancy{
-	locationx = 120;
-	locationy = 240;
-	name = "first floor to mid section";
-	uses = 0
-	},
-/turf/open/floor/iron/smooth,
-/area/awaymission/caves/main_outpost/seconadry/between_access)
-"kX" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "kY" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 8
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research)
+"la" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabin4";
+	name = "Cabin 4"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "lj" = (
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron,
@@ -1522,26 +1432,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/stairs,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"mt" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/item/flashlight/lamp,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabin1";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
-"mu" = (
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabinB";
-	name = "Personal Quarters A"
-	},
-/turf/open/floor/wood/parquet,
-/area/awaymission/caves/main_outpost/seconadry/research/living)
 "mA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1578,13 +1468,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"mT" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "mV" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
@@ -1605,18 +1488,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"na" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/storage)
 "nh" = (
 /obj/effect/landmark/awaystart,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
@@ -1945,6 +1816,16 @@
 "pv" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/caves/main_outpost)
+"px" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabin1";
+	name = "Cabin 1"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "pC" = (
 /obj/structure/table,
 /obj/item/storage/medkit/brute,
@@ -1955,6 +1836,15 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
+"pH" = (
+/obj/structure/table/reinforced,
+/obj/item/pen,
+/obj/machinery/door/window/left/directional/east{
+	name = "Desk Door";
+	req_access_txt = "206"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "pJ" = (
 /obj/item/wrench,
 /obj/item/circuit_component/airlock,
@@ -1992,6 +1882,17 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"pW" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "pX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/terminal{
@@ -2058,6 +1959,13 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
+"qx" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "qy" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -2070,18 +1978,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"qA" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "qC" = (
 /obj/structure/door_assembly/door_assembly_hatch,
 /obj/item/stack/cable_coil/five,
@@ -2099,11 +1995,36 @@
 /obj/structure/flora/ash/cap_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"qK" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "203"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "qR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
+"qX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/research/living)
 "qY" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/food_or_drink/snack,
@@ -2142,20 +2063,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"ri" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "203"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "rj" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
@@ -2191,6 +2098,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"ru" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
 "rx" = (
 /obj/machinery/light/red/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -2220,18 +2134,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"rC" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/hatch{
-	name = "Life Support Access";
-	req_access_txt = "204"
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
 "rD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -2239,22 +2141,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"rG" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/brown{
-	dir = 4
-	},
-/obj/machinery/button/door/directional/west{
-	id = "CavesCabin4";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "rJ" = (
 /turf/closed/wall/mineral/titanium/interior,
 /area/awaymission/caves/second_outpost/tunnel)
@@ -2366,6 +2252,14 @@
 /obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"sW" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/hatch{
+	name = "Life Support Access";
+	req_access_txt = "204"
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/gateway)
 "td" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
@@ -2407,6 +2301,18 @@
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"to" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/hatch{
+	name = "Life Support Access";
+	req_access_txt = "204"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
 "tu" = (
 /obj/structure/lattice/catwalk,
 /turf/open/lava/smooth/lava_land_surface,
@@ -2488,6 +2394,16 @@
 "us" = (
 /turf/closed/indestructible/riveted,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"ut" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "uu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/red/directional/east,
@@ -2513,6 +2429,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
+"uC" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "uD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -2540,6 +2462,12 @@
 /obj/item/food/grown/ash_flora/cactus_fruit,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
+"uH" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
 "uJ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -2587,25 +2515,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"vd" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/button/door{
-	id = "cavecargooutter";
-	pixel_x = -24;
-	pixel_y = 4;
-	req_access_txt = "200"
-	},
-/obj/machinery/button/door{
-	id = "cavecargoinner";
-	pixel_x = -24;
-	pixel_y = -4;
-	req_access_txt = "200"
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/seconadry/storage)
 "ve" = (
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -2630,15 +2539,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"vg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/window/brigdoor{
-	req_access_txt = "203"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "vj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -2719,6 +2619,18 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
+"vH" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabinA";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/black,
+/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "vI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair,
@@ -3003,6 +2915,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
+"xB" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "xD" = (
 /obj/structure/flora/ash/leaf_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -3027,22 +2948,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"xJ" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/brown{
-	dir = 4
-	},
-/obj/machinery/button/door/directional/west{
-	id = "CavesCabin5";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "xM" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted,
 /turf/open/floor/iron,
@@ -3052,6 +2957,22 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
+"xP" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
+/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Gateway Terminial Delta";
+	req_access_txt = "203"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/caves/main_outpost/seconadry/gateway)
 "xR" = (
 /obj/item/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -3157,12 +3078,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"yx" = (
-/obj/structure/closet/emcloset,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
 "yC" = (
 /obj/item/food/grown/banana{
 	desc = "shh... its a secret";
@@ -3181,7 +3096,7 @@
 /obj/item/shard,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"yH" = (
+"yN" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/mining/glass{
 	name = "Mineral Processing";
@@ -3190,17 +3105,6 @@
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/depo)
 "yP" = (
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/engineering)
-"yS" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "Life Support Access";
-	req_access_txt = "204"
-	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/engineering)
 "yT" = (
@@ -3270,15 +3174,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"zz" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "zB" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
@@ -3325,6 +3220,16 @@
 /obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
+"Aa" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabinSec";
+	name = "Personal Quarters";
+	req_access_txt = "203"
+	},
+/turf/open/floor/carpet/red,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Ab" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/cable_coil/cut,
@@ -3404,15 +3309,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"As" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabinA";
-	name = "Personal Quarters"
-	},
-/turf/open/floor/carpet/black,
-/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "At" = (
 /obj/item/flashlight/lamp,
 /obj/effect/decal/cleanable/dirt,
@@ -3440,28 +3336,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"AH" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
-"AL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabin2";
-	name = "Cabin 2"
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "AR" = (
 /obj/machinery/door/puzzle/keycard{
 	puzzle_id = "mininglvl1"
@@ -3499,6 +3373,15 @@
 /obj/structure/chair/stool/directional/north,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"Bd" = (
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabinC";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/caves/main_outpost/seconadry/research/living)
 "Bk" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
@@ -3541,17 +3424,6 @@
 /obj/structure/girder,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/main_outpost)
-"By" = (
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
 "BA" = (
 /obj/item/stack/rods,
@@ -3662,13 +3534,6 @@
 /obj/item/stack/rods,
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"Cp" = (
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "Cu" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -3696,6 +3561,20 @@
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/engineering)
+"CJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "CN" = (
 /obj/structure/table,
 /turf/open/floor/iron/dark,
@@ -3717,6 +3596,19 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/rec)
+"CS" = (
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost)
 "CU" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table,
@@ -3737,13 +3629,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/engineering)
-"CX" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/closed,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
 "CZ" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/sink/kitchen{
@@ -3779,24 +3664,18 @@
 /obj/item/gps/mining,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
+"Df" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "Di" = (
 /turf/open/floor/iron/stairs,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"Dk" = (
-/obj/machinery/door/firedoor,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost)
 "Do" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3891,12 +3770,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"DP" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
 "DT" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -3910,6 +3783,17 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
+"DX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/research/living)
 "DY" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron/grimy,
@@ -3933,13 +3817,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"Ef" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/engineering)
 "Ej" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -3949,22 +3826,22 @@
 "Eo" = (
 /turf/open/floor/pod,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"Eu" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabinSec";
-	name = "Personal Quarters";
-	req_access_txt = "203"
-	},
-/turf/open/floor/carpet/red,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Ev" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid/level_four)
 "Ex" = (
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
+"Ez" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass{
+	name = "Recreational Lounge"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "EA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
@@ -4066,15 +3943,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"Fa" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesCabin5";
-	name = "Cabin 5"
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/main_outpost/dorm)
 "Fb" = (
 /obj/structure/railing{
 	dir = 4
@@ -4092,6 +3960,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mineral/titanium/survival/pod,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
+"Fp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabin5";
+	name = "Cabin 5"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "Fs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -4125,15 +4002,22 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"Fy" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "Fz" = (
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/engineering)
+"FB" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
+"FD" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "FG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -4229,15 +4113,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"Gv" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/obj/effect/turf_decal/siding/thinplating_new/dark/corner{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/main_outpost/seconadry/gateway)
 "Gw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/stopper{
@@ -4430,6 +4305,17 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
+"HD" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Mineral Processing";
+	req_access_txt = "205"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/depo)
 "HI" = (
 /obj/structure/window/reinforced/spawner,
 /obj/structure/cable,
@@ -4442,6 +4328,18 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
+"HT" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabin2";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "HW" = (
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/bmp_asteroid/level_two)
@@ -4471,6 +4369,15 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"Ic" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "Id" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -4502,12 +4409,29 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
+"Iw" = (
+/obj/structure/closet/emcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
+"Ix" = (
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabinB";
+	name = "Personal Quarters A"
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/caves/main_outpost/seconadry/research/living)
 "IA" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"IF" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/depo)
 "IJ" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium_purple";
@@ -4558,6 +4482,18 @@
 	},
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"Jd" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "203"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Jn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4597,6 +4533,31 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"JT" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/brown{
+	dir = 4
+	},
+/obj/machinery/button/door/directional/west{
+	id = "CavesCabin4";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
+"JU" = (
+/obj/effect/step_trigger/teleport_fancy{
+	locationx = 120;
+	locationy = 240;
+	name = "first floor to mid section";
+	uses = 0
+	},
+/turf/open/floor/iron/smooth,
+/area/awaymission/caves/main_outpost/seconadry/between_access)
 "Ka" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research)
@@ -4635,29 +4596,6 @@
 /obj/structure/flora/ash/chilly,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"KK" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
-"KL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/storage)
 "KO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
@@ -4719,6 +4657,15 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"Ls" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/table,
+/obj/item/card/id/advanced/black{
+	access = list(203);
+	name = "Security Identification Card (Gastus Rich)"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Lu" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/door/firedoor,
@@ -4783,17 +4730,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost)
-"LP" = (
-/obj/machinery/door/firedoor,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/mining/glass{
-	name = "Mineral Processing";
-	req_access_txt = "205"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/depo)
 "LR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
@@ -4838,6 +4774,19 @@
 	dir = 1
 	},
 /area/awaymission/caves/main_outpost/seconadry/between_access)
+"Mw" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/item/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabin1";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "My" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/stopper{
@@ -4865,6 +4814,12 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"MJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/carpet/black,
+/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "MM" = (
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 8
@@ -4897,10 +4852,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/research)
-"MW" = (
-/obj/structure/railing/corner,
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "MX" = (
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/cut,
@@ -4931,6 +4882,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
+"Nr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/science{
+	name = "Robotics";
+	req_access_txt = "206"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Nt" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/decal/cleanable/dirt,
@@ -4996,17 +4958,6 @@
 /obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"NV" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/obj/machinery/door/airlock/hatch{
-	name = "Life Support Access";
-	req_access_txt = "204"
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/second_outpost/rest)
 "NY" = (
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
@@ -5014,6 +4965,20 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
+"NZ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "Life Support Access";
+	req_access_txt = "204"
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/engineering)
 "Ob" = (
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/rec)
@@ -5032,6 +4997,19 @@
 	},
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/second_outpost/tunnel)
+"Ok" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
+"Ol" = (
+/obj/structure/railing/corner,
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "Om" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
@@ -5079,27 +5057,6 @@
 /obj/effect/turf_decal/tile/red/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"OI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/main_outpost/seconadry/gateway)
-"OJ" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor/closed,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
-"OL" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "OM" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5185,11 +5142,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
-"Pn" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/structure/table,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Pp" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
@@ -5229,20 +5181,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"Pu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Py" = (
 /obj/structure/sink{
 	dir = 8;
@@ -5292,6 +5230,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
+"PO" = (
+/obj/machinery/light/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/depo)
 "PP" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -5357,15 +5301,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Qp" = (
-/obj/structure/table/reinforced,
-/obj/item/pen,
-/obj/machinery/door/window/left/directional/east{
-	name = "Desk Door";
-	req_access_txt = "206"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Qt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/necropolis,
@@ -5435,6 +5370,15 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/storage)
+"Rc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock{
+	id_tag = "CavesCabinA";
+	name = "Personal Quarters"
+	},
+/turf/open/floor/carpet/black,
+/area/awaymission/caves/main_outpost/seconadry/mecha/living)
 "Rg" = (
 /obj/item/clothing/mask/gas/explorer,
 /obj/structure/extinguisher_cabinet/directional/north,
@@ -5530,6 +5474,21 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"RK" = (
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost)
 "RM" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
@@ -5613,6 +5572,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/dorm)
+"Sz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/storage)
 "SB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/tank/oxygen,
@@ -5672,6 +5643,13 @@
 /obj/structure/flora/ash/cacti,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"SU" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "SV" = (
 /obj/structure/mecha_wreckage/ripley,
 /obj/effect/decal/cleanable/oil,
@@ -5782,11 +5760,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/tunnel)
-"TS" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
-/obj/machinery/door/firedoor/closed,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
 "TY" = (
 /obj/structure/cable,
 /obj/structure/sign/warning/gasmask{
@@ -5894,6 +5867,18 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
+"US" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "UT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -5905,15 +5890,6 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"UU" = (
-/obj/machinery/button/door/directional/east{
-	id = "CavesCabinC";
-	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/wood/parquet,
-/area/awaymission/caves/main_outpost/seconadry/research/living)
 "UY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -6017,17 +5993,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Vu" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/science{
-	name = "Robotics";
-	req_access_txt = "206"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Vw" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid)
@@ -6043,6 +6008,35 @@
 "VA" = (
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/storage)
+"VC" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
+"VG" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/brown{
+	dir = 4
+	},
+/obj/machinery/button/door/directional/west{
+	id = "CavesCabin5";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet,
+/area/awaymission/caves/main_outpost/dorm)
 "VH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/grille/broken,
@@ -6094,6 +6088,20 @@
 /obj/effect/turf_decal/stripes/box,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"VY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/awaymission/caves/main_outpost/seconadry/storage)
 "Wc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
@@ -6107,15 +6115,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"We" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/awaymission/caves/second_outpost/rest)
 "Wf" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -6129,6 +6128,15 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"Wi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/window/brigdoor{
+	req_access_txt = "203"
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "Wj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/wallframe/button,
@@ -6148,6 +6156,15 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
+"Wo" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Gateway Terminial Delta";
+	req_access_txt = "203"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark,
+/area/awaymission/caves/main_outpost/seconadry/gateway)
 "Wq" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
@@ -6195,36 +6212,43 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
+"WH" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabinSec";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost/seconadry/secpost)
 "WI" = (
 /turf/open/floor/carpet,
 /area/awaymission/caves/bmp_asteroid/level_two)
+"WK" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "caveroboinner";
+	pixel_x = -24;
+	pixel_y = 4;
+	req_access_txt = "200"
+	},
+/obj/machinery/button/door{
+	id = "caverobooutter";
+	pixel_x = -24;
+	pixel_y = -4;
+	req_access_txt = "200"
+	},
+/turf/open/floor/plating,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "WP" = (
 /obj/item/flashlight/lamp,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet,
 /area/awaymission/caves/main_outpost/dorm)
-"WS" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor/closed,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
-"WW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/seconadry/research/living)
 "WX" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron,
@@ -6364,6 +6388,13 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"XX" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/closed,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "XZ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6460,6 +6491,15 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"YO" = (
+/obj/machinery/button/door/directional/east{
+	id = "CavesCabinB";
+	name = "Cabin Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/wood/parquet,
+/area/awaymission/caves/main_outpost/seconadry/research/living)
 "YT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/layer_manifold,
@@ -6556,10 +6596,6 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"Zr" = (
-/obj/machinery/airalarm/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost/depo)
 "Zx" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid/level_three)
@@ -6597,15 +6633,14 @@
 /area/awaymission/caves/main_outpost/seconadry/secpost)
 "ZL" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Gateway Terminial Delta";
+	req_access_txt = "203"
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/main_outpost/seconadry/research/living)
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark,
+/area/awaymission/caves/main_outpost/seconadry/gateway)
 "ZM" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -8452,7 +8487,7 @@ pv
 nX
 Fz
 Fz
-yS
+jd
 CH
 Fz
 Fz
@@ -8704,7 +8739,7 @@ Yf
 XD
 wq
 Ie
-jl
+FD
 AW
 ks
 ks
@@ -8961,7 +8996,7 @@ Ie
 XD
 wq
 GT
-WS
+ut
 tD
 YV
 Xn
@@ -8971,9 +9006,9 @@ rj
 rj
 rx
 Nv
-jR
+CS
 kB
-Dk
+RK
 Gu
 Gu
 Gu
@@ -9733,10 +9768,10 @@ wq
 XD
 jV
 gR
-mt
+Mw
 nx
 gR
-dY
+HT
 WP
 gR
 cq
@@ -9991,10 +10026,10 @@ XD
 Ie
 sp
 gR
-aa
+px
 gR
 gR
-AL
+kn
 gR
 Sy
 gR
@@ -10335,7 +10370,7 @@ IT
 IT
 IT
 hE
-WW
+DX
 hE
 hE
 hE
@@ -10552,8 +10587,8 @@ IT
 ZZ
 ZZ
 zv
-Pn
-jG
+Ls
+eq
 Qj
 Lw
 zv
@@ -10849,7 +10884,7 @@ IT
 IT
 IT
 hE
-ZL
+qX
 hE
 hE
 hE
@@ -11067,7 +11102,7 @@ Vw
 Vw
 zv
 aG
-iT
+WH
 Tm
 ih
 zv
@@ -11274,10 +11309,10 @@ Vo
 EA
 gR
 gR
-iD
+la
 gR
 gR
-Fa
+Fp
 gR
 Sy
 gR
@@ -11325,7 +11360,7 @@ zv
 zv
 zv
 zv
-Eu
+Aa
 zv
 zv
 Vw
@@ -11530,10 +11565,10 @@ uS
 Vo
 LM
 gR
-rG
+JT
 nx
 gR
-xJ
+VG
 uq
 gR
 cq
@@ -11583,7 +11618,7 @@ zv
 Xa
 dT
 an
-bn
+dR
 zv
 zv
 zv
@@ -11623,11 +11658,11 @@ uF
 Hr
 hE
 Oe
-by
-mu
+YO
+Ix
 Me
-dW
-UU
+dY
+Bd
 Oe
 hE
 ZZ
@@ -11783,9 +11818,9 @@ Ob
 Ob
 Ob
 Ob
-CX
-OJ
-TS
+XX
+qx
+bB
 gR
 PI
 rp
@@ -11834,9 +11869,9 @@ IT
 IT
 EB
 EB
-gH
+Jd
 pK
-ri
+qK
 Bs
 Xi
 Xi
@@ -12042,7 +12077,7 @@ nh
 io
 oo
 ZQ
-bI
+eo
 gR
 gR
 gR
@@ -12300,7 +12335,7 @@ oR
 ak
 ZQ
 lY
-jl
+FD
 AW
 ks
 Sw
@@ -12557,7 +12592,7 @@ io
 oo
 ZQ
 RR
-WS
+ut
 tD
 bz
 Xn
@@ -12818,9 +12853,9 @@ wf
 wf
 wf
 wf
-LP
+HD
 gE
-yH
+yN
 wf
 wf
 wf
@@ -12869,7 +12904,7 @@ fM
 Qn
 an
 an
-vg
+Wi
 SQ
 oK
 oK
@@ -12909,9 +12944,9 @@ Vw
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -13078,8 +13113,8 @@ oS
 PQ
 EE
 EE
-ds
-Zr
+PO
+IF
 wf
 Vw
 IT
@@ -13128,7 +13163,7 @@ ES
 OH
 EJ
 ig
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -13166,9 +13201,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -13326,7 +13361,7 @@ dI
 dI
 dI
 Qg
-AH
+VC
 Qg
 wf
 Bp
@@ -13423,9 +13458,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -13680,9 +13715,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -13937,9 +13972,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -14145,11 +14180,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -14194,9 +14229,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -14354,7 +14389,7 @@ dI
 dI
 dI
 Qg
-By
+pW
 Qg
 dI
 ZZ
@@ -14402,11 +14437,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -14451,9 +14486,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -14609,11 +14644,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ii
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -14663,7 +14698,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -14708,9 +14743,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -14866,11 +14901,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ly
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -14961,8 +14996,8 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
+hW
+hW
 QH
 QH
 QH
@@ -15122,12 +15157,12 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
+hW
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15138,9 +15173,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -15154,9 +15189,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -15170,9 +15205,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -15186,9 +15221,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -15202,9 +15237,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -15218,7 +15253,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
 QH
 FX
@@ -15379,12 +15414,12 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
 FK
 wF
 DT
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15395,9 +15430,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15411,9 +15446,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15427,9 +15462,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15443,9 +15478,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15459,9 +15494,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15475,7 +15510,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Od
 QH
 on
@@ -15637,7 +15672,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15653,7 +15688,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15669,7 +15704,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15685,7 +15720,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15701,7 +15736,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15717,7 +15752,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15742,14 +15777,14 @@ cv
 Ka
 GC
 QH
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
-Cp
+SU
+SU
+SU
+SU
+SU
+SU
+SU
+SU
 QH
 Ka
 Ka
@@ -15894,7 +15929,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 SE
 ZZ
@@ -15910,7 +15945,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15926,7 +15961,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15942,7 +15977,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15958,7 +15993,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -15974,7 +16009,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16151,7 +16186,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16167,7 +16202,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16183,7 +16218,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16199,7 +16234,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16215,7 +16250,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16231,7 +16266,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16256,14 +16291,14 @@ IJ
 Ka
 GC
 QH
-mT
-mT
-mT
-mT
-mT
-mT
-mT
-mT
+dA
+dA
+dA
+dA
+dA
+dA
+dA
+dA
 QH
 Ka
 Ka
@@ -16407,9 +16442,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16423,9 +16458,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16439,9 +16474,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16455,14 +16490,14 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
-Fy
+hW
+hW
 uz
 RZ
 MG
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16471,9 +16506,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16487,9 +16522,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
-Fy
+hW
 ZZ
 ZZ
 IT
@@ -16503,7 +16538,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Od
 QH
 on
@@ -16664,9 +16699,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -16680,9 +16715,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -16696,9 +16731,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -16712,14 +16747,14 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
-Fy
+hW
+hW
+hW
+hW
 kO
 Dt
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -16728,9 +16763,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -16744,9 +16779,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
+hW
+hW
+hW
 ZZ
 ZZ
 IT
@@ -16760,7 +16795,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 Ro
 QH
 pu
@@ -16972,11 +17007,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -17017,8 +17052,8 @@ IT
 IT
 IT
 ZZ
-Fy
-Fy
+hW
+hW
 QH
 QH
 QH
@@ -17229,11 +17264,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -17278,9 +17313,9 @@ IT
 IT
 IT
 IT
-kh
+ju
 RM
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -17472,7 +17507,7 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -17486,11 +17521,11 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -17537,7 +17572,7 @@ wq
 IT
 ZZ
 xW
-cD
+fT
 ZZ
 ZZ
 ZZ
@@ -17729,11 +17764,9 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+hW
 ZZ
-Fy
-ZZ
-ZZ
+hW
 ZZ
 ZZ
 ZZ
@@ -17743,11 +17776,13 @@ ZZ
 ZZ
 ZZ
 ZZ
-Fy
+ZZ
+ZZ
+hW
 kO
 vZ
 Os
-Fy
+hW
 ZZ
 ZZ
 ZZ
@@ -17980,15 +18015,15 @@ Vw
 Vw
 ZZ
 ZZ
-Fy
+hW
 ZZ
 ZZ
 ZZ
-Fy
-Fy
-Fy
-Fy
-Fy
+hW
+hW
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -18236,19 +18271,19 @@ IT
 IT
 Vw
 Vw
-Fy
-Fy
-Fy
-Fy
-Fy
-Fy
+hW
+hW
+hW
+hW
+hW
+hW
 DK
 Xz
 DK
-Fy
-Fy
-Fy
-Fy
+hW
+hW
+hW
+hW
 ZZ
 ZZ
 ZZ
@@ -18756,9 +18791,9 @@ oN
 DW
 IS
 Jn
-qA
+US
 ix
-Pu
+CJ
 EB
 EB
 EB
@@ -19017,7 +19052,7 @@ DK
 Xz
 DK
 DK
-ik
+eC
 IT
 IT
 IT
@@ -19272,7 +19307,7 @@ Fx
 lZ
 NO
 au
-cL
+WK
 xn
 IT
 IT
@@ -19289,9 +19324,9 @@ nk
 IT
 nk
 nk
-na
+Sz
 hL
-KL
+VY
 cu
 mA
 as
@@ -19332,7 +19367,7 @@ ZZ
 ZZ
 ZZ
 hg
-zz
+eE
 ZZ
 IT
 IT
@@ -19544,7 +19579,7 @@ IT
 IT
 nk
 IT
-hX
+hb
 yW
 yW
 sl
@@ -19803,7 +19838,7 @@ nk
 IT
 IT
 QZ
-vd
+kp
 hv
 dD
 OW
@@ -20101,12 +20136,12 @@ Vw
 ZZ
 ZZ
 za
-zz
+eE
 aO
 aO
 MX
 aO
-zz
+eE
 ZZ
 ZZ
 ZZ
@@ -20618,9 +20653,9 @@ QH
 Ch
 ev
 ev
-zz
+eE
 ZZ
-zz
+eE
 ZZ
 ZZ
 ZZ
@@ -21061,12 +21096,12 @@ Vw
 Vw
 Vw
 ZN
-bR
-fF
+MJ
+vH
 ZN
-Qp
+pH
 Xz
-Vu
+Nr
 DK
 DK
 DK
@@ -21318,7 +21353,7 @@ ZN
 ZN
 ZN
 ZN
-As
+Rc
 ZN
 ZN
 Zd
@@ -21389,7 +21424,7 @@ QH
 QH
 QH
 za
-Fy
+hW
 QH
 QH
 ZZ
@@ -21577,7 +21612,7 @@ og
 Sr
 Sr
 Tl
-fv
+Ez
 dk
 dk
 lI
@@ -22632,7 +22667,7 @@ IT
 oC
 oC
 oC
-DP
+uH
 hh
 pG
 qr
@@ -22887,9 +22922,9 @@ nk
 IT
 IT
 oC
-yx
+Iw
 oC
-Ef
+ru
 cy
 pG
 pG
@@ -23143,10 +23178,10 @@ lW
 nk
 nk
 nk
-rC
+to
 cN
-kF
-el
+NZ
+FB
 df
 LR
 LR
@@ -23649,7 +23684,7 @@ Vw
 Vw
 Vw
 lW
-kW
+JU
 Ak
 Ak
 tM
@@ -33884,9 +33919,9 @@ pf
 tK
 tK
 tK
-OI
+ZL
 AG
-Gv
+xP
 pQ
 pQ
 ws
@@ -34398,9 +34433,9 @@ pf
 Wd
 Wd
 Wd
-cn
+Wo
 AG
-Gv
+xP
 pQ
 dj
 vx
@@ -34493,7 +34528,7 @@ IT
 IT
 IT
 Al
-kX
+Df
 jz
 IT
 IT
@@ -35000,14 +35035,14 @@ IT
 IT
 IT
 Al
-kX
+Df
 jz
 IT
 IT
 Vw
 IT
 hI
-KK
+Ok
 Vg
 IT
 Vw
@@ -35168,7 +35203,7 @@ FN
 FN
 FN
 FN
-RN
+sW
 FN
 IT
 rU
@@ -35514,7 +35549,7 @@ IT
 Vw
 IT
 hI
-KK
+Ok
 Vg
 IT
 Vw
@@ -44447,7 +44482,7 @@ bu
 bu
 ue
 ue
-NV
+aE
 ue
 ue
 ue
@@ -45479,10 +45514,10 @@ PY
 FU
 WF
 WF
-We
+kg
 fO
 Do
-iC
+eY
 nR
 Wq
 dO
@@ -60172,15 +60207,15 @@ Wq
 Wq
 Wq
 RH
-jY
-fL
-fL
+uC
+Ic
+Ic
 vy
 HY
 HY
 HY
-MW
-fL
+Ol
+Ic
 RH
 Wq
 Wq
@@ -60687,17 +60722,17 @@ bu
 Wq
 bX
 Wq
-OL
+xB
 Cu
 HY
 HY
 HY
 HY
 PP
-OL
-OL
-OL
-OL
+xB
+xB
+xB
+xB
 Wq
 Wq
 Wq
