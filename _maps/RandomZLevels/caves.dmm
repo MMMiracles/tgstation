@@ -729,10 +729,14 @@
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
 "gy" = (
-/obj/structure/railing/corner{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/end,
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2bridge2";
+	name = "lvl2bridge2"
 	},
-/turf/open/chasm/lavaland,
+/turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "gz" = (
 /obj/structure/railing/corner{
@@ -792,11 +796,6 @@
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"ha" = (
-/obj/structure/lattice,
-/obj/structure/railing,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "hd" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -1660,13 +1659,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/rec)
-"nA" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "nD" = (
 /obj/effect/landmark/awaystart,
 /turf/open/floor/iron,
@@ -2899,19 +2891,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"wI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 8
-	},
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "wK" = (
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost)
@@ -3196,10 +3175,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/dorm)
-"yu" = (
-/obj/structure/lattice/catwalk,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "yC" = (
 /obj/item/food/grown/banana{
 	desc = "shh... its a secret";
@@ -3267,6 +3242,11 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2bridge3";
+	name = "lvl2bridge3"
+	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "zv" = (
@@ -3394,14 +3374,12 @@
 /turf/closed/indestructible/rock,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Ai" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 4
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2tunnelbridge";
+	name = "lvl2tunnelbridge"
 	},
-/obj/effect/turf_decal/siding/wideplating_new{
-	dir = 8
-	},
-/turf/open/floor/plating/lavaland_atmos,
+/turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Aj" = (
 /obj/item/stack/sheet/iron,
@@ -3621,13 +3599,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/rec)
-"BS" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "BV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -3760,12 +3731,6 @@
 "Dc" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
-"Dd" = (
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "De" = (
 /obj/structure/table,
 /obj/machinery/airalarm/directional/north,
@@ -3825,13 +3790,6 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"DB" = (
-/obj/structure/railing/corner{
-	dir = 8
-	},
-/obj/structure/lattice,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "DD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4471,12 +4429,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"IA" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "IJ" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium_purple";
@@ -4520,13 +4472,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"Jc" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Jn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4733,13 +4678,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"LC" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/sign/warning{
-	name = "MAKE RANDOMIZED IF BROKEN OR NOT VIA MODULAR MAPS"
-	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "LE" = (
 /obj/structure/flora/rock/pile,
 /obj/structure/flora/rock/pile,
@@ -4936,6 +4874,11 @@
 "Nu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/end,
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2bridge1";
+	name = "lvl2bridge1"
+	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Nv" = (
@@ -5200,7 +5143,7 @@
 	},
 /area/awaymission/caves/main_outpost)
 "Ps" = (
-/obj/structure/railing/corner,
+/obj/modular_map_root,
 /turf/open/chasm/lavaland,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Pt" = (
@@ -6112,10 +6055,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/circuit,
 /area/awaymission/caves/second_outpost/rest)
-"VK" = (
-/obj/structure/lattice/catwalk,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "VL" = (
 /obj/effect/step_trigger/teleport_fancy{
 	locationx = 67;
@@ -6592,13 +6531,6 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"Zp" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Zq" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -40400,20 +40332,20 @@ vp
 vp
 vp
 vp
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 vp
 vp
 vp
@@ -40657,20 +40589,20 @@ mZ
 po
 po
 Ua
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Ua
 po
 po
@@ -40914,20 +40846,20 @@ we
 we
 we
 xU
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 vA
 we
 we
@@ -41171,8 +41103,6 @@ Sq
 Sq
 Sq
 Ub
-Wq
-Wq
 dO
 dO
 dO
@@ -41183,8 +41113,10 @@ dO
 dO
 dO
 dO
-Wq
-Wq
+dO
+dO
+dO
+dO
 PK
 Sq
 Sq
@@ -41428,20 +41360,20 @@ rr
 rr
 rr
 ic
-fg
-fg
-fg
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fg
-fg
-fg
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 FG
 rr
 rr
@@ -41686,19 +41618,19 @@ Zn
 Zn
 Zn
 Ai
-Ai
-Ai
-Ai
-Ai
-Ai
-wI
-Ai
-Ai
-Ai
-Ai
-Ai
-Ai
-Ai
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Zn
 Zn
 Zn
@@ -41942,20 +41874,20 @@ ej
 ej
 ej
 Ea
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fd
-fg
-fg
-fg
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 aL
 ej
 ej
@@ -42199,10 +42131,6 @@ Sq
 Sq
 Sq
 Ub
-Wq
-Wq
-Wq
-Wq
 dO
 dO
 dO
@@ -42211,8 +42139,12 @@ dO
 dO
 dO
 dO
-Wq
-Wq
+dO
+dO
+dO
+dO
+dO
+dO
 PK
 Sq
 Sq
@@ -42456,20 +42388,20 @@ CC
 CC
 CC
 GA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-nA
-Zp
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Zl
 CC
 CC
@@ -42713,20 +42645,20 @@ qm
 DJ
 po
 eP
-VK
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
-yu
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 eP
 po
 DJ
@@ -42970,20 +42902,20 @@ vp
 vp
 po
 vp
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
-Jc
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 vp
 po
 vp
@@ -47850,7 +47782,7 @@ Wq
 Wq
 Wq
 zn
-Wq
+dO
 dO
 dO
 dO
@@ -48106,8 +48038,8 @@ Wq
 Wq
 Wq
 Wq
-yu
-BS
+dO
+dO
 dO
 dO
 dO
@@ -48362,9 +48294,9 @@ Wq
 Wq
 Wq
 Wq
-Wq
-yu
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -48619,9 +48551,9 @@ Wq
 dO
 dO
 dO
-ha
-yu
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -48876,9 +48808,9 @@ dO
 dO
 dO
 dO
-ha
-yu
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -49133,9 +49065,9 @@ dO
 dO
 dO
 dO
-ha
-LC
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -49390,9 +49322,9 @@ dO
 dO
 dO
 dO
-ha
-yu
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -49647,9 +49579,9 @@ dO
 dO
 Wq
 Wq
-ha
-yu
-BS
+dO
+dO
+dO
 dO
 dO
 dO
@@ -49904,9 +49836,9 @@ dO
 Wq
 Wq
 Wq
-Wq
+dO
 wE
-BS
+dO
 dO
 dO
 dO
@@ -50163,7 +50095,7 @@ Wq
 bu
 Wq
 Wq
-BS
+dO
 dO
 dO
 dO
@@ -58635,14 +58567,14 @@ Wq
 Wq
 Wq
 zw
-nA
-nA
-IA
+dO
+dO
+dO
 dO
 Ps
-nA
-nA
-nA
+dO
+dO
+dO
 zw
 Wq
 Wq
@@ -58892,14 +58824,14 @@ Wq
 Wq
 Wq
 Se
-yu
 dO
 dO
 dO
-Dd
-yu
-yu
-yu
+dO
+dO
+dO
+dO
+dO
 Nu
 Wq
 Wq
@@ -59148,15 +59080,15 @@ Wq
 Wq
 Wq
 Wq
-Jc
-Jc
-gy
 dO
 dO
-DB
-Jc
-Jc
-Jc
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 gj
 Wq
 Wq
@@ -59169,13 +59101,13 @@ Wq
 Wq
 Wq
 Wq
-nA
-nA
-nA
-nA
-nA
-nA
-nA
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 Wq
@@ -59428,10 +59360,10 @@ Wq
 Wq
 Wq
 Se
-yu
-LC
-yu
-Nu
+dO
+dO
+dO
+gy
 Wq
 Wq
 Wq
@@ -59684,11 +59616,11 @@ bu
 Wq
 Wq
 Wq
-gj
-Jc
-Jc
-Jc
-Jc
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 Wq

@@ -1,0 +1,283 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/obj/structure/lattice,
+/obj/structure/railing/corner,
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"g" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"k" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"n" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"o" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"s" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/obj/modular_map_connector,
+/turf/open/floor/plating/lavaland_atmos,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"x" = (
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating_new{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"A" = (
+/obj/structure/lattice/catwalk,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"C" = (
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"D" = (
+/obj/structure/lattice,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"E" = (
+/obj/structure/lattice,
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"F" = (
+/obj/structure/lattice,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"K" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"L" = (
+/obj/structure/railing/corner,
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"M" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"Y" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"Z" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/awaymission/caves/bmp_asteroid/level_two)
+
+(1,1,1) = {"
+F
+F
+F
+K
+C
+C
+C
+C
+C
+b
+F
+F
+F
+F
+"}
+(2,1,1) = {"
+Y
+Y
+Y
+C
+C
+C
+C
+C
+C
+C
+C
+Y
+Y
+Y
+"}
+(3,1,1) = {"
+o
+o
+o
+g
+C
+C
+C
+C
+C
+C
+Z
+o
+o
+o
+"}
+(4,1,1) = {"
+n
+n
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+n
+n
+"}
+(5,1,1) = {"
+D
+D
+D
+C
+C
+C
+C
+C
+C
+C
+x
+D
+D
+D
+"}
+(6,1,1) = {"
+s
+z
+z
+z
+x
+C
+C
+C
+C
+C
+z
+z
+z
+z
+"}
+(7,1,1) = {"
+x
+x
+x
+C
+C
+C
+C
+C
+C
+x
+x
+D
+D
+D
+"}
+(8,1,1) = {"
+n
+n
+n
+n
+C
+C
+C
+C
+C
+C
+C
+C
+n
+n
+"}
+(9,1,1) = {"
+F
+F
+F
+F
+F
+K
+C
+C
+C
+C
+C
+L
+F
+k
+"}
+(10,1,1) = {"
+A
+Y
+Y
+Y
+Y
+C
+C
+C
+C
+C
+C
+C
+Y
+Y
+"}
+(11,1,1) = {"
+o
+o
+o
+o
+o
+E
+x
+C
+C
+C
+Z
+M
+o
+o
+"}

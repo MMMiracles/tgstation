@@ -1,0 +1,14 @@
+directory = "config/modular_maps/Caves/"
+
+#Various bridges on the 2nd floor
+[rooms.caves_lvl2bridge1]
+modules = ["caves_lvl2bridge1_broken.dmm", "caves_lvl2bridge1_unbroken.dmm"]
+
+[rooms.caves_lvl2bridge2]
+modules = ["caves_lvl2bridge2_broken.dmm", "caves_lvl2bridge2_unbroken.dmm"]
+
+[rooms.caves_lvl2bridge3]
+modules = ["caves_lvl2bridge3_broken.dmm", "caves_lvl2bridge3_unbroken.dmm"]
+
+[rooms.caves_lvl2tunnelbridge]
+modules = ["caves_lvl2tunnelbridge_broken.dmm", "caves_lvl2tunnelbridge_unbroken.dmm"]
