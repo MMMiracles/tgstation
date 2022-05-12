@@ -79,10 +79,11 @@
 			owner.stop_sound_channel(CHANNEL_HEARTBEAT)
 			beat = BEAT_NONE
 
-		if(owner.jitteriness)
+		if(owner.has_status_effect(/datum/status_effect/jitter))
 			if(owner.health > HEALTH_THRESHOLD_FULLCRIT && (!beat || beat == BEAT_SLOW))
 				owner.playsound_local(get_turf(owner), fastbeat, 40, 0, channel = CHANNEL_HEARTBEAT, use_reverb = FALSE)
 				beat = BEAT_FAST
+
 		else if(beat == BEAT_FAST)
 			owner.stop_sound_channel(CHANNEL_HEARTBEAT)
 			beat = BEAT_NONE
@@ -279,10 +280,10 @@
 	. = ..()
 	RegisterSignal(owner, COMSIG_MOB_STATCHANGE, .proc/on_stat_change)
 	RegisterSignal(owner, COMSIG_LIVING_POST_FULLY_HEAL, .proc/on_owner_fully_heal)
-	RegisterSignal(owner, COMSIG_PARENT_PREQDELETED, .proc/owner_deleted)
+	RegisterSignal(owner, COMSIG_PARENT_QDELETING, .proc/owner_deleted)
 
 /obj/item/organ/heart/ethereal/Remove(mob/living/carbon/owner, special = 0)
-	UnregisterSignal(owner, list(COMSIG_MOB_STATCHANGE, COMSIG_LIVING_POST_FULLY_HEAL, COMSIG_PARENT_PREQDELETED))
+	UnregisterSignal(owner, list(COMSIG_MOB_STATCHANGE, COMSIG_LIVING_POST_FULLY_HEAL, COMSIG_PARENT_QDELETING))
 	REMOVE_TRAIT(owner, TRAIT_CORPSELOCKED, SPECIES_TRAIT)
 	stop_crystalization_process(owner)
 	QDEL_NULL(current_crystal)
