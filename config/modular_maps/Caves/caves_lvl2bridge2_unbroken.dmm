@@ -1,43 +1,44 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "e" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "i" = (
 /obj/structure/lattice/catwalk,
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "B" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/end,
+/obj/modular_map_connector,
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
+/area/template_noop)
 "N" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "O" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "P" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
+/area/template_noop)
 "S" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 S

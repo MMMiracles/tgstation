@@ -302,9 +302,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/structure/sign/warning/gasmask{
-	pixel_x = -32
-	},
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 8
 	},
@@ -682,12 +679,6 @@
 /obj/structure/lattice,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"fh" = (
-/obj/structure/sign/warning/gasmask{
-	pixel_y = -32
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/main_outpost/seconadry/gateway)
 "fq" = (
 /turf/closed/wall/mineral/titanium/survival/pod,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
@@ -886,9 +877,6 @@
 	},
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
-	},
-/obj/structure/sign/warning/gasmask{
-	pixel_x = 32
 	},
 /obj/machinery/camera/directional/east{
 	c_tag = "Delta Outpost Mining Dock";
@@ -2142,9 +2130,6 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
 "ph" = (
-/obj/structure/sign/warning/gasmask{
-	pixel_y = -32
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
@@ -4316,14 +4301,6 @@
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
-"DA" = (
-/obj/structure/sign/warning/securearea{
-	desc = "A warning sign which reads 'RAIL ACCESS'.";
-	name = "SITE ACCESS RAIL TUNNEL";
-	pixel_y = -32
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "DD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5119,9 +5096,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/sign/warning/gasmask{
-	pixel_x = -32
-	},
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
 	},
@@ -5421,20 +5395,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"LT" = (
-/obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/effect/turf_decal/siding/thinplating_new/dark{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fence{
-	dir = 8
-	},
-/obj/structure/sign/warning/securearea,
-/turf/open/floor/iron/smooth{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/awaymission/caves/second_outpost/tunnel)
 "LU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -5680,9 +5640,6 @@
 "NK" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
-/obj/structure/sign/warning/electricshock{
-	pixel_x = -32
-	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
 "NL" = (
@@ -6694,9 +6651,6 @@
 /area/awaymission/caves/bmp_asteroid/level_two)
 "TY" = (
 /obj/structure/cable,
-/obj/structure/sign/warning/gasmask{
-	pixel_y = 32
-	},
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
@@ -7364,15 +7318,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost)
-"Yg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/warning/gasmask{
-	pixel_x = 32
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/awaymission/caves/second_outpost/tunnel)
 "Yi" = (
 /obj/structure/lattice,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -21601,7 +21546,7 @@ Vw
 ZN
 ZN
 ZN
-ZN
+DK
 RF
 Il
 Rj
@@ -21858,7 +21803,7 @@ Vw
 ZN
 wB
 fD
-ZN
+DK
 nq
 pl
 lI
@@ -22115,7 +22060,7 @@ Vw
 ZN
 Lo
 Ic
-ZN
+DK
 AH
 Xz
 iV
@@ -22372,7 +22317,7 @@ ZN
 ZN
 sk
 ZN
-ZN
+DK
 Zd
 Ej
 lI
@@ -22886,7 +22831,7 @@ ZN
 CZ
 bG
 HC
-ZN
+DK
 sz
 ED
 PN
@@ -23143,7 +23088,7 @@ ZN
 iO
 bG
 vX
-ZN
+DK
 ln
 tY
 aC
@@ -23400,7 +23345,7 @@ ZN
 iq
 xE
 Xb
-ZN
+DK
 DK
 DK
 DK
@@ -33939,7 +33884,7 @@ IT
 IT
 IT
 IT
-DA
+IT
 vp
 vp
 vp
@@ -34678,7 +34623,7 @@ MP
 hM
 oH
 CN
-fh
+tK
 FN
 FN
 FN
@@ -35227,7 +35172,7 @@ IT
 ZZ
 IT
 IT
-LT
+Rk
 Wc
 Fs
 ej
@@ -35995,7 +35940,7 @@ IT
 IT
 Pa
 IT
-DA
+IT
 vp
 vp
 vp
@@ -40613,7 +40558,7 @@ bu
 vp
 qZ
 Nh
-Yg
+Nh
 Nh
 Ur
 Ur

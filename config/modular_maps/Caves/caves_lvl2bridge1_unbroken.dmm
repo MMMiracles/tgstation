@@ -3,44 +3,45 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "l" = (
 /obj/structure/lattice/catwalk,
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "n" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "o" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/chasm/lavaland,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "I" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
+/area/template_noop)
 "O" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/end,
+/obj/modular_map_connector,
 /turf/open/floor/plating/lavaland_atmos,
-/area/space)
+/area/template_noop)
 "Y" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 Y

@@ -5,19 +5,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/area/template_noop)
 "c" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "f" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "h" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
@@ -25,37 +25,34 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/modular_map_connector,
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/area/template_noop)
 "i" = (
 /obj/structure/railing/corner,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "w" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "H" = (
 /obj/structure/lattice,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "I" = (
 /obj/structure/lattice/catwalk,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "L" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "O" = (
 /obj/structure/lattice,
 /obj/structure/railing,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"X" = (
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 L
@@ -74,22 +71,22 @@ w
 "}
 (4,1,1) = {"
 H
-X
+L
 w
 "}
 (5,1,1) = {"
-X
-X
+L
+L
 c
 "}
 (6,1,1) = {"
-X
-X
-X
+L
+L
+L
 "}
 (7,1,1) = {"
 i
-X
+L
 f
 "}
 (8,1,1) = {"

@@ -2,31 +2,25 @@
 "b" = (
 /obj/structure/lattice,
 /obj/structure/railing/corner,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "g" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"k" = (
-/obj/structure/lattice,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"n" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
+"h" = (
+/obj/effect/decal/fakelattice,
+/turf/template_noop,
+/area/template_noop)
 "o" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "s" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -37,11 +31,11 @@
 	},
 /obj/modular_map_connector,
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/area/template_noop)
 "x" = (
 /obj/structure/lattice,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "z" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -51,59 +45,51 @@
 	dir = 8
 	},
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/area/template_noop)
 "A" = (
 /obj/structure/lattice/catwalk,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "C" = (
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"D" = (
-/obj/structure/lattice,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "E" = (
 /obj/structure/lattice,
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "F" = (
 /obj/structure/lattice,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "K" = (
 /obj/structure/railing/corner{
 	dir = 4
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "L" = (
 /obj/structure/railing/corner,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "M" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/lattice,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Y" = (
-/obj/structure/lattice/catwalk,
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 "Z" = (
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/chasm/lavaland,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 F
@@ -122,9 +108,9 @@ F
 F
 "}
 (2,1,1) = {"
-Y
-Y
-Y
+A
+A
+A
 C
 C
 C
@@ -133,9 +119,9 @@ C
 C
 C
 C
-Y
-Y
-Y
+A
+A
+A
 "}
 (3,1,1) = {"
 o
@@ -154,8 +140,6 @@ o
 o
 "}
 (4,1,1) = {"
-n
-n
 C
 C
 C
@@ -166,13 +150,15 @@ C
 C
 C
 C
-n
-n
+C
+C
+C
+C
 "}
 (5,1,1) = {"
-D
-D
-D
+x
+x
+x
 C
 C
 C
@@ -181,9 +167,9 @@ C
 C
 C
 x
-D
-D
-D
+x
+x
+x
 "}
 (6,1,1) = {"
 s
@@ -191,7 +177,7 @@ z
 z
 z
 x
-C
+h
 C
 C
 C
@@ -213,15 +199,11 @@ C
 C
 x
 x
-D
-D
-D
+x
+x
+x
 "}
 (8,1,1) = {"
-n
-n
-n
-n
 C
 C
 C
@@ -230,8 +212,12 @@ C
 C
 C
 C
-n
-n
+C
+C
+C
+C
+C
+C
 "}
 (9,1,1) = {"
 F
@@ -247,14 +233,14 @@ C
 C
 L
 F
-k
+F
 "}
 (10,1,1) = {"
 A
-Y
-Y
-Y
-Y
+A
+A
+A
+A
 C
 C
 C
@@ -262,8 +248,8 @@ C
 C
 C
 C
-Y
-Y
+A
+A
 "}
 (11,1,1) = {"
 o
