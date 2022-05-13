@@ -1,0 +1,548 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"c" = (
+/mob/living/simple_animal/hostile/asteroid/lobstrosity/lava,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"f" = (
+/obj/effect/mob_spawn/corpse/human/damaged{
+	mob_name = "Grabs-The-Fishy";
+	mob_species = /datum/species/lizard/ashwalker;
+	mob_type = /mob/living/carbon/human;
+	outfit = /datum/outfit/ashwalker
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"g" = (
+/obj/structure/stone_tile/cracked{
+	dir = 1
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"j" = (
+/obj/item/stack/ore/plasma{
+	amount = 12
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"l" = (
+/mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"r" = (
+/obj/structure/stone_tile/block,
+/obj/structure/stone_tile/block/cracked{
+	dir = 9
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"s" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"t" = (
+/obj/structure/stone_tile/block{
+	dir = 1
+	},
+/obj/structure/stone_tile/block/cracked,
+/obj/item/storage/fish_case/syndicate,
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"u" = (
+/obj/item/storage/bag/ore,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"y" = (
+/obj/structure/flora/ash/stem_shroom,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"z" = (
+/obj/structure/flora/ash/tall_shroom,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"A" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"B" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"D" = (
+/obj/structure/barricade/sandbags,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"F" = (
+/obj/item/storage/bag/ore,
+/obj/item/stack/ore/silver{
+	amount = 15
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"H" = (
+/obj/item/stack/ore/bluespace_crystal{
+	amount = 7
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"I" = (
+/obj/modular_map_connector,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"K" = (
+/obj/structure/stone_tile/cracked{
+	dir = 4
+	},
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"O" = (
+/obj/structure/flora/ash/cap_shroom,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"R" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/item/paicard{
+	desc = "A harm alarm, it seems like it wasn't all that useful after all..."
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"S" = (
+/obj/item/stack/ore/diamond{
+	amount = 7
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"T" = (
+/obj/item/food/fishmeat{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/food/fishmeat,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"U" = (
+/obj/item/spear/bonespear,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"W" = (
+/turf/closed/mineral/volcanic,
+/area/template_noop)
+"X" = (
+/obj/item/emptysandbag,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Y" = (
+/obj/effect/mob_spawn/corpse/human/miner/explorer{
+	burn_damage = 1000
+	},
+/obj/item/pickaxe,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Z" = (
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+
+(1,1,1) = {"
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+W
+W
+W
+W
+W
+"}
+(2,1,1) = {"
+A
+A
+A
+A
+u
+A
+A
+X
+A
+A
+A
+W
+W
+W
+W
+W
+W
+W
+"}
+(3,1,1) = {"
+A
+A
+a
+a
+A
+A
+W
+W
+A
+A
+W
+W
+W
+W
+W
+W
+W
+W
+"}
+(4,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+X
+A
+B
+D
+A
+s
+O
+O
+W
+W
+"}
+(5,1,1) = {"
+W
+W
+W
+W
+W
+W
+Z
+W
+W
+A
+D
+D
+B
+A
+s
+O
+W
+W
+"}
+(6,1,1) = {"
+W
+W
+Z
+Z
+Z
+Z
+Z
+W
+W
+W
+W
+W
+A
+A
+A
+W
+W
+W
+"}
+(7,1,1) = {"
+W
+W
+Z
+Z
+Z
+Z
+A
+A
+z
+z
+z
+A
+A
+A
+W
+W
+W
+W
+"}
+(8,1,1) = {"
+W
+Z
+Z
+Z
+Z
+Z
+T
+c
+A
+z
+A
+B
+A
+W
+W
+W
+W
+W
+"}
+(9,1,1) = {"
+W
+Z
+Z
+K
+K
+U
+B
+A
+I
+A
+A
+A
+W
+W
+A
+A
+A
+W
+"}
+(10,1,1) = {"
+W
+Z
+Z
+t
+r
+f
+A
+A
+A
+A
+A
+A
+W
+W
+W
+A
+A
+W
+"}
+(11,1,1) = {"
+W
+Z
+Z
+g
+g
+A
+s
+W
+A
+A
+A
+A
+W
+W
+A
+A
+A
+W
+"}
+(12,1,1) = {"
+W
+Z
+Z
+Z
+A
+A
+W
+W
+s
+A
+A
+W
+W
+A
+A
+A
+W
+W
+"}
+(13,1,1) = {"
+W
+Z
+Z
+Z
+A
+c
+W
+W
+W
+A
+A
+l
+B
+A
+A
+W
+W
+W
+"}
+(14,1,1) = {"
+W
+W
+Z
+Z
+Z
+A
+W
+W
+A
+A
+A
+A
+A
+W
+W
+W
+W
+W
+"}
+(15,1,1) = {"
+W
+W
+W
+Z
+Z
+z
+W
+W
+A
+l
+B
+A
+A
+A
+W
+W
+W
+W
+"}
+(16,1,1) = {"
+W
+W
+W
+W
+Z
+W
+W
+W
+W
+A
+Y
+R
+l
+A
+W
+W
+W
+W
+"}
+(17,1,1) = {"
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+j
+F
+A
+s
+W
+W
+W
+W
+"}
+(18,1,1) = {"
+A
+A
+W
+W
+W
+W
+W
+W
+W
+y
+H
+S
+s
+s
+W
+W
+W
+W
+"}
+(19,1,1) = {"
+s
+A
+W
+W
+W
+W
+W
+W
+W
+y
+y
+A
+W
+W
+W
+A
+W
+W
+"}
+(20,1,1) = {"
+s
+A
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+W
+A
+W
+W
+"}

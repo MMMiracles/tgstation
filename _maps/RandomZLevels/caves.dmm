@@ -2372,6 +2372,10 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/second_outpost/tunnel)
+"rb" = (
+/obj/item/emptysandbag,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "rc" = (
 /obj/machinery/door/poddoor{
 	id = "loldontopenthisplsthx"
@@ -3235,6 +3239,12 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/black,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
+"wC" = (
+/obj/structure/mecha_wreckage/ripley,
+/obj/effect/decal/cleanable/oil,
+/obj/item/mod/module/orebag,
+/turf/open/floor/iron/recharge_floor,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "wD" = (
 /obj/structure/sink{
 	dir = 8;
@@ -4326,6 +4336,14 @@
 /obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
+"DI" = (
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2encounter1";
+	name = "lvl2encounter1"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "DJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/xeno_mining{
@@ -5018,15 +5036,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
-"Ii" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/rack,
-/obj/item/mining_scanner,
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "Ij" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -5105,6 +5114,10 @@
 /obj/structure/sign/departments/drop,
 /turf/closed/indestructible/riveted,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
+"Js" = (
+/obj/item/stack/sheet/mineral/sandbags,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "Ju" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/cable,
@@ -5149,6 +5162,11 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"JU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/storage/bag/ore,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "Ka" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research)
@@ -5494,10 +5512,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"MH" = (
-/obj/modular_map_root,
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "MM" = (
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 8
@@ -6119,6 +6133,16 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
+"QN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/mining_scanner,
+/obj/item/storage/bag/ore,
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "QO" = (
 /obj/item/stack/sheet/iron,
 /obj/effect/decal/cleanable/dirt,
@@ -6467,11 +6491,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"SV" = (
-/obj/structure/mecha_wreckage/ripley,
-/obj/effect/decal/cleanable/oil,
-/turf/open/floor/iron/recharge_floor,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Ta" = (
 /obj/structure/railing{
 	dir = 8
@@ -14835,7 +14854,7 @@ dI
 Rg
 wi
 kL
-kL
+JU
 Ed
 Dy
 zX
@@ -15607,7 +15626,7 @@ ZZ
 ZZ
 ZZ
 tW
-Ii
+QN
 vZ
 Os
 tW
@@ -21291,7 +21310,7 @@ Vw
 Vw
 DK
 sj
-SV
+wC
 DW
 Fx
 XZ
@@ -48787,7 +48806,7 @@ bu
 bu
 bu
 bu
-Wq
+rb
 Wq
 Wq
 Wq
@@ -49044,7 +49063,7 @@ bu
 bu
 KA
 bu
-Wq
+Js
 Wq
 Wq
 Wq
@@ -51359,7 +51378,7 @@ Wq
 Tt
 Wq
 Wq
-Wq
+rb
 bu
 Wq
 RH
@@ -51614,7 +51633,7 @@ Wq
 Wq
 Wq
 Tt
-Wq
+rb
 Wq
 bu
 bu
@@ -56223,7 +56242,7 @@ Wq
 Wq
 Wq
 Wq
-YY
+DI
 Wq
 Wq
 Wq
@@ -59582,7 +59601,7 @@ PB
 PB
 PB
 PB
-MH
+PB
 PB
 PB
 PB
