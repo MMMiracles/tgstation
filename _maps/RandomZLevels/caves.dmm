@@ -161,6 +161,12 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"bd" = (
+/obj/structure/dead_ratvar{
+	name = "big dumb dead idiot"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "be" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/depo)
@@ -205,6 +211,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
+"by" = (
+/obj/item/stack/sheet/mineral/sandbags,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "bz" = (
 /obj/effect/landmark/awaystart,
 /obj/structure/cable,
@@ -677,6 +687,14 @@
 /area/awaymission/caves/bmp_asteroid/level_two)
 "fg" = (
 /obj/structure/lattice,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
+"fl" = (
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2encounter1";
+	name = "lvl2encounter1"
+	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "fq" = (
@@ -1415,6 +1433,16 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
+"kn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/item/mining_scanner,
+/obj/item/storage/bag/ore,
+/turf/open/lava/smooth/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid)
 "kr" = (
 /obj/structure/sink{
 	dir = 4;
@@ -2170,6 +2198,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
+"pp" = (
+/obj/item/emptysandbag,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "pu" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 4
@@ -2372,10 +2404,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/second_outpost/tunnel)
-"rb" = (
-/obj/item/emptysandbag,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "rc" = (
 /obj/machinery/door/poddoor{
 	id = "loldontopenthisplsthx"
@@ -2658,6 +2686,9 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"sP" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_four)
 "sR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor/closed,
@@ -3239,12 +3270,6 @@
 /obj/item/flashlight/lamp,
 /turf/open/floor/carpet/black,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"wC" = (
-/obj/structure/mecha_wreckage/ripley,
-/obj/effect/decal/cleanable/oil,
-/obj/item/mod/module/orebag,
-/turf/open/floor/iron/recharge_floor,
-/area/awaymission/caves/main_outpost/seconadry/mecha)
 "wD" = (
 /obj/structure/sink{
 	dir = 8;
@@ -4180,6 +4205,11 @@
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
+"CG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/storage/bag/ore,
+/turf/open/floor/iron,
+/area/awaymission/caves/main_outpost)
 "CH" = (
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall,
@@ -4336,14 +4366,6 @@
 /obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"DI" = (
-/obj/modular_map_root{
-	config_file = "config/modular_maps/config_files/Caves.toml";
-	key = "caves_lvl2encounter1";
-	name = "lvl2encounter1"
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "DJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/xeno_mining{
@@ -4578,6 +4600,12 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"Fd" = (
+/obj/structure/mecha_wreckage/ripley,
+/obj/effect/decal/cleanable/oil,
+/obj/item/mod/module/orebag,
+/turf/open/floor/iron/recharge_floor,
+/area/awaymission/caves/main_outpost/seconadry/mecha)
 "Fe" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -4971,6 +4999,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
+"HJ" = (
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2encounter2";
+	name = "lvl2encounter2"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/awaymission/caves/bmp_asteroid/level_two)
 "HP" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -5114,10 +5150,6 @@
 /obj/structure/sign/departments/drop,
 /turf/closed/indestructible/riveted,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"Js" = (
-/obj/item/stack/sheet/mineral/sandbags,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ju" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/cable,
@@ -5162,11 +5194,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"JU" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/storage/bag/ore,
-/turf/open/floor/iron,
-/area/awaymission/caves/main_outpost)
 "Ka" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research)
@@ -6133,16 +6160,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
-"QN" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/rack,
-/obj/item/mining_scanner,
-/obj/item/storage/bag/ore,
-/turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid)
 "QO" = (
 /obj/item/stack/sheet/iron,
 /obj/effect/decal/cleanable/dirt,
@@ -14854,7 +14871,7 @@ dI
 Rg
 wi
 kL
-JU
+CG
 Ed
 Dy
 zX
@@ -15626,7 +15643,7 @@ ZZ
 ZZ
 ZZ
 tW
-QN
+kn
 vZ
 Os
 tW
@@ -21310,7 +21327,7 @@ Vw
 Vw
 DK
 sj
-wC
+Fd
 DW
 Fx
 XZ
@@ -48806,7 +48823,7 @@ bu
 bu
 bu
 bu
-rb
+pp
 Wq
 Wq
 Wq
@@ -49063,7 +49080,7 @@ bu
 bu
 KA
 bu
-Js
+by
 Wq
 Wq
 Wq
@@ -51378,7 +51395,7 @@ Wq
 Tt
 Wq
 Wq
-rb
+pp
 bu
 Wq
 RH
@@ -51633,7 +51650,7 @@ Wq
 Wq
 Wq
 Tt
-rb
+pp
 Wq
 bu
 bu
@@ -54097,8 +54114,8 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
+sP
+sP
 Ev
 Ev
 Ev
@@ -54352,10 +54369,10 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -54609,13 +54626,13 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -54863,17 +54880,17 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -55120,17 +55137,17 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -55377,17 +55394,17 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -55635,17 +55652,17 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+bd
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -55891,18 +55908,18 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -56148,18 +56165,18 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -56242,7 +56259,7 @@ Wq
 Wq
 Wq
 Wq
-DI
+fl
 Wq
 Wq
 Wq
@@ -56404,19 +56421,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -56661,19 +56678,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -56918,19 +56935,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -57175,19 +57192,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -57432,19 +57449,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -57689,19 +57706,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -57946,19 +57963,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -58203,19 +58220,19 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -58461,18 +58478,18 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -58718,17 +58735,17 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -58976,16 +58993,16 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -59232,16 +59249,16 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -59491,14 +59508,14 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -59749,11 +59766,11 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -60007,10 +60024,10 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -60264,9 +60281,9 @@ Ev
 Ev
 Ev
 Ev
-Ev
-Ev
-Ev
+sP
+sP
+sP
 Ev
 Ev
 Ev
@@ -65775,7 +65792,7 @@ bu
 bu
 bu
 bu
-Ao
+Wq
 Wq
 Wq
 bu
@@ -66032,8 +66049,8 @@ bu
 bu
 bu
 bu
-Ao
-xD
+Wq
+Wq
 Wq
 bu
 bu
@@ -66289,8 +66306,8 @@ bu
 bu
 bu
 bu
-Tx
-xD
+Wq
+HJ
 Wq
 bu
 bu
