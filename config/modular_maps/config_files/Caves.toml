@@ -12,3 +12,14 @@ modules = ["caves_lvl2bridge3_broken.dmm", "caves_lvl2bridge3_unbroken.dmm"]
 
 [rooms.caves_lvl2tunnelbridge]
 modules = ["caves_lvl2tunnelbridge_broken.dmm", "caves_lvl2tunnelbridge_unbroken.dmm"]
+
+#Randomly chosen combat segments on the 2nd floor
+[rooms.caves_lvl2encounter1]
+modules = ["caves_lvl2encounter1_a.dmm", "caves_lvl2encounter1_b.dmm", "caves_lvl2encounter1_c.dmm"]
+
+[rooms.caves_lvl2encounter2]
+modules = ["caves_lvl2encounter2_a.dmm", "caves_lvl2encounter2_b.dmm", "caves_lvl2encounter2_c.dmm"]
+
+#Research outpost on the 2nd floor
+[rooms.caves_lvl2researchpost]
+modules = ["caves_lvl2researchpost_a.dmm", "caves_lvl2researchpost_b.dmm", "caves_lvl2researchpost_c.dmm"]

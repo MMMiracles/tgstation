@@ -2,12 +2,6 @@
 "ab" = (
 /turf/cordon,
 /area/cordon)
-"ac" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "af" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -25,9 +19,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"ao" = (
-/turf/open/floor/iron/freezer,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ap" = (
 /obj/structure/spawner/lavaland/goliath,
 /turf/open/indestructible/necropolis,
@@ -123,16 +114,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/rec)
-"aT" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple/anticorner,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "aV" = (
 /obj/item/screwdriver{
 	pixel_y = 10
@@ -140,10 +121,6 @@
 /obj/item/crowbar/large,
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
-"aY" = (
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "aZ" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -200,13 +177,6 @@
 "bu" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"bw" = (
-/obj/machinery/computer/terminal{
-	content = list("MINER-MAIL - #456 - Mineral Specialist J. Ullman -> E. Queef -- Do you know if the time clock down by your office was fixed? I'm tired of checking in at the office by the ravine and if I get docked another half point for being a minute late from lunch again they're going to make me sign a dumb fucking paper about being IrReSpOnSiBlE with my breaks. I hate management.");
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "bx" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
@@ -239,11 +209,6 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"bI" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "bP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tank_dispenser/oxygen{
@@ -251,10 +216,6 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/second_outpost/tunnel)
-"bR" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "bW" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
@@ -287,10 +248,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"ck" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "cq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -371,27 +328,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/dorm)
-"cK" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"cM" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/light/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "cN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -405,10 +341,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost)
-"cT" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "cY" = (
 /obj/structure/mecha_wreckage/ripley,
 /obj/effect/decal/cleanable/oil,
@@ -620,11 +552,6 @@
 "eB" = (
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"eC" = (
-/obj/structure/table,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "eD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/titanium/tiled{
@@ -641,18 +568,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"eM" = (
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"eN" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "eP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning{
@@ -764,12 +679,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/second_outpost/rest)
-"fR" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron/freezer,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "fU" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -873,16 +782,6 @@
 "gR" = (
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/dorm)
-"gT" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "gV" = (
 /obj/structure/flora/ash/seraka,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -911,11 +810,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"he" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "hg" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced/spawner,
@@ -954,13 +848,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost)
-"ho" = (
-/obj/machinery/computer/security{
-	network = list("cavesscipost")
-	},
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "hs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
@@ -1011,16 +898,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/engineering)
-"hC" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "hD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1089,22 +966,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"id" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"ie" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"if" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ig" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/stool/bar/directional/south,
@@ -1139,13 +1000,6 @@
 /obj/machinery/light/warm/directional/east,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"ir" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "it" = (
 /obj/effect/turf_decal/stripes/box,
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -1192,16 +1046,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
-"iE" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "iH" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
@@ -1264,18 +1108,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
-"iZ" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ja" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_three)
@@ -1321,11 +1153,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"jk" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "jn" = (
 /obj/machinery/stasis/survival_pod,
 /turf/open/floor/pod,
@@ -1369,11 +1196,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"jH" = (
-/obj/machinery/power/rtg,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "jO" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/machinery/door/firedoor/closed,
@@ -1386,11 +1208,6 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"jQ" = (
-/obj/structure/chair/stool/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "jV" = (
 /obj/item/stack/sheet/iron,
 /obj/effect/decal/cleanable/dirt,
@@ -1407,15 +1224,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"kb" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "kj" = (
 /obj/structure/grille/broken,
 /obj/item/shard,
@@ -1519,11 +1327,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"ky" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/purple/anticorner,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "kB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1568,10 +1371,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/depo)
-"kW" = (
-/obj/effect/turf_decal/tile/purple,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "kY" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 8
@@ -1591,18 +1390,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"lg" = (
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"li" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "lj" = (
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron,
@@ -1641,12 +1428,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"lq" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "lr" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/table/wood,
@@ -1680,14 +1461,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"lO" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner/west,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"lP" = (
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "lT" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -1712,11 +1485,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"me" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "mj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/red/directional/east,
@@ -1743,23 +1511,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/stairs,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"mv" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"mx" = (
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/closet/secure_closet{
-	icon_state = "sec";
-	name = "security officer's locker";
-	req_access_txt = "203"
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "mA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1768,13 +1519,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"mB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "mC" = (
 /obj/machinery/button/door{
 	id = "caverobooutter";
@@ -1812,13 +1556,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"mP" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "mQ" = (
 /obj/machinery/door/airlock{
 	id_tag = "CavesCabinB";
@@ -1883,15 +1620,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"nm" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "no" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -1964,10 +1692,6 @@
 /obj/effect/landmark/awaystart,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
-"nG" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "nJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2019,16 +1743,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"oi" = (
-/obj/structure/table,
-/obj/item/folder,
-/obj/item/folder/yellow{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/pen,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "on" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 1
@@ -2115,10 +1829,6 @@
 /obj/vehicle/sealed/mecha/working/ripley/mining,
 /turf/open/floor/iron/recharge_floor,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"oP" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "oQ" = (
 /obj/item/chair/stool,
 /obj/effect/spawner/random/food_or_drink/booze,
@@ -2137,13 +1847,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/depo)
-"oT" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "pa" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
@@ -2304,10 +2007,6 @@
 "qi" = (
 /obj/structure/flora/ash/tall_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"qj" = (
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "qm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2501,13 +2200,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"rt" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ru" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -2574,25 +2266,11 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"sa" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "se" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/cable_coil/five,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"si" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "sj" = (
 /obj/machinery/computer/mech_bay_power_console,
 /obj/item/clothing/glasses/welding,
@@ -2611,12 +2289,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"sn" = (
-/obj/machinery/computer/terminal{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "sp" = (
 /obj/structure/girder,
 /obj/effect/decal/cleanable/dirt,
@@ -2795,12 +2467,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"tv" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "tx" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
@@ -2826,13 +2492,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"tG" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/structure/chair/stool/directional/north,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "tK" = (
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
@@ -2843,12 +2502,6 @@
 /obj/structure/flora/ash/tall_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"tU" = (
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "tW" = (
 /obj/structure/lattice{
 	obj_flags = 4612
@@ -2895,16 +2548,6 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
-"ul" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"un" = (
-/obj/structure/table/wood,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "uq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3011,11 +2654,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost)
-"uY" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "vb" = (
 /obj/structure/flora/rock/pile,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -3136,22 +2774,10 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"vJ" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "vR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/storage)
-"vS" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "vV" = (
 /obj/structure/railing/corner,
 /turf/open/lava/smooth/lava_land_surface,
@@ -3296,15 +2922,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"wH" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "wK" = (
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost)
@@ -3406,11 +3023,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"xo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "xq" = (
 /obj/effect/turf_decal/box,
 /obj/structure/closet/crate/secure/science,
@@ -3443,12 +3055,6 @@
 /obj/item/shard,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"xu" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "xx" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "Mining External Airlock";
@@ -3460,14 +3066,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"xy" = (
-/obj/effect/turf_decal/tile/red/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "xA" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3608,11 +3206,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/dorm)
-"yy" = (
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "yC" = (
 /obj/item/food/grown/banana{
 	desc = "shh... its a secret";
@@ -3687,24 +3280,6 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"zo" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"zs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"zt" = (
-/obj/structure/cable,
-/obj/structure/rack,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "zv" = (
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
@@ -3732,12 +3307,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"zE" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "zG" = (
 /obj/structure/sign/warning{
 	name = "MODULAR CAVES: THIS WILL BE A PAIN IN THE ASS TO DO PROBABLY"
@@ -3770,11 +3339,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"zP" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "zQ" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/asteroid/goliath/beast{
@@ -3895,10 +3459,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/depo)
-"AA" = (
-/obj/effect/turf_decal/tile/purple/anticorner,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "AF" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -3955,17 +3515,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
-"AZ" = (
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Bc" = (
 /obj/structure/chair/stool/directional/north,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -4004,15 +3553,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Bu" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/rd{
-	dir = 4
-	},
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Bw" = (
 /obj/machinery/door/airlock{
 	id_tag = "CavesCabinC";
@@ -4025,12 +3565,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
-"By" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "BA" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/dirt,
@@ -4057,22 +3591,9 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"BD" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "BE" = (
 /turf/open/floor/circuit,
 /area/awaymission/caves/second_outpost/rest)
-"BI" = (
-/obj/machinery/computer/terminal{
-	content = list("INFO-SECURE: You're number one source of encrypted text files! ERROR: Encryption hash not found, file not encrypted! -- NOTES: Cycle 34-Miners uncovered pieces of scrap bronze from one of the local lizard nests they cleared out recently. Ullman is a bit perplexed by this as this hellscape we dig has no natural deposits of neither tin nor copper, let alone humoring the prospects these primals may actually be learning metalworking to some extent due to our prolonged presence here. I've asked the QM if anything in previous request logs had anything made of bronze, mostly to see if maybe they're just stealing from our storage bay during off-hours.");
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "BJ" = (
 /obj/effect/landmark/tram/right_part{
 	destination_id = "caves_bottom";
@@ -4103,10 +3624,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/rec)
-"BP" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/carpet,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "BV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -4122,11 +3639,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"BY" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Cb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
@@ -4147,14 +3659,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"Cj" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ck" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -4163,30 +3667,11 @@
 /obj/item/stack/rods,
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"Cn" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/freezer,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Cp" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner,
-/obj/item/folder/blue,
-/obj/item/folder/red{
-	pixel_x = 5
-	},
-/obj/item/pen/fourcolor,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Cu" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Cy" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/freezer,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "CC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4214,17 +3699,6 @@
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall,
 /area/awaymission/caves/main_outpost/engineering)
-"CL" = (
-/obj/machinery/computer/terminal{
-	content = list("MINER-MAIL - #445 -Shaft Miner Jim Joffee -> J. Ullman -- Just checking for an update on that last email I sent about the debris I found on the lower levels. I know these caves are inhabited by those cave lizards, but them having bronze metal seems really odd. Don't tell me these lizardbrains are entering the bronze age, they might actually start being a problem.")
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"CM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/layer_manifold,
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "CN" = (
 /obj/structure/table,
 /turf/open/floor/iron/dark,
@@ -4285,11 +3759,6 @@
 "Dc" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/second_outpost/rest)
-"Dd" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "De" = (
 /obj/structure/table,
 /obj/machinery/airalarm/directional/north,
@@ -4433,48 +3902,12 @@
 "Eo" = (
 /turf/open/floor/pod,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"Eq" = (
-/obj/machinery/computer/terminal,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Et" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ev" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid/level_four)
-"Ew" = (
-/obj/structure/dresser,
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ex" = (
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"Ey" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/light/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Ez" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "EA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral/half/contrasted,
@@ -4513,15 +3946,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/research)
-"EH" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "EJ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -4550,12 +3974,13 @@
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
 "ET" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
+/obj/modular_map_root{
+	config_file = "config/modular_maps/config_files/Caves.toml";
+	key = "caves_lvl2researchpost";
+	name = "lvl2researchpost"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
+/turf/closed/indestructible/riveted,
+/area/awaymission/caves/second_outpost/tunnel)
 "EV" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -4692,12 +4117,6 @@
 "FN" = (
 /turf/closed/wall/r_wall,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"FO" = (
-/obj/structure/chair/office/light{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "FR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
@@ -4740,12 +4159,6 @@
 /obj/item/wrench,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"Gf" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Gi" = (
 /turf/closed/mineral/strong,
 /area/awaymission/caves/bmp_asteroid)
@@ -4837,38 +4250,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"GK" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"GL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "GM" = (
 /obj/item/gps/mining{
 	gpstag = "RIPLEY01"
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"GO" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "GR" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
@@ -4925,12 +4312,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Hn" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ho" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/shuttle/engine/propulsion/in_wall,
@@ -4951,12 +4332,6 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"Hs" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Hu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -5014,21 +4389,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"HR" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"HW" = (
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "HX" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Central Terminal Access"
@@ -5085,11 +4445,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"IG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "IJ" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium_purple";
@@ -5133,10 +4488,6 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"Jd" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Jn" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5172,13 +4523,6 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"JE" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "JP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -5197,11 +4541,6 @@
 "Ka" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research)
-"Kb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Kg" = (
 /obj/machinery/power/rtg,
 /obj/structure/cable,
@@ -5218,12 +4557,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/dorm)
-"Ko" = (
-/obj/structure/table/wood,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Kr" = (
 /obj/item/stack/sheet/iron,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -5242,46 +4575,14 @@
 "KA" = (
 /turf/closed/wall,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"KB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "KC" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"KG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/box,
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "KI" = (
 /obj/structure/flora/ash/chilly,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid)
-"KM" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/light/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"KO" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "KW" = (
 /obj/structure/lattice,
 /obj/structure/flora/rock/pile,
@@ -5319,11 +4620,6 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"Lj" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/structure/barricade/sandbags,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Lm" = (
 /obj/structure/industrial_lift/tram{
 	icon_state = "titanium_purple";
@@ -5350,17 +4646,6 @@
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/carpet/black,
 /area/awaymission/caves/main_outpost/seconadry/mecha/living)
-"Lt" = (
-/obj/structure/table/reinforced,
-/obj/machinery/turretid{
-	icon_state = "control_stun";
-	name = "AI Chamber turret control";
-	pixel_x = 3;
-	pixel_y = 23
-	},
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Lu" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/door/firedoor,
@@ -5392,10 +4677,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"LD" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "LE" = (
 /obj/structure/flora/rock/pile,
 /obj/structure/flora/rock/pile,
@@ -5422,12 +4703,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"LJ" = (
-/obj/structure/chair/stool/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "LM" = (
 /obj/machinery/firealarm/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -5440,15 +4715,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/engineering)
-"LU" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "LV" = (
 /obj/structure/lattice,
 /obj/item/bedsheet/brown,
@@ -5483,29 +4749,6 @@
 	dir = 1
 	},
 /area/awaymission/caves/main_outpost/seconadry/between_access)
-"Mo" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Mt" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Mu" = (
-/obj/effect/turf_decal/tile/red/half,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Mv" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Mx" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "My" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/step_trigger/stopper{
@@ -5518,20 +4761,11 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid/level_two)
-"Mz" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ME" = (
 /obj/structure/grille,
 /obj/item/shard,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"MF" = (
-/turf/closed/wall/r_wall,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "MG" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -5595,45 +4829,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"Ne" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Nh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/awaymission/caves/second_outpost/tunnel)
-"Ni" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Nl" = (
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/second_outpost/tunnel)
-"Nm" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Np" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/main_outpost)
-"Ns" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Nt" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/decal/cleanable/dirt,
@@ -5713,13 +4922,6 @@
 /obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"NU" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "NY" = (
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
@@ -5757,15 +4959,6 @@
 	},
 /turf/open/indestructible/necropolis,
 /area/awaymission/caves/second_outpost/tunnel)
-"Og" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Om" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
@@ -5781,11 +4974,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
-"Or" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Os" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
@@ -5822,16 +5010,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"OG" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/light/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "OH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -5976,10 +5154,6 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Pz" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/freezer,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "PB" = (
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid/level_two)
@@ -6064,13 +5238,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Qe" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Qg" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -6083,22 +5250,12 @@
 /obj/structure/table,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/gateway)
-"Qm" = (
-/obj/effect/turf_decal/tile/red/half{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Qn" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Qp" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Qt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/necropolis,
@@ -6200,16 +5357,6 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"Re" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Rg" = (
 /obj/item/clothing/mask/gas/explorer,
 /obj/structure/extinguisher_cabinet/directional/north,
@@ -6271,13 +5418,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Ru" = (
-/obj/effect/turf_decal/tile/red/half,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ry" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -6329,22 +5469,9 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost)
-"RS" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/carpet/purple,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"RU" = (
-/obj/structure/chair/stool/directional/south,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "RV" = (
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"RX" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "RZ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner{
@@ -6370,11 +5497,6 @@
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_atmos,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Sj" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Sk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6460,11 +5582,6 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"SJ" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "SL" = (
 /turf/closed/indestructible/rock{
 	name = "collapsed dense rock"
@@ -6496,18 +5613,6 @@
 /obj/structure/flora/ash/cacti,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"SU" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Ta" = (
 /obj/structure/railing{
 	dir = 8
@@ -6536,15 +5641,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
-"Tk" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/structure/barricade/sandbags,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Tl" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -6557,13 +5653,6 @@
 /turf/open/floor/carpet/red,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
 "Tn" = (
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Tp" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Tq" = (
@@ -6588,12 +5677,6 @@
 "Tt" = (
 /obj/structure/barricade/sandbags,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"Tw" = (
-/obj/structure/chair/stool/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/carpet,
 /area/awaymission/caves/bmp_asteroid/level_two)
 "Tx" = (
 /obj/structure/flora/rock,
@@ -6660,12 +5743,6 @@
 "TK" = (
 /turf/open/floor/iron/freezer,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"TM" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "TO" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -6677,14 +5754,6 @@
 /obj/machinery/firealarm/directional/west,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/depo)
-"TT" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "TY" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/red/half/contrasted{
@@ -6768,16 +5837,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/main_outpost/seconadry/storage)
-"Up" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Uq" = (
 /obj/structure/window/reinforced/spawner/west,
 /obj/structure/window/reinforced/spawner/east,
@@ -6822,15 +5881,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost/seconadry/research)
-"UQ" = (
-/obj/machinery/power/smes,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"US" = (
-/obj/structure/window/reinforced/spawner/west,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "UT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -6874,11 +5924,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/bmp_asteroid)
-"Vj" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Vm" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating/lavaland_atmos,
@@ -6961,13 +6006,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Vv" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Vw" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid)
@@ -6998,12 +6036,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/circuit,
 /area/awaymission/caves/second_outpost/rest)
-"VK" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "VL" = (
 /obj/effect/step_trigger/teleport_fancy{
 	locationx = 67;
@@ -7090,10 +6122,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"Wl" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Wm" = (
 /obj/structure/toilet{
 	dir = 4
@@ -7192,13 +6220,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Xl" = (
-/obj/structure/bed{
-	dir = 8
-	},
-/obj/item/bedsheet/purple,
-/turf/open/floor/carpet,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Xn" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
@@ -7313,21 +6334,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/bmp_asteroid)
-"XV" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/freezer,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"XX" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "XZ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -7344,10 +6350,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/awaymission/caves/second_outpost/tunnel)
-"Yd" = (
-/obj/effect/turf_decal/tile/purple/half,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Yf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/circuit{
@@ -7406,10 +6408,6 @@
 /obj/machinery/microwave,
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/research/living)
-"YG" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "YH" = (
 /obj/structure/flora/ash/cacti,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -7423,12 +6421,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/second_outpost/tunnel)
-"YM" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/carpet,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "YQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/chair/stool/directional/south,
@@ -7482,10 +6474,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/awaymission/caves/main_outpost)
-"Zi" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Zj" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/iron,
@@ -7538,13 +6526,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/secpost)
-"Zv" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "Zx" = (
 /turf/closed/mineral/volcanic,
 /area/awaymission/caves/bmp_asteroid/level_three)
@@ -7563,24 +6544,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/awaymission/caves/second_outpost/rest)
-"ZA" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
-"ZC" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ZE" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
@@ -7603,11 +6566,6 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/main_outpost/seconadry/mecha)
-"ZH" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/awaymission/caves/bmp_asteroid/level_two)
 "ZM" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -44538,7 +43496,7 @@ bu
 bu
 bu
 bu
-us
+bu
 bu
 bu
 bu
@@ -44762,14 +43720,14 @@ bu
 bu
 bu
 bu
-us
-us
-us
-us
-us
-us
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 vp
 vp
 kv
@@ -44789,13 +43747,13 @@ bu
 bu
 bu
 bu
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -45019,12 +43977,12 @@ bu
 bu
 bu
 bu
-us
-MF
-MF
-MF
-MF
-MF
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 vp
@@ -45043,16 +44001,16 @@ vp
 vp
 bu
 bu
-Wq
-Wq
-Wq
-Wq
-dO
-dO
-Wq
-Wq
-Wq
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -45276,12 +44234,12 @@ bu
 bu
 bu
 bu
-us
-MF
-ie
-aY
-aY
-MF
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 vp
@@ -45290,7 +44248,7 @@ vp
 GD
 vp
 vp
-vp
+ET
 vp
 vp
 vp
@@ -45299,17 +44257,17 @@ vp
 vp
 vp
 bu
-Wq
-Wq
-Wq
-Wq
-dO
-dO
-dO
-dO
-dO
-Wq
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -45533,40 +44491,40 @@ bu
 bu
 bu
 bu
-us
-MF
-CL
-vJ
-HW
-MF
 bu
 bu
 bu
-MF
-KO
-KO
-MF
-Sj
-Qm
-Mu
-yy
-MF
-KO
-KO
-MF
 bu
 bu
-Kb
-Kb
-CM
-KG
-dO
-dO
-dO
 bu
-Wq
-Wq
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -45788,42 +44746,42 @@ bu
 bu
 bu
 bu
-us
-us
-us
-MF
-oi
-Ne
-HW
-MF
 bu
 bu
 bu
-MF
-HW
-zs
-MF
-ho
-iZ
-Mu
-Sj
-MF
-zs
-KO
-MF
 bu
-MF
-KB
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
 bu
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -46045,42 +45003,42 @@ bu
 bu
 bu
 bu
-us
-MF
-MF
-MF
-KA
-Hs
-jk
-MF
 bu
 bu
 bu
-MF
-ck
-xo
-MF
-Lt
-xy
-Ru
-mx
-MF
-xo
-mB
-MF
 bu
-MF
-IG
-KA
-cT
-Vv
-cT
-cT
-Tn
-Tn
-MF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -46302,42 +45260,42 @@ bu
 bu
 bu
 bu
-us
-MF
-ie
-bw
-Cp
-Hs
-Nm
-MF
-MF
-MF
-MF
-MF
-MF
-zE
-MF
-zP
-wH
-SJ
-zP
-MF
-zE
-MF
-MF
-MF
-MF
-AZ
-KA
-cT
-Dd
-Mv
-KA
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -46559,42 +45517,42 @@ bu
 bu
 bu
 bu
-us
-MF
-aY
-tU
-uY
-Hs
-me
-KA
-ac
-xu
-NU
-Qe
-xu
-id
-xu
-xu
-nm
-Ni
-xu
-xu
-id
-xu
-Qe
-NU
-xu
-JE
-KA
-cT
-Up
-cT
-Vj
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -46816,42 +45774,42 @@ bu
 bu
 bu
 bu
-us
-MF
-eM
-qj
-qj
-Tn
-Tp
-xu
-vS
-if
-hC
-ZC
-ZC
-Ey
-HR
-SU
-BD
-BD
-mv
-HR
-cM
-ZC
-ZC
-hC
-EH
-sa
-ul
-ul
-ul
-cT
-Vj
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -47073,42 +46031,42 @@ bu
 bu
 bu
 bu
-us
-MF
-bI
-Mx
-Mx
-Hs
-oP
-Jd
-Tn
-ir
-KA
-KA
-KA
-KA
-cK
-LU
-ZA
-kW
-ky
-cK
-KA
-KA
-KA
-KA
-wH
-By
-Jd
-cT
-Mt
-cT
-Vj
-Tn
-Tn
-bR
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -47330,42 +46288,42 @@ bu
 bu
 bu
 bu
-us
-MF
-GO
-US
-US
-Tn
-Gf
-TT
-ZA
-KM
-KA
-ao
-ao
-KA
-KA
-KA
-Og
-Or
-KA
-KA
-KA
-ao
-ao
-KA
-OG
-kW
-cT
-cT
-Mt
-cT
-Vj
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -47587,42 +46545,42 @@ bu
 bu
 bu
 bu
-us
-MF
-aY
-FO
-uY
-Hs
-RX
-KA
-Hs
-ir
-KA
-KA
-ao
-KA
-fR
-KA
-Tk
-Lj
-KA
-fR
-KA
-ao
-KA
-KA
-wH
-Yd
-KA
-cT
-iE
-cT
-Vj
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -47844,42 +46802,42 @@ bu
 bu
 bu
 bu
-us
-MF
-ie
-sn
-uY
-Hs
-rt
-KA
-Hs
-ir
-KA
-ao
-Pz
-Cn
-Cy
-Cy
-id
-id
-Cy
-Cy
-Cn
-XV
-ao
-KA
-GK
-gT
-KA
-cT
-Dd
-Mv
-KA
-Tn
-Tn
-Tn
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -48101,42 +47059,42 @@ bu
 bu
 bu
 bu
-us
-MF
-MF
-MF
-KA
-Hs
-jk
-KA
-Hs
-ir
-KA
-KA
-KA
-KA
-KA
-KA
-Et
-Yd
-KA
-KA
-KA
-KA
-KA
-KA
-Re
-lg
-KA
-cT
-oT
-cT
-cT
-Tn
-Tn
-MF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -48358,42 +47316,42 @@ bu
 bu
 bu
 bu
-us
-us
-us
-MF
-aY
-lO
-HW
-KA
-Hs
-XX
-Ez
-KA
-BP
-Tw
-he
-id
-id
-id
-id
-he
-Tw
-YM
-KA
-KA
-kb
-zP
-KA
-KA
-KA
-bF
-MF
-MF
-MF
-MF
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -48617,39 +47575,39 @@ bu
 bu
 bu
 bu
-us
-MF
-Eq
-vJ
-HW
-KA
-Hs
-BD
-Yd
-KA
-Xl
-Cj
-KA
-Hs
-id
-Tn
-Yd
-KA
-Cj
-Xl
-KA
-HW
-xo
-aY
-BI
-HW
-KA
-bF
-MF
-us
-us
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -48829,7 +47787,7 @@ Wq
 Wq
 Wq
 zn
-PB
+dO
 dO
 dO
 dO
@@ -48874,36 +47832,36 @@ bu
 bu
 bu
 bu
-us
-MF
-ie
-aY
-aY
-KA
-Hs
-BD
-Yd
-KA
-KA
-KA
-KA
-Hs
-id
-Tn
-jk
-KA
-KA
-KA
-KA
-HW
-xo
-aY
-VK
-HW
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -49085,8 +48043,8 @@ Wq
 Wq
 Wq
 Wq
-PB
-PB
+dO
+dO
 dO
 dO
 dO
@@ -49131,36 +48089,36 @@ bu
 bu
 bu
 bu
-us
-MF
-MF
-MF
-KA
-KA
-Hs
-Zv
-aT
-KA
-BP
-Tw
-he
-id
-id
-id
-id
-he
-Tw
-YM
-KA
-Qp
-xo
-Zi
-Zi
-HW
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -49341,9 +48299,9 @@ Wq
 Wq
 Wq
 Wq
-PB
-PB
-PB
+dO
+dO
+dO
 dO
 dO
 dO
@@ -49388,36 +48346,36 @@ bu
 bu
 bu
 bu
-us
-us
-us
-MF
-bF
-bF
-vS
-eN
-cK
-KA
-Xl
-Cj
-KA
-Hs
-id
-Tn
-Yd
-KA
-Cj
-Xl
-KA
-HW
-HW
-eC
-HW
-HW
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -49598,9 +48556,6 @@ Wq
 dO
 dO
 dO
-PB
-PB
-PB
 dO
 dO
 dO
@@ -49610,36 +48565,39 @@ dO
 dO
 dO
 dO
-dO
-Wq
-bu
-bu
-bu
-bu
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-bu
-HY
-HY
-HY
-HY
-HY
-bu
-Wq
-Wq
-Wq
 dO
 dO
 dO
 dO
 Wq
+bu
+bu
+bu
+bu
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+bu
+HY
+HY
+HY
+HY
+HY
+bu
 Wq
 Wq
+Wq
+dO
+dO
+dO
+dO
+Wq
+Wq
+Wq
 bu
 bu
 bu
@@ -49647,34 +48605,34 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-KA
-KA
-GL
-KA
-KA
-KA
-KA
-KA
-mP
-LJ
-Tn
-Yd
-KA
-KA
-KA
-KA
-KA
-KA
-KA
-KA
-KA
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -49855,9 +48813,6 @@ dO
 dO
 dO
 dO
-PB
-PB
-PB
 dO
 dO
 dO
@@ -49866,37 +48821,40 @@ dO
 dO
 dO
 dO
-dO
-Wq
-Wq
-bu
-bu
-bu
-bu
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-bu
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-Wq
-Wq
-Wq
 dO
 dO
 dO
 dO
 Wq
 Wq
+bu
+bu
+bu
+bu
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+bu
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+Wq
+Wq
+Wq
+dO
+dO
+dO
+dO
+Wq
+Wq
 Wq
 Wq
 bu
@@ -49904,34 +48862,34 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-KA
-Gq
-ZH
-YG
-zt
-KA
-ac
-xu
-vS
-Ko
-un
-tG
-xu
-TM
-KA
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -50112,9 +49070,9 @@ dO
 dO
 dO
 dO
-PB
-PB
-PB
+dO
+dO
+dO
 dO
 dO
 dO
@@ -50161,34 +49119,34 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-KA
-Gq
-nG
-bF
-YG
-KA
-Hs
-Tn
-RU
-Ko
-un
-Tn
-Tn
-Yd
-KA
-bF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -50369,83 +49327,83 @@ dO
 dO
 dO
 dO
-PB
-PB
-PB
 dO
 dO
 dO
 dO
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-Wq
-bu
-bu
-bu
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-HY
-Wq
-Wq
-Wq
-Wq
 dO
 dO
 dO
 Wq
 Wq
 Wq
+Wq
+Wq
+Wq
+Wq
+bu
+bu
+bu
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+HY
+Wq
+Wq
+Wq
+Wq
+dO
+dO
+dO
+Wq
+Wq
+Wq
 bu
 bu
 bu
 bu
 bu
-us
-MF
-bF
-KA
-YG
-YG
-Mo
-UQ
-KA
-zo
-ET
-oP
-id
-jQ
-Wl
-Ns
-AA
-KA
-bF
-MF
-us
-us
-us
-us
-us
-us
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -50626,9 +49584,9 @@ dO
 dO
 Wq
 Wq
-PB
-PB
-PB
+dO
+dO
+dO
 dO
 dO
 dO
@@ -50675,27 +49633,27 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-MF
-zP
-MF
-zP
-MF
-KA
-KA
-zo
-Mz
-id
-Mz
-Mz
-AA
-KA
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -50883,9 +49841,9 @@ dO
 Wq
 Wq
 Wq
-PB
+dO
 wE
-PB
+dO
 dO
 dO
 dO
@@ -50932,27 +49890,27 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-MF
-jH
-MF
-jH
-MF
-bF
-KA
-KA
-KA
-BY
-KA
-KA
-KA
-KA
-bF
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -51142,7 +50100,7 @@ Wq
 bu
 Wq
 Wq
-PB
+dO
 dO
 dO
 dO
@@ -51189,27 +50147,27 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-MF
-MF
-MF
-MF
-MF
-bF
-bF
-KA
-RS
-BY
-lP
-Bu
-KA
-bF
-bF
-MF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -51446,27 +50404,27 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-KA
-lP
-lq
-Hn
-lP
-KA
-bF
-MF
-MF
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -51703,26 +50661,26 @@ Wq
 bu
 bu
 bu
-us
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-bF
-KA
-Ew
-li
-LD
-LD
-KA
-bF
-MF
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -51960,25 +50918,25 @@ Wq
 bu
 bu
 bu
-us
-us
-us
-us
-us
-us
-us
-us
-MF
-bF
-KA
-KA
-KA
-KA
-KA
-KA
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -52224,18 +51182,18 @@ bu
 bu
 bu
 bu
-us
-MF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-bF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -52481,18 +51439,18 @@ bu
 bu
 bu
 bu
-us
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-MF
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -52727,7 +51685,7 @@ Wq
 dO
 dO
 dO
-Wq
+us
 Wq
 bu
 bu
@@ -52738,18 +51696,18 @@ Ao
 qi
 bu
 bu
-us
-us
-us
-us
-us
-us
-us
-us
-us
-us
-us
-us
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
+bu
 bu
 bu
 bu
@@ -59613,16 +58571,16 @@ bu
 Wq
 Wq
 Wq
-si
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-si
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 Wq
@@ -59871,14 +58829,14 @@ Wq
 Wq
 Wq
 Se
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-PB
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Nu
 Wq
 Wq
@@ -60127,16 +59085,16 @@ Wq
 Wq
 Wq
 Wq
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-PB
-tv
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 bu
@@ -60149,11 +59107,11 @@ Wq
 Wq
 Wq
 Wq
-PB
-PB
-PB
-PB
-PB
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 Wq
@@ -60407,9 +59365,9 @@ Wq
 Wq
 Wq
 Se
-PB
-PB
-PB
+dO
+dO
+dO
 gy
 Wq
 Wq
@@ -60663,11 +59621,11 @@ bu
 Wq
 Wq
 Wq
-PB
-PB
-PB
-PB
-PB
+dO
+dO
+dO
+dO
+dO
 Wq
 Wq
 Wq
