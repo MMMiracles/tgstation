@@ -1,20 +1,60 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/closed/mineral/asteroid/porous,
+/turf/closed/indestructible/fakeglass,
 /area/template_noop)
 "b" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/asteroid/basalt,
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/turf/open/misc/asteroid/airless,
 /area/template_noop)
 "c" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/template_noop)
 "d" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/obj/structure/fans/tiny/invisible{
+	density = 1;
+	name = "air flow + movement blocker"
+	},
+/turf/template_noop,
+/area/template_noop)
+"e" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible,
 /area/template_noop)
+"f" = (
+/obj/effect/turf_decal/stripes/box,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/template_noop)
 "g" = (
+/turf/closed/mineral/asteroid,
+/area/template_noop)
+"i" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/turf/open/space/basic,
+/area/template_noop)
+"j" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/obj/structure/railing,
+/turf/open/lava/smooth,
+/area/template_noop)
+"k" = (
+/mob/living/simple_animal/hostile/asteroid/curseblob,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"m" = (
 /obj/structure/fluff{
 	desc = "You're not sure if walking into this is a great idea...";
 	icon = 'icons/effects/eldritch.dmi';
@@ -28,10 +68,125 @@
 	},
 /turf/open/misc/asteroid,
 /area/template_noop)
-"h" = (
-/turf/closed/mineral,
+"n" = (
+/turf/open/misc/asteroid,
 /area/template_noop)
-"i" = (
+"o" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"p" = (
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/lava/smooth,
+/area/template_noop)
+"q" = (
+/obj/effect/step_trigger/message{
+	message = "Life has many doors, small one. Some are best left closed.";
+	name = "initial warning in the tear"
+	},
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"r" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/indestructible,
+/area/template_noop)
+"s" = (
+/obj/structure/flora/rock,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"t" = (
+/turf/open/lava/smooth,
+/area/template_noop)
+"u" = (
+/obj/effect/step_trigger/message{
+	message = "Please do not come back any time soon, these sorts of things should be kept to a one-in-a-lifetime experience if possible.";
+	name = "leaving message in the tear"
+	},
+/turf/open/misc/asteroid,
+/area/template_noop)
+"v" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible,
+/area/template_noop)
+"w" = (
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"x" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"z" = (
+/turf/closed/indestructible/reinforced,
+/area/template_noop)
+"B" = (
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"C" = (
+/turf/closed/mineral/asteroid/porous,
+/area/template_noop)
+"D" = (
+/turf/open/space/basic,
+/area/template_noop)
+"E" = (
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/turf/open/misc/asteroid,
+/area/template_noop)
+"F" = (
+/turf/open/indestructible,
+/area/template_noop)
+"G" = (
+/turf/open/space,
+/area/template_noop)
+"H" = (
+/obj/structure/fluff{
+	desc = "A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions. This one seems frozen in place, eerily still.";
+	icon = 'icons/mob/lavaland/lavaland_monsters.dmi';
+	icon_state = "Goliath";
+	name = "goliath"
+	},
+/turf/open/misc/asteroid,
+/area/template_noop)
+"I" = (
+/obj/structure/flora/ash/seraka,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"J" = (
+/turf/template_noop,
+/area/template_noop)
+"K" = (
+/obj/effect/decal/remains/human,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"L" = (
+/obj/structure/flora/ash/cacti,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"M" = (
+/turf/closed/indestructible/fakedoor{
+	name = "Secure Access"
+	},
+/area/template_noop)
+"N" = (
 /obj/structure/railing{
 	dir = 1
 	},
@@ -44,7 +199,32 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"j" = (
+"O" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/plating,
+/area/template_noop)
+"P" = (
+/turf/closed/mineral,
+/area/template_noop)
+"Q" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/indestructible,
+/area/template_noop)
+"R" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"S" = (
+/obj/structure/fans/tiny/invisible{
+	density = 1;
+	name = "air flow + movement blocker"
+	},
+/turf/template_noop,
+/area/template_noop)
+"T" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
@@ -54,198 +234,18 @@
 /obj/machinery/light/directional/north,
 /turf/open/indestructible,
 /area/template_noop)
-"k" = (
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"l" = (
-/mob/living/simple_animal/hostile/asteroid/curseblob,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"m" = (
-/obj/structure/railing,
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/obj/structure/fans/tiny/invisible{
-	density = 1;
-	name = "air flow + movement blocker"
-	},
-/turf/template_noop,
-/area/template_noop)
-"n" = (
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/turf/open/misc/asteroid/airless,
-/area/template_noop)
-"o" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/box,
-/turf/open/floor/plating,
-/area/template_noop)
-"p" = (
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"q" = (
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/turf/open/misc/asteroid,
-/area/template_noop)
-"r" = (
-/turf/open/misc/asteroid,
-/area/template_noop)
-"s" = (
-/obj/structure/flora/rock,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"u" = (
-/turf/open/indestructible,
-/area/template_noop)
-"v" = (
-/turf/open/misc/asteroid/airless,
-/area/template_noop)
-"w" = (
-/turf/open/space/basic,
-/area/template_noop)
-"x" = (
-/obj/structure/flora/ash/seraka,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"y" = (
-/obj/structure/ore_box,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"A" = (
-/obj/effect/decal/remains/human,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"B" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/lava/smooth,
-/area/template_noop)
-"C" = (
-/obj/structure/fluff{
-	desc = "A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions. This one seems frozen in place, eerily still.";
-	icon = 'icons/mob/lavaland/lavaland_monsters.dmi';
-	icon_state = "Goliath";
-	name = "goliath"
-	},
-/turf/open/misc/asteroid,
-/area/template_noop)
-"D" = (
-/obj/effect/step_trigger/message{
-	message = "Life has many doors, small one. Some are best left closed.";
-	name = "initial warning in the tear"
-	},
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"E" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/turf/open/indestructible,
-/area/template_noop)
-"F" = (
-/obj/structure/flora/ash/cacti,
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"G" = (
-/turf/closed/mineral/asteroid,
-/area/template_noop)
-"H" = (
-/turf/open/lava/smooth,
-/area/template_noop)
-"I" = (
+"U" = (
 /obj/structure/lattice/catwalk,
 /turf/open/lava/smooth,
 /area/template_noop)
-"J" = (
-/turf/template_noop,
-/area/template_noop)
-"M" = (
-/obj/effect/turf_decal/stripes/box,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/template_noop)
-"N" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/obj/structure/railing,
-/turf/open/lava/smooth,
-/area/template_noop)
-"O" = (
-/turf/open/space,
-/area/template_noop)
-"P" = (
-/turf/closed/indestructible/fakeglass,
-/area/template_noop)
-"Q" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/obj/structure/fans/tiny/invisible{
-	density = 1;
-	name = "air flow + movement blocker"
-	},
-/turf/template_noop,
-/area/template_noop)
-"R" = (
-/obj/structure/lattice{
-	obj_flags = 4612
-	},
-/turf/open/space/basic,
-/area/template_noop)
-"S" = (
-/turf/closed/indestructible/fakedoor{
-	name = "Secure Access"
-	},
-/area/template_noop)
-"T" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/indestructible,
-/area/template_noop)
-"U" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible,
-/area/template_noop)
-"V" = (
-/obj/effect/step_trigger/message{
-	message = "Please do not come back any time soon, these sorts of things should be kept to a one-in-a-lifetime experience if possible.";
-	name = "leaving message in the tear"
-	},
-/turf/open/misc/asteroid,
-/area/template_noop)
 "W" = (
-/turf/closed/indestructible/reinforced,
+/turf/open/misc/asteroid/airless,
 /area/template_noop)
 "X" = (
-/obj/modular_map_connector,
-/turf/template_noop,
-/area/template_noop)
-"Y" = (
+/obj/structure/railing,
+/obj/structure/lattice{
+	obj_flags = 4612
+	},
 /obj/structure/fans/tiny/invisible{
 	density = 1;
 	name = "air flow + movement blocker"
@@ -253,7 +253,7 @@
 /turf/template_noop,
 /area/template_noop)
 "Z" = (
-/obj/structure/flora/rock/pile,
+/obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt,
 /area/template_noop)
 
@@ -268,7 +268,7 @@ J
 J
 J
 J
-X
+o
 J
 J
 J
@@ -380,7 +380,7 @@ J
 J
 J
 J
-k
+w
 J
 J
 J
@@ -402,14 +402,14 @@ J
 J
 J
 J
-k
-k
-k
+w
+w
+w
 J
 J
-Y
-Y
-Y
+S
+S
+S
 J
 J
 J
@@ -422,18 +422,18 @@ J
 J
 J
 J
-k
-k
-k
-F
-k
+w
+w
+w
+L
+w
 J
 J
-Y
-h
-k
-k
-Y
+S
+P
+w
+w
+S
 J
 J
 J
@@ -446,17 +446,17 @@ J
 J
 J
 J
-k
-F
-k
-k
+w
+L
+w
+w
 J
-Y
-h
-h
-k
-k
-Y
+S
+P
+P
+w
+w
+S
 J
 J
 J
@@ -471,15 +471,15 @@ J
 J
 J
 J
-y
-y
+Z
+Z
 J
-Y
-k
-k
-k
-k
-Y
+S
+w
+w
+w
+w
+S
 J
 J
 J
@@ -497,11 +497,11 @@ J
 J
 J
 J
-Y
-k
-k
-k
-Y
+S
+w
+w
+w
+S
 J
 J
 J
@@ -520,15 +520,15 @@ J
 J
 J
 J
-Y
-h
-k
-k
-Y
+S
+P
+w
+w
+S
 J
 J
 J
-k
+w
 J
 J
 J
@@ -543,16 +543,16 @@ J
 J
 J
 J
-Y
-M
-D
-M
-Y
+S
+f
+q
+f
+S
 J
 J
+I
 x
-Z
-h
+P
 J
 J
 "}
@@ -565,17 +565,17 @@ J
 J
 J
 J
-Y
-Y
-N
-I
-B
-Y
-Y
-J
+S
+S
+j
+U
 p
-h
-h
+S
+S
+J
+B
+P
+P
 J
 J
 "}
@@ -587,17 +587,17 @@ J
 J
 J
 J
-Y
-H
-H
-N
-I
-B
-H
-H
-Y
+S
+t
+t
+j
+U
+p
+t
+t
+S
 J
-h
+P
 J
 J
 J
@@ -605,19 +605,19 @@ J
 (16,1,1) = {"
 J
 J
-H
-H
-H
-H
+t
+t
+t
+t
 J
 J
-Y
-H
-N
-I
-B
-Y
-Y
+S
+t
+j
+U
+p
+S
+S
 J
 J
 J
@@ -629,19 +629,19 @@ J
 J
 J
 J
-H
-H
-H
-H
+t
+t
+t
+t
 J
-Y
-Y
-N
-I
-B
-H
-H
-Y
+S
+S
+j
+U
+p
+t
+t
+S
 J
 J
 J
@@ -656,15 +656,15 @@ J
 J
 J
 J
-Y
-H
-H
-N
-I
-B
-H
-H
-Y
+S
+t
+t
+j
+U
+p
+t
+t
+S
 J
 J
 J
@@ -678,19 +678,19 @@ J
 J
 J
 J
-Y
-H
-H
-H
-N
-I
-B
-Y
-Y
+S
+t
+t
+t
+j
+U
+p
+S
+S
 J
 J
-H
-H
+t
+t
 J
 J
 "}
@@ -702,18 +702,18 @@ J
 J
 J
 J
-Y
-Y
-Y
-M
-k
-M
-Y
+S
+S
+S
+f
+w
+f
+S
 J
 J
 J
-H
-H
+t
+t
 J
 J
 "}
@@ -725,13 +725,13 @@ J
 J
 J
 J
-Y
-Y
-Y
-k
-k
-k
-Y
+S
+S
+S
+w
+w
+w
+S
 J
 J
 J
@@ -747,14 +747,14 @@ J
 J
 J
 J
-Y
-k
-h
-h
-k
-k
-k
-Y
+S
+w
+P
+P
+w
+w
+w
+S
 J
 J
 J
@@ -768,17 +768,17 @@ J
 J
 J
 J
-Y
+S
 J
-Y
-h
-h
-h
+S
+P
+P
+P
+w
+K
 k
-A
-l
-Z
-Y
+x
+S
 J
 J
 J
@@ -790,43 +790,43 @@ J
 J
 J
 J
-Y
-G
-Y
-Y
-h
-h
-h
-b
-b
-k
+S
+g
+S
+S
+P
+P
+P
+R
+R
+w
 s
-Y
+S
 J
 J
 J
 s
-Z
+x
 J
 "}
 (25,1,1) = {"
 J
 J
-Y
-G
-G
-Y
-Y
-h
-h
+S
+g
+g
+S
+S
+P
+P
 s
-k
-k
-k
-Z
-Y
+w
+w
+w
 x
-k
+S
+I
+w
 J
 J
 J
@@ -835,18 +835,18 @@ J
 (26,1,1) = {"
 J
 J
-Y
+S
+g
+W
 G
-v
-O
-Y
-Y
-Y
-Z
+S
+S
+S
+x
+w
 k
-l
-k
-Y
+w
+S
 J
 J
 J
@@ -858,17 +858,17 @@ J
 (27,1,1) = {"
 J
 J
-Y
+S
+g
+b
+W
 G
-n
-v
-O
-Y
+S
 J
-Y
-k
-k
-Y
+S
+w
+w
+S
 J
 J
 J
@@ -881,18 +881,18 @@ J
 (28,1,1) = {"
 J
 J
-Y
+S
+g
+W
 G
-v
+S
+J
+J
+S
 O
-Y
-J
-J
-Y
-o
 c
-o
-Y
+O
+S
 J
 J
 J
@@ -904,17 +904,17 @@ J
 (29,1,1) = {"
 J
 J
-Y
-v
-v
-O
-Y
+S
+W
+W
+G
+S
 J
 J
 J
-m
+X
 c
-i
+N
 J
 J
 J
@@ -928,16 +928,16 @@ J
 J
 J
 J
-Y
-Y
-Y
+S
+S
+S
 J
 J
 J
 J
-m
+X
 c
-Y
+S
 J
 J
 J
@@ -955,16 +955,16 @@ J
 J
 J
 J
-Y
-Y
+S
+S
 J
-Q
+d
 c
-Y
+S
 J
 J
 J
-H
+t
 J
 J
 J
@@ -977,18 +977,18 @@ J
 J
 J
 J
-Y
+S
+D
+i
+P
 w
-R
-h
-k
-k
-M
-W
+w
+f
+z
 J
 J
-H
-H
+t
+t
 J
 J
 J
@@ -999,20 +999,20 @@ J
 J
 J
 J
-Y
+S
+D
+D
+D
+z
+Q
 w
-w
-w
-W
-E
-k
-T
-Y
+r
+S
 J
 J
-H
-k
-h
+t
+w
+P
 J
 J
 "}
@@ -1022,20 +1022,20 @@ J
 J
 J
 J
-Y
+S
+D
+i
+i
+a
+Q
 w
-R
-R
+S
+J
+J
+J
+w
+w
 P
-E
-k
-Y
-J
-J
-J
-k
-k
-h
 J
 J
 "}
@@ -1045,20 +1045,20 @@ J
 J
 J
 J
-Y
-w
-w
+S
+D
+D
+D
+a
+v
+F
+S
+J
+J
+J
 w
 P
-U
-u
-Y
-J
-J
-J
-k
-h
-h
+P
 J
 J
 "}
@@ -1067,21 +1067,21 @@ J
 J
 J
 J
-Y
-w
-w
-w
-R
+S
+D
+D
+D
+i
+a
+v
+F
+S
+J
+J
+J
+J
 P
-U
-u
-Y
-J
-J
-J
-J
-h
-h
+P
 J
 J
 "}
@@ -1091,19 +1091,19 @@ J
 J
 J
 J
-W
-W
-W
-W
-W
-j
-d
+z
+z
+z
+z
+z
 T
-Y
+e
+r
+S
 J
 J
 J
-h
+P
 J
 J
 J
@@ -1115,14 +1115,14 @@ J
 J
 J
 J
-u
-u
-u
+F
+F
+F
+M
+e
+e
+r
 S
-d
-d
-T
-Y
 J
 J
 J
@@ -1139,13 +1139,13 @@ J
 J
 J
 J
-W
-W
-W
-U
-u
-Y
-W
+z
+z
+z
+v
+F
+S
+z
 J
 J
 J
@@ -1164,11 +1164,11 @@ J
 J
 J
 J
-W
-E
-u
-Y
-W
+z
+Q
+F
+S
+z
 J
 J
 J
@@ -1188,9 +1188,9 @@ J
 J
 J
 J
-Y
-u
-Y
+S
+F
+S
 J
 J
 J
@@ -1210,10 +1210,10 @@ J
 J
 J
 J
-W
-Y
-r
-Y
+z
+S
+n
+S
 J
 J
 J
@@ -1234,10 +1234,10 @@ J
 J
 J
 J
-Y
-V
-Y
-W
+S
+u
+S
+z
 J
 J
 J
@@ -1252,15 +1252,15 @@ J
 J
 J
 J
-r
-r
+n
+n
 J
 J
-Y
-r
-r
-Y
-W
+S
+n
+n
+S
+z
 J
 J
 J
@@ -1274,19 +1274,19 @@ J
 J
 J
 J
-r
-C
-r
+n
+H
+n
 J
-Y
-r
-r
-r
-r
-Y
+S
+n
+n
+n
+n
+S
 J
 J
-r
+n
 J
 J
 J
@@ -1299,17 +1299,17 @@ J
 J
 J
 J
-r
+n
 J
-Y
-r
-r
-r
-r
-Y
+S
+n
+n
+n
+n
+S
 J
-q
-r
+E
+n
 J
 J
 J
@@ -1323,17 +1323,17 @@ J
 J
 J
 J
-Y
-a
-r
-r
-r
-a
-r
-Y
-r
-r
-r
+S
+C
+n
+n
+n
+C
+n
+S
+n
+n
+n
 J
 J
 J
@@ -1346,16 +1346,16 @@ J
 J
 J
 J
-Y
-r
-r
-r
-g
-r
-a
-Y
-r
-r
+S
+n
+n
+n
+m
+n
+C
+S
+n
+n
 J
 J
 J
@@ -1369,15 +1369,15 @@ J
 J
 J
 J
-Y
-a
-a
-r
-r
-r
-a
-Y
-r
+S
+C
+C
+n
+n
+n
+C
+S
+n
 J
 J
 J
@@ -1392,14 +1392,14 @@ J
 J
 J
 J
-Y
-a
-a
-r
-r
-a
-a
-Y
+S
+C
+C
+n
+n
+C
+C
+S
 J
 J
 J
@@ -1416,12 +1416,12 @@ J
 J
 J
 J
-Y
-a
-a
-a
-a
-Y
+S
+C
+C
+C
+C
+S
 J
 J
 J
@@ -1440,10 +1440,10 @@ J
 J
 J
 J
-Y
-Y
-Y
-Y
+S
+S
+S
+S
 J
 J
 J
