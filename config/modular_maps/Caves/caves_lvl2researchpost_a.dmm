@@ -136,9 +136,9 @@
 	},
 /obj/machinery/button/door/directional/south{
 	id = "CavesPostCabin1";
-	specialfunctions = 4;
+	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
-	name = "Door Bolt Control"
+	specialfunctions = 4
 	},
 /turf/open/floor/carpet,
 /area/template_noop)
@@ -230,8 +230,8 @@
 "ha" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/button/door/directional/north{
-	name = "Door Bolt Control";
 	id = "CavesPostCabinRD";
+	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
 	specialfunctions = 4
 	},
@@ -342,8 +342,8 @@
 	dir = 8
 	},
 /obj/machinery/button/door/directional/north{
-	name = "Door Bolt Control";
 	id = "CavesPostCabin3";
+	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
 	specialfunctions = 4
 	},
@@ -859,9 +859,9 @@
 	},
 /obj/machinery/button/door/directional/south{
 	id = "CavesPostCabin2";
-	specialfunctions = 4;
+	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
-	name = "Door Bolt Control"
+	specialfunctions = 4
 	},
 /turf/open/floor/carpet,
 /area/template_noop)
@@ -1004,8 +1004,8 @@
 	dir = 8
 	},
 /obj/machinery/button/door/directional/north{
-	name = "Door Bolt Control";
 	id = "CavesPostCabin4";
+	name = "Door Bolt Control";
 	normaldoorcontrol = 1;
 	specialfunctions = 4
 	},
@@ -1307,8 +1307,8 @@
 "Rw" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	name = "Warren Kepler's special reserve";
-	desc = "A premium single-malt whiskey, gently matured in an off-station distrillery orbiting the gas giant Wolf 359."
+	desc = "A premium single-malt whiskey, gently matured in an off-station distrillery orbiting the gas giant Wolf 359.";
+	name = "Warren Kepler's special reserve"
 	},
 /turf/open/floor/carpet/purple,
 /area/template_noop)
