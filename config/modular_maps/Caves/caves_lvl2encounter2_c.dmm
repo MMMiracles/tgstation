@@ -41,20 +41,6 @@
 "r" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
-"s" = (
-/obj/effect/step_trigger/teleport_fancy{
-	entersmoke = 1;
-	entersparks = 1;
-	uses = 0
-	},
-/obj/structure/fluff{
-	desc = "You're not sure if walking into this is a great idea...";
-	icon = 'icons/effects/eldritch.dmi';
-	icon_state = "pierced_illusion";
-	name = "fluxating rift"
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
 "z" = (
 /obj/structure/stone_tile/slab,
 /turf/open/lava/smooth/lava_land_surface,
@@ -68,6 +54,22 @@
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"B" = (
+/obj/effect/step_trigger/teleport_fancy{
+	entersmoke = 1;
+	entersparks = 1;
+	locationx = 78;
+	locationy = 113;
+	uses = 0
+	},
+/obj/structure/fluff{
+	desc = "You're not sure if walking into this is a great idea...";
+	icon = 'icons/effects/eldritch.dmi';
+	icon_state = "pierced_illusion";
+	name = "fluxating rift"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "F" = (
 /obj/structure/stone_tile/block/burnt{
@@ -200,7 +202,7 @@ Z
 Z
 I
 M
-s
+B
 r
 r
 h
