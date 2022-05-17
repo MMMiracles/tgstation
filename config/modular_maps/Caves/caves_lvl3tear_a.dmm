@@ -6,10 +6,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/basalt,
 /area/template_noop)
-"c" = (
-/obj/structure/lattice/lava,
-/turf/open/lava/smooth,
-/area/template_noop)
 "d" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible,
@@ -26,6 +22,7 @@
 	entersparks = 1;
 	locationx = 52;
 	locationy = 213;
+	name = "rift teleport to mechabay";
 	uses = 0
 	},
 /turf/open/misc/asteroid,
@@ -129,6 +126,10 @@
 "y" = (
 /obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt,
+/area/template_noop)
+"z" = (
+/obj/structure/lattice/lava,
+/turf/open/lava/smooth,
 /area/template_noop)
 "A" = (
 /obj/effect/decal/remains/human,
@@ -566,7 +567,7 @@ J
 Y
 Y
 N
-c
+z
 B
 Y
 Y
@@ -589,7 +590,7 @@ Y
 H
 H
 N
-c
+z
 B
 H
 H
@@ -612,7 +613,7 @@ J
 Y
 H
 N
-c
+z
 B
 Y
 Y
@@ -635,7 +636,7 @@ J
 Y
 Y
 N
-c
+z
 B
 H
 H
@@ -658,7 +659,7 @@ Y
 H
 H
 N
-c
+z
 B
 H
 H
@@ -681,7 +682,7 @@ H
 H
 H
 N
-c
+z
 B
 Y
 Y
@@ -911,7 +912,7 @@ J
 J
 J
 m
-c
+z
 i
 J
 J
@@ -934,7 +935,7 @@ J
 J
 J
 m
-c
+z
 Y
 J
 J
@@ -957,7 +958,7 @@ Y
 Y
 J
 Q
-c
+z
 Y
 J
 J
