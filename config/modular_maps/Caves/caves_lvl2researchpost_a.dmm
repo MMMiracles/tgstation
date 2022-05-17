@@ -1,122 +1,290 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
 "ao" = (
-/obj/machinery/deepfryer,
-/turf/open/floor/iron,
-/area/template_noop)
-"aq" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner,
-/obj/item/folder/blue,
-/obj/item/folder/red{
-	pixel_x = 5
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
-/obj/item/pen/fourcolor,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"aw" = (
-/obj/structure/table/wood,
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"ay" = (
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"az" = (
+/obj/structure/curtain,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/shower{
+	pixel_y = 24
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"aO" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/door/airlock/public{
+	name = "Kitchen"
+	},
 /obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"aR" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"aS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"bu" = (
-/obj/structure/chair/office/light{
-	dir = 4
+/obj/machinery/door/airlock{
+	id_tag = "CavesPostCabinRD";
+	name = "Site Director's Cabin"
 	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"bH" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"bm" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
 	},
-/turf/open/floor/iron,
-/area/template_noop)
-"cb" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"cc" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"ck" = (
-/obj/effect/turf_decal/tile/purple/half,
-/turf/open/floor/iron,
-/area/template_noop)
-"cq" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"bw" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/iron,
-/area/template_noop)
-"cG" = (
-/obj/machinery/vending/dinnerware,
-/obj/effect/turf_decal/bot,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron,
-/area/template_noop)
-"cK" = (
-/obj/machinery/computer/security{
-	network = list("cavesscipost")
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"cb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"cr" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
-/area/template_noop)
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"cD" = (
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
 "cZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
-"do" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/template_noop)
-"ds" = (
+"dc" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/door/firedoor/closed,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"de" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesPostCabin1";
-	name = "Cabin 1"
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"di" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor/closed,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"dN" = (
+/obj/modular_map_connector,
+/turf/template_noop,
+/area/template_noop)
+"dS" = (
+/obj/structure/bed{
+	dir = 8
+	},
+/obj/item/bedsheet/purple,
 /turf/open/floor/carpet,
-/area/template_noop)
-"du" = (
-/obj/structure/kitchenspike,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/template_noop)
-"dG" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"dY" = (
 /obj/effect/turf_decal/tile/purple/half,
 /obj/structure/barricade/sandbags,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/template_noop)
-"dN" = (
-/obj/modular_map_connector,
-/turf/template_noop,
-/area/template_noop)
-"dP" = (
-/turf/open/indestructible/necropolis,
-/area/template_noop)
-"dU" = (
-/obj/structure/window/reinforced/spawner/west,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"em" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ew" = (
+/obj/structure/table,
+/obj/item/folder,
+/obj/item/folder/yellow{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/pen,
 /turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"ey" = (
+/obj/effect/turf_decal/tile/purple,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"eP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
-"dZ" = (
+"eR" = (
+/obj/machinery/computer/terminal,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"ff" = (
+/obj/machinery/computer/terminal{
+	content = list("MINER-MAIL - #445 -Shaft Miner Jim Joffee -> J. Ullman -- Just checking for an update on that last email I sent about the debris I found on the lower levels. I know these caves are inhabited by those cave lizards, but them having bronze metal seems really odd. Don't tell me these lizardbrains are entering the bronze age, they might actually start being a problem.")
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"fv" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"fy" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"fL" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 4
+	},
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"fO" = (
+/turf/closed/indestructible/riveted,
+/area/template_noop)
+"fP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"fR" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
@@ -127,215 +295,351 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/template_noop)
-"et" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"fT" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"gN" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/lamp,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/button/door/directional/south{
-	id = "CavesPostCabin1";
-	name = "Door Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
-	},
-/turf/open/floor/carpet,
-/area/template_noop)
-"eJ" = (
-/obj/structure/bed{
-	dir = 8
-	},
-/obj/item/bedsheet/purple,
-/turf/open/floor/carpet,
-/area/template_noop)
-"eP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating/lavaland_atmos,
-/area/template_noop)
-"eS" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp,
 /turf/open/floor/carpet/purple,
-/area/template_noop)
-"fd" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"gU" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
-"fE" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"gW" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"hd" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"hD" = (
+/obj/structure/window/reinforced/spawner/east,
 /turf/open/floor/iron/dark,
-/area/template_noop)
-"fG" = (
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"ib" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"io" = (
 /obj/effect/turf_decal/tile/purple/half,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
-"fO" = (
-/turf/closed/indestructible/riveted,
-/area/template_noop)
-"fP" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"gi" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/obj/item/stack/rods,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"gm" = (
-/obj/structure/curtain,
-/obj/machinery/shower{
-	dir = 1
-	},
-/obj/item/soap,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"gy" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"gC" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"it" = (
+/obj/machinery/power/rtg,
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/template_noop)
-"gP" = (
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"gW" = (
-/obj/structure/chair/office{
-	dir = 1
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"iz" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/hatch{
+	name = "Research Wing";
+	req_access_txt = "200"
 	},
 /turf/open/floor/iron/dark,
-/area/template_noop)
-"ha" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/button/door/directional/north{
-	id = "CavesPostCabinRD";
-	name = "Door Bolt Control";
-	normaldoorcontrol = 1;
-	specialfunctions = 4
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"iI" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"iN" = (
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"iP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"je" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"jf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/indestructible/necropolis,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"jo" = (
+/obj/structure/chair/wood{
+	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/template_noop)
-"hb" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/light/directional/south,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"jq" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/iron,
-/area/template_noop)
-"hf" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"jD" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"jG" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"jJ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/turretid{
+	icon_state = "control_stun";
+	name = "AI Chamber turret control";
+	pixel_x = 3;
+	pixel_y = 23
+	},
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ka" = (
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"lc" = (
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"lh" = (
+/obj/effect/turf_decal/tile/red/half,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"lp" = (
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo"
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ls" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"lD" = (
+/obj/structure/kitchenspike,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"lF" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"lJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/purple,
-/area/template_noop)
-"hh" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"lP" = (
+/obj/structure/table,
+/obj/structure/window/reinforced/spawner/east,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"lS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"md" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
-"hs" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal,
-/turf/open/floor/plating,
-/area/template_noop)
-"hC" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"mh" = (
+/obj/effect/turf_decal/tile/purple/half,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/firealarm/directional/south,
 /turf/open/floor/iron,
-/area/template_noop)
-"hE" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"mx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesPostCabin1";
+	name = "Cabin 1"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"mz" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"mQ" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"mT" = (
 /obj/structure/chair{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/template_noop)
-"hP" = (
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"hX" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"id" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesPostCabinRD";
-	name = "Site Director's Cabin"
-	},
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"ie" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"iK" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/template_noop)
-"iL" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"iX" = (
-/obj/structure/chair/office/light{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"iY" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"jb" = (
-/obj/structure/cable,
-/obj/structure/rack,
-/turf/open/floor/plating,
-/area/template_noop)
-"je" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/template_noop)
-"jl" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"mX" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -348,510 +652,143 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/carpet,
-/area/template_noop)
-"jS" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"nR" = (
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/obj/machinery/light/directional/north,
 /turf/open/floor/iron,
-/area/template_noop)
-"kn" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/template_noop)
-"ks" = (
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"nS" = (
+/obj/structure/table,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"nV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /turf/open/floor/iron,
-/area/template_noop)
-"kF" = (
-/obj/effect/turf_decal/tile/purple,
-/turf/open/floor/iron,
-/area/template_noop)
-"kX" = (
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/iron,
-/area/template_noop)
-"lb" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 8
-	},
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"lt" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"nX" = (
 /obj/structure/bed{
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/template_noop)
-"mf" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"mg" = (
-/obj/machinery/atmospherics/components/tank/oxygen,
-/turf/open/floor/plating,
-/area/template_noop)
-"mz" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/item/bedsheet/rd{
-	dir = 4
-	},
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"mD" = (
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"mI" = (
-/obj/structure/chair{
-	dir = 8
-	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"nZ" = (
+/obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
 /turf/open/floor/iron,
-/area/template_noop)
-"nt" = (
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"nB" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/template_noop)
-"nN" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/light/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"ob" = (
-/obj/machinery/gibber,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/template_noop)
-"oi" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/template_noop)
-"oT" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/red/directional/south,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"po" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 4
-	},
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"pt" = (
-/turf/template_noop,
-/area/template_noop)
-"pK" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/item/clothing/suit/armor/reactive/teleport{
-	desc = "Someone separated our Site Director from his own head!"
-	},
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"pU" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"pZ" = (
-/obj/structure/table/reinforced,
-/obj/machinery/turretid{
-	icon_state = "control_stun";
-	name = "AI Chamber turret control";
-	pixel_x = 3;
-	pixel_y = 23
-	},
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
-/area/template_noop)
-"qa" = (
-/obj/structure/window/reinforced/spawner/west,
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"qy" = (
-/obj/structure/table,
-/obj/item/folder,
-/obj/item/folder/yellow{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/pen,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"qG" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/template_noop)
-"qN" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"qT" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"om" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron,
-/area/template_noop)
-"rd" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/north,
-/turf/open/floor/iron,
-/area/template_noop)
-"rh" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/spawner/lavaland/legion,
-/turf/open/indestructible/necropolis,
-/area/template_noop)
-"ro" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
-"rG" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"rH" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"rW" = (
-/obj/structure/chair/stool/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/necropolis,
-/area/template_noop)
-"si" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"sk" = (
-/obj/effect/turf_decal/tile/purple/anticorner,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"sv" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/item/stack/rods,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"sQ" = (
-/turf/open/floor/iron,
-/area/template_noop)
-"tn" = (
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/table,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"ts" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/public{
-	name = "Mess Hall"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/template_noop)
-"tF" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"tK" = (
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"or" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/template_noop)
-"uH" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/public{
-	name = "Research Divison"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/template_noop)
-"uM" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"vz" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/secure_closet/freezer/kitchen,
-/turf/open/floor/iron,
-/area/template_noop)
-"vE" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"vK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/indestructible/necropolis,
-/area/template_noop)
-"vL" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/door/firedoor/closed,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"vO" = (
-/obj/structure/lattice,
-/turf/open/chasm/lavaland,
-/area/template_noop)
-"wc" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/light/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron,
-/area/template_noop)
-"wS" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"wZ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"xe" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"xj" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron,
-/area/template_noop)
-"xm" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"yc" = (
-/obj/structure/table,
-/obj/machinery/microwave,
-/turf/open/floor/iron,
-/area/template_noop)
-"zc" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -3
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 3
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"zs" = (
-/obj/effect/spawner/structure/window,
-/turf/open/floor/plating,
-/area/template_noop)
-"zA" = (
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating,
-/area/template_noop)
-"zT" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"Ae" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesPostCabin3";
-	name = "Cabin 3"
-	},
-/turf/open/floor/carpet,
-/area/template_noop)
-"AI" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron,
-/area/template_noop)
-"AJ" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"AP" = (
-/obj/machinery/power/smes,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"Bs" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/porta_turret/centcom_shuttle{
-	lethal_projectile = /obj/projectile/bullet/c46x30mm;
-	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
-	},
-/turf/open/floor/plating,
-/area/template_noop)
-"BV" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"BY" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/red/directional/north,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"Ca" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/carpet,
-/area/template_noop)
-"Ce" = (
-/obj/machinery/door/firedoor,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"Cx" = (
-/obj/structure/toilet,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ou" = (
 /obj/structure/curtain,
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/item/soap,
 /turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"pr" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 8
+	},
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"pt" = (
+/turf/template_noop,
 /area/template_noop)
-"CJ" = (
+"pS" = (
+/obj/machinery/gibber,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"qc" = (
+/obj/structure/sink/kitchen{
+	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
+	dir = 4;
+	name = "old sink";
+	pixel_x = -12
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"qd" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"qg" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ql" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"qr" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -864,45 +801,201 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/carpet,
-/area/template_noop)
-"CR" = (
-/obj/structure/curtain,
-/obj/machinery/shower{
-	dir = 1
-	},
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"CU" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron,
-/area/template_noop)
-"Dv" = (
-/obj/structure/table,
-/obj/machinery/reagentgrinder{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/condiment/enzyme{
-	layer = 5
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"DD" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"qQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
-"DF" = (
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"re" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"rp" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron,
-/area/template_noop)
-"Eb" = (
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"Em" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ru" = (
+/turf/closed/wall/r_wall,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"rw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/necropolis,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"rD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesPostCabin2";
+	name = "Cabin 2"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"rJ" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/oven,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"sa" = (
+/turf/closed/wall/r_wall,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"sj" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"sy" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"sD" = (
+/obj/effect/turf_decal/tile/purple/anticorner,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"td" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"te" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	id_tag = "CavesPostCabin3";
+	name = "Cabin 3"
+	},
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"th" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"tu" = (
+/obj/structure/table,
+/obj/structure/window/reinforced/spawner,
+/obj/item/folder/blue,
+/obj/item/folder/red{
+	pixel_x = 5
+	},
+/obj/item/pen/fourcolor,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"tA" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"tM" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ub" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ui" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"uu" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"uB" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"uI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/glass{
 	name = "Mining External Airlock";
@@ -913,91 +1006,353 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/template_noop)
-"Ez" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"uN" = (
+/turf/open/chasm/lavaland,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"uX" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"vi" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"vE" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"vK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"wm" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 1
 	},
-/obj/structure/barricade/sandbags,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/firealarm/directional/north,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"EF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"EH" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"EK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/necropolis,
-/area/template_noop)
-"EM" = (
-/obj/machinery/computer/terminal,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"EY" = (
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Ff" = (
-/obj/effect/turf_decal/tile/purple/half,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
-"Ft" = (
-/obj/effect/turf_decal/tile/red/half,
-/turf/open/floor/iron,
-/area/template_noop)
-"FO" = (
-/obj/structure/chair/wood{
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"wt" = (
+/obj/structure/table,
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"wK" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"wV" = (
+/obj/effect/turf_decal/tile/purple/half{
 	dir = 4
 	},
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"FW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"xc" = (
+/obj/structure/curtain,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/shower{
+	pixel_y = 24
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"xe" = (
+/obj/effect/turf_decal/tile/red/half,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"xm" = (
+/obj/structure/cable,
+/obj/structure/rack,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"xn" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"xw" = (
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"xD" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"xO" = (
+/obj/machinery/door/firedoor,
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ym" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"yx" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
-"FY" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"yF" = (
+/obj/structure/table,
+/obj/machinery/microwave,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"yM" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"yN" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"yU" = (
+/turf/closed/indestructible/riveted,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"zF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	name = "Unisex Showers"
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Af" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"AJ" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Bo" = (
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"BK" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/light/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"BP" = (
+/obj/effect/turf_decal/tile/purple,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"BQ" = (
+/obj/effect/turf_decal/tile/purple{
 	dir = 8
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Cc" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Ci" = (
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Cs" = (
+/obj/machinery/computer/security{
+	network = list("cavesscipost")
+	},
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"CG" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"CL" = (
+/obj/effect/turf_decal/tile/purple/half,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"CX" = (
+/obj/effect/turf_decal/tile/purple/half{
 	dir = 1
 	},
-/turf/open/floor/iron,
-/area/template_noop)
-"Gb" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/obj/machinery/door/airlock/public{
-	name = "Research Divison"
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"De" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/template_noop)
-"Gk" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Dn" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/porta_turret/centcom_shuttle{
+	lethal_projectile = /obj/projectile/bullet/c46x30mm;
+	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
+	},
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Dx" = (
+/obj/machinery/computer/terminal{
+	content = list("INFO-SECURE: Your number one source of encrypted text files! ERROR: Encryption hash not found, file not encrypted! -- NOTES: Cycle 34 - Miners uncovered pieces of scrap bronze from one of the local lizard nests they cleared out recently. Ullman is a bit perplexed by this as this hellscape we dig has no natural deposits of neither tin nor copper, let alone humoring the prospects these primals may actually be learning metalworking to some extent due to our prolonged presence here. I've asked the QM if anything in previous request logs had anything made of bronze, mostly to see if maybe they're just stealing from our storage bay during off-hours.");
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"DG" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -1010,42 +1365,151 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/carpet,
-/area/template_noop)
-"Gp" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"DK" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/obj/machinery/door/airlock/public{
+	name = "Research Divison"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"DT" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Ek" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/item/bedsheet/rd{
+	dir = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Fw" = (
+/turf/closed/wall,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"FF" = (
+/obj/machinery/atmospherics/components/tank/oxygen,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"FI" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
+	},
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"GJ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	desc = "A premium single-malt whiskey, gently matured in an off-station distrillery orbiting the gas giant Wolf 359.";
+	name = "Warren Kepler's special reserve"
+	},
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Hq" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Hr" = (
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/table,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Hs" = (
+/obj/structure/table,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Hx" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"HM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock{
+	name = "Unisex Restroom"
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"HO" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"HY" = (
+/obj/effect/turf_decal/tile/purple/fourcorners,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Ic" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 1
 	},
-/turf/open/floor/iron,
-/area/template_noop)
-"GB" = (
-/obj/structure/table,
-/turf/open/floor/iron,
-/area/template_noop)
-"Hq" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner/west,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Hu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"HP" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"HX" = (
-/obj/effect/turf_decal/tile/red/fourcorners,
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/iron,
-/area/template_noop)
-"HZ" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/turf/open/floor/iron,
-/area/template_noop)
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
 "Ih" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/box,
@@ -1054,150 +1518,588 @@
 	},
 /turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
-"In" = (
-/obj/machinery/computer/terminal{
-	content = list("INFO-SECURE: You're number one source of encrypted text files! ERROR: Encryption hash not found, file not encrypted! -- NOTES: Cycle 34-Miners uncovered pieces of scrap bronze from one of the local lizard nests they cleared out recently. Ullman is a bit perplexed by this as this hellscape we dig has no natural deposits of neither tin nor copper, let alone humoring the prospects these primals may actually be learning metalworking to some extent due to our prolonged presence here. I've asked the QM if anything in previous request logs had anything made of bronze, mostly to see if maybe they're just stealing from our storage bay during off-hours.");
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"IA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesPostCabin2";
-	name = "Cabin 2"
-	},
-/turf/open/floor/carpet,
-/area/template_noop)
-"IU" = (
-/obj/structure/dresser,
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"JE" = (
-/obj/machinery/power/rtg,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"JI" = (
-/turf/closed/mineral/volcanic,
-/area/template_noop)
-"JK" = (
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/template_noop)
-"JY" = (
-/obj/machinery/computer/terminal{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Kf" = (
+"It" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/door/airlock/public{
 	name = "Mess Hall"
 	},
 /turf/open/floor/iron,
-/area/template_noop)
-"Kl" = (
-/obj/structure/closet/secure_closet/freezer/meat,
-/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
-/area/template_noop)
-"Kx" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 1
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"IA" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Mining External Airlock";
+	req_access_txt = "200"
 	},
-/turf/open/floor/iron,
-/area/template_noop)
-"KL" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/iron,
-/area/template_noop)
-"La" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	id_tag = "CavesPostCabin4";
-	name = "Cabin 4"
-	},
-/turf/open/floor/carpet,
-/area/template_noop)
-"Lf" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/light/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"Lt" = (
-/obj/structure/table,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Lu" = (
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"IE" = (
 /obj/effect/turf_decal/tile/purple/anticorner,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
-/area/template_noop)
-"LJ" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"IW" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Jk" = (
+/obj/structure/toilet,
+/obj/structure/curtain,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Jq" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Ju" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"JI" = (
+/turf/closed/mineral/volcanic,
 /area/template_noop)
-"LT" = (
+"JL" = (
 /obj/effect/turf_decal/tile/red/fourcorners,
 /obj/structure/closet/secure_closet{
 	icon_state = "sec";
 	name = "security officer's locker";
 	req_access_txt = "203"
 	},
+/obj/item/gun/energy/recharge/kinetic_accelerator,
+/obj/item/melee/baton/security/loaded,
+/obj/item/clothing/head/helmet,
+/obj/item/clothing/suit/armor/vest/old,
+/obj/item/flashlight/seclite,
 /turf/open/floor/iron,
-/area/template_noop)
-"ME" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"JQ" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Office";
+	req_access_txt = "203"
+	},
 /turf/open/floor/iron,
-/area/template_noop)
-"MH" = (
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Kc" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Kf" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"KX" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Le" = (
+/obj/structure/dresser,
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"LI" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"LK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Mv" = (
+/obj/machinery/computer/terminal{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Mz" = (
+/obj/structure/lattice,
+/turf/open/chasm/lavaland,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"MA" = (
+/obj/structure/chair/stool/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"NB" = (
+/obj/machinery/vending/dinnerware,
+/obj/effect/turf_decal/bot,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"NE" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"NR" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/iron/freezer,
-/area/template_noop)
-"Nt" = (
-/obj/effect/turf_decal/tile/purple/half,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"NT" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/button/door/directional/south{
+	id = "CavesPostCabin1";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Oj" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"OF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Pr" = (
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Pv" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/structure/barricade/sandbags,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/firealarm/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Py" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/item/clothing/suit/armor/reactive/teleport{
+	desc = "Someone separated our Site Director from his own head!"
+	},
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"PI" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	lethal_projectile = /obj/projectile/bullet/c46x30mm;
+	lethal_projectile_sound = 'sound/weapons/gun/smg/shot.ogg'
+	},
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"PT" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"PW" = (
+/obj/effect/turf_decal/tile/purple/anticorner,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Qc" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Qf" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Qn" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/template_noop)
-"Nu" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Qy" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/public{
+	name = "Mess Hall"
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"QA" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 1
+	},
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"QN" = (
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"QR" = (
 /obj/effect/turf_decal/tile/purple/anticorner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"QT" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Rx" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/tile/purple/half{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
-/area/template_noop)
-"NE" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/carpet,
-/area/template_noop)
-"NO" = (
-/obj/machinery/chem_master/condimaster{
-	name = "CondiMaster Neo"
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Ry" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 8
 	},
 /turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"RG" = (
+/turf/open/indestructible/necropolis,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"RS" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"RZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/layer_manifold{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Si" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/carpet,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Sj" = (
+/obj/structure/curtain,
+/obj/machinery/shower{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"So" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"St" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"SH" = (
+/turf/open/chasm/lavaland,
 /area/template_noop)
-"Oj" = (
+"SJ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/button/door/directional/north{
+	id = "CavesPostCabinRD";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	specialfunctions = 4
+	},
+/turf/open/floor/carpet/purple,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"TE" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"TK" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"TM" = (
+/turf/open/floor/iron/kitchen_coldroom/freezerfloor,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"TV" = (
+/obj/machinery/computer/terminal{
+	content = list("MINER-MAIL - #456 - Mineral Specialist J. Ullman -> E. Queef -- Do you know if the time clock down by your office was fixed? I'm tired of checking in at the office by the ravine and if I get docked another half point for being a minute late from lunch again they're going to make me sign a dumb fucking paper about being IrReSpOnSiBlE with my breaks. I hate management.");
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"TZ" = (
+/turf/closed/wall,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Uc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spawner/lavaland/legion,
+/turf/open/indestructible/necropolis,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"Uy" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"UQ" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Vh" = (
+/obj/structure/chair/stool/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/necropolis,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"VF" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"We" = (
 /obj/effect/turf_decal/tile/purple/half{
 	dir = 1
 	},
@@ -1206,50 +2108,44 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron,
-/area/template_noop)
-"OM" = (
-/obj/structure/chair{
-	dir = 8
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Wf" = (
+/obj/effect/turf_decal/tile/purple/half{
+	dir = 4
 	},
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/template_noop)
-"Po" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock{
-	name = "Unisex Restroom"
+/obj/machinery/door/airlock/public{
+	name = "Research Divison"
 	},
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"Px" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
+/obj/machinery/door/firedoor,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Wn" = (
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"WD" = (
+/obj/effect/turf_decal/tile/purple,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/template_noop)
-"Pz" = (
-/obj/effect/turf_decal/tile/purple/anticorner{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"PH" = (
-/obj/structure/curtain,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/obj/machinery/shower{
-	pixel_y = 24
-	},
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"PV" = (
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"WW" = (
 /obj/structure/chair/office{
 	dir = 1
 	},
@@ -1260,309 +2156,135 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
-/area/template_noop)
-"PY" = (
-/turf/closed/wall,
-/area/template_noop)
-"PZ" = (
-/obj/machinery/computer/terminal{
-	content = list("MINER-MAIL - #445 -Shaft Miner Jim Joffee -> J. Ullman -- Just checking for an update on that last email I sent about the debris I found on the lower levels. I know these caves are inhabited by those cave lizards, but them having bronze metal seems really odd. Don't tell me these lizardbrains are entering the bronze age, they might actually start being a problem.")
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Qq" = (
-/obj/machinery/light/directional/south,
-/obj/machinery/oven,
-/turf/open/floor/iron,
-/area/template_noop)
-"Qu" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Qy" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner/east,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"QT" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tile/purple/half{
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Xr" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Xv" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"Xw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/east,
 /turf/open/floor/iron,
-/area/template_noop)
-"Rh" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"Rw" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	desc = "A premium single-malt whiskey, gently matured in an off-station distrillery orbiting the gas giant Wolf 359.";
-	name = "Warren Kepler's special reserve"
-	},
-/turf/open/floor/carpet/purple,
-/area/template_noop)
-"Si" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/template_noop)
-"Sk" = (
-/obj/structure/curtain,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/shower{
-	pixel_y = 24
-	},
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"Sw" = (
-/obj/effect/turf_decal/tile/red/half,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Yo" = (
+/obj/effect/turf_decal/tile/purple/anticorner{
 	dir = 1
 	},
-/turf/open/floor/iron,
-/area/template_noop)
-"SA" = (
+/turf/open/floor/iron{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"YC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"YD" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/airlock{
-	name = "Unisex Showers"
+	id_tag = "CavesPostCabin4";
+	name = "Cabin 4"
 	},
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"SH" = (
-/turf/open/chasm/lavaland,
-/area/template_noop)
-"SQ" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/iron,
-/area/template_noop)
-"Th" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/light/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron,
-/area/template_noop)
-"TK" = (
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"TL" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/template_noop)
-"TN" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"TU" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"Ua" = (
-/obj/machinery/door/airlock/external/glass{
-	name = "Mining External Airlock";
-	req_access_txt = "200"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/template_noop)
-"Ue" = (
-/obj/structure/chair/office/light{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Uh" = (
-/obj/effect/turf_decal/tile/purple/anticorner,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"UA" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/turf/open/floor/iron,
-/area/template_noop)
-"UL" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron,
-/area/template_noop)
-"VQ" = (
-/turf/closed/wall/r_wall,
-/area/template_noop)
-"VU" = (
-/obj/machinery/computer/terminal{
-	content = list("MINER-MAIL - #456 - Mineral Specialist J. Ullman -> E. Queef -- Do you know if the time clock down by your office was fixed? I'm tired of checking in at the office by the ravine and if I get docked another half point for being a minute late from lunch again they're going to make me sign a dumb fucking paper about being IrReSpOnSiBlE with my breaks. I hate management.");
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Wa" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/freezer,
-/area/template_noop)
-"Wt" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"Wv" = (
-/turf/open/floor/plating,
-/area/template_noop)
-"WB" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"WK" = (
-/obj/structure/table,
-/obj/structure/window/reinforced/spawner,
-/turf/open/floor/iron/dark,
-/area/template_noop)
-"Xf" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/template_noop)
-"Xr" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"XH" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/machinery/door/airlock/public{
-	name = "Kitchen"
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron,
-/area/template_noop)
-"XK" = (
-/obj/structure/sink/kitchen{
-	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
-	dir = 4;
-	name = "old sink";
-	pixel_x = -12
-	},
-/turf/open/floor/iron,
-/area/template_noop)
-"XO" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron,
-/area/template_noop)
-"Yn" = (
-/obj/effect/turf_decal/tile/purple/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/iron,
-/area/template_noop)
-"Yq" = (
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/red/fourcorners,
-/turf/open/floor/iron,
-/area/template_noop)
-"Yu" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
-/area/template_noop)
-"YF" = (
-/obj/structure/chair/stool/directional/east,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet,
-/area/template_noop)
-"Zk" = (
-/obj/structure/table,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"YZ" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"Zh" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/freezer,
+/area/awaymission/spacebattle/syndicate6{
+	name = "Echo Outpost Research Center Dorms";
+	requires_power = 1
+	})
+"ZA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/template_noop)
-"Zm" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ZI" = (
+/obj/effect/turf_decal/tile/purple/half,
+/obj/structure/cable,
+/obj/machinery/door/airlock/security/glass{
+	name = "Security Office";
+	req_access_txt = "203"
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ZP" = (
+/obj/structure/table,
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"ZS" = (
+/obj/structure/window/reinforced/spawner/west,
+/turf/open/floor/iron/dark,
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
+"ZY" = (
+/turf/closed/wall,
+/area/awaymission/spacebattle/syndicate4{
+	name = "Echo Outpost Main Research Center";
+	requires_power = 1
+	})
+"ZZ" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/iron,
-/area/template_noop)
-"ZD" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/firedoor/closed,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
-/area/template_noop)
-"ZO" = (
-/obj/effect/turf_decal/tile/purple/half{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/template_noop)
+/area/awaymission/spacebattle/syndicate5{
+	name = "Echo Outpost Research Center Offices"
+	})
 
 (1,1,1) = {"
 pt
@@ -1644,11 +2366,11 @@ fO
 pt
 pt
 fO
-VQ
-VQ
-VQ
-VQ
-VQ
+sa
+sa
+sa
+sa
+sa
 JI
 JI
 fO
@@ -1682,11 +2404,11 @@ fO
 pt
 pt
 fO
-VQ
-hX
-Zk
-Zk
-VQ
+sa
+sy
+ui
+ui
+sa
 JI
 JI
 fO
@@ -1720,26 +2442,26 @@ fO
 pt
 pt
 fO
-VQ
-PZ
-Ue
-EY
-VQ
+sa
+ff
+Qc
+Wn
+sa
 JI
 JI
 JI
-fO
-si
-si
-fO
-Yq
-tK
-Ft
-HX
-fO
-si
-si
-fO
+yU
+lS
+lS
+yU
+uu
+or
+xe
+ym
+yU
+lS
+lS
+yU
 JI
 JI
 eP
@@ -1758,532 +2480,532 @@ fO
 fO
 fO
 fO
-VQ
-qy
-Qy
-EY
-VQ
+sa
+ew
+lP
+Wn
+sa
 JI
 JI
 JI
-fO
-EY
-cb
-fO
-cK
-PV
-Ft
-Yq
-fO
-cb
-si
-fO
+yU
+QN
+vK
+yU
+Cs
+WW
+xe
+uu
+yU
+vK
+lS
+yU
 JI
-VQ
-Em
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
+ru
+uI
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
 JI
 fO
 "}
 (7,1,1) = {"
 fO
-VQ
-VQ
-VQ
-PY
-Gp
-hb
-VQ
+sa
+sa
+sa
+Fw
+fv
+gW
+sa
 JI
 JI
 JI
-fO
-qN
-wZ
-fO
-pZ
-hh
-Sw
-LT
-fO
-wZ
-EF
-fO
+yU
+yN
+ZA
+yU
+jJ
+md
+lh
+JL
+yU
+ZA
+So
+yU
 JI
-VQ
-oi
-PY
-je
-hE
-je
-Kf
-sQ
-XK
-VQ
-VQ
+ru
+ql
+ZY
+Af
+mT
+Af
+It
+Ci
+qc
+ru
+ru
 fO
 "}
 (8,1,1) = {"
 fO
-VQ
-hX
-VU
-aq
-Gp
-bH
-VQ
-VQ
-VQ
-VQ
-fO
-fO
-ay
-fO
-Xf
-pU
-Ff
-Xf
-fO
-ay
-fO
-fO
-VQ
-VQ
-Ua
-PY
-je
-UA
-kn
-PY
-vz
-sQ
-ao
-VQ
+sa
+sy
+TV
+tu
+fv
+Xr
+sa
+ru
+ru
+ru
+yU
+yU
+iz
+yU
+aR
+JQ
+ZI
+aR
+yU
+iz
+yU
+yU
+ru
+ru
+IA
+ZY
+Af
+nZ
+RS
+ZY
+HO
+Ci
+Hx
+ru
 fO
 "}
 (9,1,1) = {"
 fO
-VQ
-Zk
-iX
-WK
-Gp
-nB
-PY
-Kx
-TU
-BV
-AJ
-TU
-UL
-jS
-TU
-uM
-cc
-TU
-Rh
-UL
-TU
-TU
-BV
-TU
-Nu
-PY
-do
-mI
-je
-ME
-sQ
-sQ
-GB
-VQ
+sa
+ui
+sj
+wt
+fv
+Xv
+Fw
+QR
+Ry
+tM
+Rx
+Ry
+Xw
+jq
+Ry
+th
+BQ
+Ry
+DT
+Xw
+Ry
+Ry
+tM
+Ry
+ls
+ZY
+QT
+PT
+Af
+uX
+Ci
+Ci
+Hs
+ru
 fO
 "}
 (10,1,1) = {"
 fO
-VQ
-tn
-hP
-hP
-sQ
-FW
-Gb
-WB
-iL
-Ce
-QT
-Zm
-wc
-ZO
-dZ
-ro
-ro
-KL
-ZO
-Lf
-xe
-XO
-Ce
-vE
-cq
-ts
-TL
-TL
-je
-ME
-sQ
-sQ
-yc
-VQ
+sa
+Hr
+hD
+hD
+ka
+ZZ
+DK
+Uy
+ey
+xO
+Oj
+Oj
+de
+wV
+fR
+nV
+nV
+BP
+wV
+hd
+LI
+LI
+xO
+Qf
+yx
+Qy
+gU
+gU
+Af
+uX
+Ci
+Ci
+yF
+ru
 fO
 "}
 (11,1,1) = {"
 fO
-VQ
-CU
-LJ
-LJ
-Gp
-DD
-zs
-sQ
-AI
-PY
-PY
-PY
-PY
-Bs
-Pz
-Yu
-kF
-Lu
-Bs
-PY
-PY
-PY
-PY
-rd
-HZ
-zs
-je
-fd
-je
-ME
-kX
-sQ
-Qq
-VQ
+sa
+nR
+HY
+HY
+fv
+qQ
+ib
+Ci
+mh
+TZ
+TZ
+TZ
+TZ
+Dn
+fy
+TE
+lc
+IE
+Dn
+TZ
+TZ
+TZ
+TZ
+em
+ub
+vE
+Af
+af
+Af
+uX
+xD
+Ci
+rJ
+ru
 fO
 "}
 (12,1,1) = {"
 fO
-VQ
-qa
-dU
-dU
-sQ
-DF
-uH
-qG
-nN
-PY
-Cx
-gP
-PY
-PY
-PY
-ZD
-vL
-PY
-PY
-PY
-PH
-CR
-PY
-Th
-kF
-XH
-je
-fd
-je
-ME
-sQ
-sQ
-yc
-VQ
+sa
+cD
+ZS
+ZS
+ka
+om
+Wf
+Qf
+BK
+TZ
+Jk
+xw
+TZ
+TZ
+TZ
+di
+dc
+TZ
+TZ
+TZ
+xc
+Sj
+TZ
+IW
+lc
+aO
+Af
+af
+Af
+uX
+Ci
+Ci
+yF
+ru
 fO
 "}
 (13,1,1) = {"
 fO
-VQ
-Zk
-bu
-WK
-Gp
-Yn
-PY
-Gp
-fG
-PY
-PY
-Eb
-PY
-MH
-PY
-Ez
-dG
-PY
-Hu
-Hu
-Hu
-mD
-PY
-pU
-ck
-PY
-je
-rG
-je
-zc
-sQ
-sQ
-Dv
-VQ
+sa
+ui
+Cc
+wt
+fv
+VF
+Fw
+xn
+io
+TZ
+TZ
+yM
+TZ
+NR
+TZ
+Pv
+dY
+TZ
+CG
+CG
+CG
+KX
+TZ
+wm
+CL
+ZY
+Af
+YZ
+Af
+uB
+Ci
+Ci
+mz
+ru
 fO
 "}
 (14,1,1) = {"
 fO
-VQ
-hX
-JY
-WK
-Gp
-mf
-PY
-Gp
-fG
-PY
-Cx
-HP
-Wa
-Hu
-Po
-TN
-vO
-SA
-Hu
-PY
-Sk
-gm
-PY
-Oj
-rH
-PY
-je
-UA
-kn
-PY
-cG
-sQ
-NO
-VQ
+sa
+sy
+Mv
+wt
+fv
+UQ
+Fw
+xn
+io
+TZ
+Jk
+Zh
+OF
+CG
+HM
+fP
+Mz
+zF
+CG
+TZ
+az
+ou
+TZ
+We
+Ju
+ZY
+Af
+nZ
+RS
+ZY
+NB
+Ci
+lp
+ru
 fO
 "}
 (15,1,1) = {"
 fO
-VQ
-VQ
-VQ
-PY
-Gp
-hb
-PY
-Gp
-fG
-PY
-PY
-PY
-PY
-PY
-PY
-ie
-vO
-PY
-PY
-PY
-PY
-PY
-PY
-xj
-zA
-PY
-je
-OM
-je
-Kf
-sQ
-sQ
-PY
-VQ
+sa
+sa
+sa
+Fw
+fv
+gW
+Fw
+xn
+io
+TZ
+TZ
+TZ
+TZ
+TZ
+TZ
+Ic
+Mz
+TZ
+TZ
+TZ
+TZ
+TZ
+TZ
+bw
+PI
+ZY
+Af
+iI
+Af
+It
+Ci
+Ci
+ZY
+ru
 fO
 "}
 (16,1,1) = {"
 fO
 fO
 fO
-VQ
-Zk
+sa
+ui
+ZP
+Wn
+Fw
+xn
+qg
+lF
+TZ
+Si
+MA
+mx
+De
+fP
+uN
+De
+te
+MA
 Hq
-EY
-PY
-Gp
-hC
-FY
-PY
-NE
-YF
-ds
-TN
-TN
-SH
-TN
-Ae
-YF
-Ca
-PY
-PY
-ks
-Xf
-PY
-PY
-PY
-Wv
-PY
-PY
-JK
-PY
-VQ
+TZ
+ZY
+ao
+aR
+ZY
+ZY
+ZY
+Pr
+ZY
+ZY
+TM
+ZY
+ru
 fO
 "}
 (17,1,1) = {"
 pt
 pt
 fO
-VQ
-EM
-Ue
-EY
-PY
-Gp
-ro
-ck
-PY
-eJ
-et
-PY
-sv
-vO
-SH
-Nt
-PY
-jl
-eJ
-PY
-EY
-wZ
-Zk
-In
-EY
-PY
-Wv
-PY
-Kl
-JK
-JK
-VQ
+sa
+eR
+Qc
+Wn
+Fw
+xn
+nV
+CL
+TZ
+dS
+NT
+TZ
+QA
+Mz
+uN
+cr
+TZ
+mX
+dS
+TZ
+QN
+ZA
+qd
+Dx
+QN
+ZY
+Pr
+ZY
+Kc
+TM
+TM
+ru
 fO
 "}
 (18,1,1) = {"
 pt
 pt
 fO
-VQ
-hX
-Zk
-Zk
-PY
-Gp
-ro
-ck
-PY
-PY
-PY
-PY
-wS
-vO
-SH
-oT
-PY
-PY
-PY
-PY
-EY
-wZ
-Zk
-gW
-EY
-PY
-Wv
-PY
-iK
-JK
-JK
-VQ
+sa
+sy
+ui
+ui
+Fw
+xn
+nV
+CL
+TZ
+TZ
+TZ
+TZ
+CX
+Mz
+uN
+tA
+TZ
+TZ
+TZ
+TZ
+QN
+ZA
+qd
+St
+QN
+ZY
+Pr
+ZY
+Jq
+TM
+TM
+ru
 fO
 "}
 (19,1,1) = {"
 pt
 pt
 fO
-VQ
-VQ
-VQ
-PY
-PY
-Gp
-qT
-sk
-PY
-NE
-YF
-IA
-TN
-SH
-SH
-TN
-La
-YF
-Ca
-PY
-Qu
-wZ
-fE
-fE
-EY
-PY
-Wv
-PY
-JK
-JK
-JK
-VQ
+sa
+sa
+sa
+Fw
+Fw
+xn
+rp
+PW
+TZ
+Si
+MA
+rD
+De
+uN
+uN
+De
+YD
+MA
+Hq
+TZ
+YC
+ZA
+cb
+cb
+QN
+ZY
+Pr
+ZY
+TM
+TM
+TM
+ru
 fO
 "}
 (20,1,1) = {"
@@ -2292,36 +3014,36 @@ pt
 fO
 fO
 fO
-VQ
-Wv
-Wv
-WB
-SQ
-Bs
-PY
-eJ
-CJ
-PY
-sv
-SH
-SH
-Nt
-PY
-Gk
-eJ
-PY
-EY
-EY
-Lt
-EY
-EY
-PY
-Wv
-PY
-JK
-JK
-JK
-VQ
+ru
+Pr
+Pr
+Uy
+jD
+Dn
+TZ
+dS
+qr
+TZ
+QA
+uN
+uN
+cr
+TZ
+DG
+dS
+TZ
+QN
+QN
+nS
+QN
+QN
+ZY
+Pr
+ZY
+TM
+TM
+TM
+ru
 fO
 "}
 (21,1,1) = {"
@@ -2330,36 +3052,36 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-PY
-PY
-Si
-PY
-PY
-PY
-PY
-PY
-SH
-SH
-SH
-SH
-PY
-PY
-PY
-PY
-PY
-PY
-PY
-PY
-PY
-PY
-Wv
-PY
-du
-ob
-du
-VQ
+ru
+Pr
+ZY
+ZY
+RZ
+ZY
+TZ
+TZ
+TZ
+TZ
+uN
+uN
+uN
+uN
+TZ
+TZ
+TZ
+TZ
+ZY
+ZY
+ZY
+ZY
+ZY
+ZY
+Pr
+ZY
+lD
+pS
+lD
+ru
 fO
 "}
 (22,1,1) = {"
@@ -2368,36 +3090,36 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-PY
-mg
-tF
-iY
-jb
-PY
-Px
-fP
-SH
-dP
-SH
-vO
-gi
-lb
-PY
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-VQ
-VQ
-VQ
-VQ
-VQ
+ru
+Pr
+ZY
+FF
+LK
+vi
+xm
+TZ
+Yo
+bm
+uN
+RG
+uN
+Mz
+FI
+pr
+TZ
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+ru
+ru
+ru
+ru
+ru
 fO
 "}
 (23,1,1) = {"
@@ -2406,32 +3128,32 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-PY
-mg
-gC
-Wv
-iY
-PY
-BY
-xm
-vO
-dP
-dP
-SH
-xm
-oT
-PY
-Wv
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
+ru
+Pr
+ZY
+FF
+fT
+Pr
+NE
+TZ
+je
+iP
+Mz
+RG
+RG
+uN
+iP
+tA
+TZ
+Pr
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
 fO
 fO
 fO
@@ -2444,25 +3166,25 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-PY
-iY
-iY
-hs
-AP
-PY
-po
-zT
-EK
-rh
-rW
-Xr
-EH
-Uh
-PY
-Wv
-VQ
+ru
+Pr
+ZY
+NE
+NE
+wK
+Kf
+TZ
+fL
+Qn
+rw
+Uc
+Vh
+re
+WD
+sD
+Bo
+Pr
+ru
 fO
 fO
 fO
@@ -2482,25 +3204,25 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-VQ
-Xf
-VQ
-Xf
-VQ
-PY
-PY
-po
-Wt
-vK
-Wt
-gy
-Uh
-PY
-PY
-Wv
-VQ
+ru
+Pr
+ru
+aR
+ru
+aR
+ru
+TZ
+TZ
+fL
+AJ
+jf
+AJ
+mQ
+sD
+TZ
+TZ
+Pr
+ru
 fO
 pt
 pt
@@ -2520,25 +3242,25 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-VQ
-JE
-VQ
-JE
-VQ
-Wv
-PY
-PY
-PY
-id
-PY
-PY
-PY
-PY
-Wv
-Wv
-VQ
+ru
+Pr
+ru
+it
+ru
+it
+ru
+td
+TZ
+TZ
+TZ
+aS
+TZ
+TZ
+TZ
+TZ
+Pr
+Pr
+ru
 fO
 pt
 pt
@@ -2558,25 +3280,25 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-VQ
-VQ
-VQ
-VQ
-VQ
-Wv
-Wv
-PY
-ha
-hf
-mz
-lt
-PY
-Wv
-Wv
-VQ
-VQ
+ru
+Pr
+ru
+ru
+ru
+ru
+ru
+Pr
+Pr
+TZ
+SJ
+lJ
+Ek
+nX
+TZ
+Pr
+Pr
+ru
+ru
 fO
 pt
 pt
@@ -2596,24 +3318,24 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-PY
-nt
-pK
-FO
-nt
-PY
-Wv
-VQ
-VQ
+ru
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+TZ
+iN
+Py
+jo
+iN
+TZ
+Pr
+ru
+ru
 fO
 fO
 pt
@@ -2634,23 +3356,23 @@ pt
 pt
 pt
 fO
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-Wv
-PY
-IU
-eS
-aw
-Rw
-PY
-Wv
-VQ
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+Pr
+TZ
+Le
+jG
+gN
+GJ
+TZ
+Pr
+ru
 fO
 fO
 pt
@@ -2679,16 +3401,16 @@ fO
 fO
 fO
 fO
-VQ
-Wv
-PY
-PY
-PY
-PY
-PY
-PY
-Wv
-VQ
+ru
+Pr
+TZ
+TZ
+TZ
+TZ
+TZ
+TZ
+Pr
+ru
 fO
 pt
 pt
@@ -2717,16 +3439,16 @@ pt
 pt
 pt
 fO
-VQ
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-Wv
-VQ
+ru
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+Pr
+ru
 fO
 pt
 pt
@@ -2755,16 +3477,16 @@ pt
 pt
 pt
 fO
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
-VQ
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
+ru
 fO
 pt
 pt
