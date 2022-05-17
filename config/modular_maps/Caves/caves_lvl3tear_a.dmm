@@ -7,8 +7,8 @@
 /turf/open/misc/asteroid/basalt,
 /area/template_noop)
 "c" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/obj/structure/lattice/lava,
+/turf/open/lava/smooth,
 /area/template_noop)
 "d" = (
 /obj/effect/decal/cleanable/dirt,
@@ -24,6 +24,8 @@
 /obj/effect/step_trigger/teleport_fancy{
 	entersmoke = 1;
 	entersparks = 1;
+	locationx = 52;
+	locationy = 213;
 	uses = 0
 	},
 /turf/open/misc/asteroid,
@@ -151,13 +153,6 @@
 	},
 /turf/open/misc/asteroid,
 /area/template_noop)
-"D" = (
-/obj/effect/step_trigger/message{
-	message = "Life has many doors, small one. Some are best left closed.";
-	name = "initial warning in the tear"
-	},
-/turf/open/misc/asteroid/basalt,
-/area/template_noop)
 "E" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -174,12 +169,15 @@
 "H" = (
 /turf/open/lava/smooth,
 /area/template_noop)
-"I" = (
-/obj/structure/lattice/catwalk,
-/turf/open/lava/smooth,
-/area/template_noop)
 "J" = (
 /turf/template_noop,
+/area/template_noop)
+"K" = (
+/obj/effect/step_trigger/message{
+	message = "Life has many doors small one, some are best left closed. Hurry now, before someone less... lenient notices you.";
+	name = "initial warning in the tear"
+	},
+/turf/open/misc/asteroid/basalt,
 /area/template_noop)
 "M" = (
 /obj/effect/turf_decal/stripes/box,
@@ -545,7 +543,7 @@ J
 J
 Y
 M
-D
+K
 M
 Y
 J
@@ -568,7 +566,7 @@ J
 Y
 Y
 N
-I
+c
 B
 Y
 Y
@@ -591,7 +589,7 @@ Y
 H
 H
 N
-I
+c
 B
 H
 H
@@ -614,7 +612,7 @@ J
 Y
 H
 N
-I
+c
 B
 Y
 Y
@@ -637,7 +635,7 @@ J
 Y
 Y
 N
-I
+c
 B
 H
 H
@@ -660,7 +658,7 @@ Y
 H
 H
 N
-I
+c
 B
 H
 H
@@ -683,7 +681,7 @@ H
 H
 H
 N
-I
+c
 B
 Y
 Y
@@ -890,7 +888,7 @@ J
 J
 Y
 o
-c
+k
 o
 Y
 J
