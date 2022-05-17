@@ -10,23 +10,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible,
 /area/template_noop)
-"g" = (
-/obj/structure/fluff{
-	desc = "You're not sure if walking into this is a great idea...";
-	icon = 'icons/effects/eldritch.dmi';
-	icon_state = "pierced_illusion";
-	name = "fluxating rift"
-	},
-/obj/effect/step_trigger/teleport_fancy{
-	entersmoke = 1;
-	entersparks = 1;
-	locationx = 52;
-	locationy = 213;
-	name = "rift teleport to mechabay";
-	uses = 0
-	},
-/turf/open/misc/asteroid,
-/area/template_noop)
 "h" = (
 /turf/closed/mineral,
 /area/template_noop)
@@ -110,6 +93,10 @@
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid/basalt,
 /area/template_noop)
+"t" = (
+/obj/structure/lattice/lava,
+/turf/open/lava/smooth,
+/area/template_noop)
 "u" = (
 /turf/open/indestructible,
 /area/template_noop)
@@ -126,10 +113,6 @@
 "y" = (
 /obj/structure/ore_box,
 /turf/open/misc/asteroid/basalt,
-/area/template_noop)
-"z" = (
-/obj/structure/lattice/lava,
-/turf/open/lava/smooth,
 /area/template_noop)
 "A" = (
 /obj/effect/decal/remains/human,
@@ -154,6 +137,23 @@
 	},
 /turf/open/misc/asteroid,
 /area/template_noop)
+"D" = (
+/obj/structure/fluff{
+	desc = "You're not sure if walking into this is a great idea...";
+	icon = 'icons/effects/eldritch.dmi';
+	icon_state = "pierced_illusion";
+	name = "fluxating rift"
+	},
+/obj/effect/step_trigger/teleport_fancy{
+	entersmoke = 1;
+	entersparks = 1;
+	locationx = 52;
+	locationy = 213;
+	name = "rift teleport to mechabay";
+	uses = 0
+	},
+/turf/open/misc/asteroid,
+/area/template_noop)
 "E" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -173,7 +173,7 @@
 "J" = (
 /turf/template_noop,
 /area/template_noop)
-"K" = (
+"L" = (
 /obj/effect/step_trigger/message{
 	message = "Life has many doors small one, some are best left closed. Hurry now, before someone less... lenient notices you.";
 	name = "initial warning in the tear"
@@ -544,7 +544,7 @@ J
 J
 Y
 M
-K
+L
 M
 Y
 J
@@ -567,7 +567,7 @@ J
 Y
 Y
 N
-z
+t
 B
 Y
 Y
@@ -590,7 +590,7 @@ Y
 H
 H
 N
-z
+t
 B
 H
 H
@@ -613,7 +613,7 @@ J
 Y
 H
 N
-z
+t
 B
 Y
 Y
@@ -636,7 +636,7 @@ J
 Y
 Y
 N
-z
+t
 B
 H
 H
@@ -659,7 +659,7 @@ Y
 H
 H
 N
-z
+t
 B
 H
 H
@@ -682,7 +682,7 @@ H
 H
 H
 N
-z
+t
 B
 Y
 Y
@@ -912,7 +912,7 @@ J
 J
 J
 m
-z
+t
 i
 J
 J
@@ -935,7 +935,7 @@ J
 J
 J
 m
-z
+t
 Y
 J
 J
@@ -958,7 +958,7 @@ Y
 Y
 J
 Q
-z
+t
 Y
 J
 J
@@ -1349,7 +1349,7 @@ Y
 r
 r
 r
-g
+D
 r
 a
 Y

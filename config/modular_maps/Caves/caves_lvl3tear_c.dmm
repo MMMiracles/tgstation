@@ -1,24 +1,31 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "af" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood/large,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/asteroid/curseblob,
+/turf/open/floor/wood,
 /area/template_noop)
 "ao" = (
 /obj/modular_map_connector,
 /turf/template_noop,
 /area/template_noop)
-"aC" = (
-/mob/living/simple_animal/crab,
-/turf/open/misc/beach/sand,
+"aq" = (
+/turf/open/water/beach,
 /area/template_noop)
 "aJ" = (
 /turf/template_noop,
 /area/template_noop)
-"aK" = (
-/obj/effect/overlay/palmtree_l,
-/obj/item/toy/seashell{
-	pixel_x = 5;
-	pixel_y = 4
+"aL" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 10
+	},
+/area/template_noop)
+"aO" = (
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
 	},
 /turf/open/misc/beach/sand,
 /area/template_noop)
@@ -29,276 +36,24 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"br" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/turf/open/floor/wood,
-/area/template_noop)
-"by" = (
-/obj/effect/step_trigger/message{
-	message = "Life has many doors small one, some are best left closed. Hurry now, before someone less... lenient notices you.";
-	name = "initial warning in the tear"
-	},
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/water/beach,
-/area/template_noop)
-"dS" = (
-/obj/structure/bookcase/random/fiction,
-/turf/open/floor/wood/large,
-/area/template_noop)
-"eR" = (
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/turf/open/floor/wood/large,
-/area/template_noop)
-"eT" = (
-/turf/open/water/beach,
-/area/template_noop)
-"fV" = (
-/obj/structure/chair{
-	dir = 1
-	},
+"cu" = (
 /turf/open/misc/beach/coastline_t{
-	dir = 1
+	dir = 9
 	},
 /area/template_noop)
-"gH" = (
-/turf/open/floor/wood/large,
-/area/template_noop)
-"gW" = (
-/turf/open/misc/beach/coastline_b,
-/area/template_noop)
-"hJ" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/misc/beach/sand,
-/area/template_noop)
-"hN" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/mob/living/simple_animal/hostile/asteroid/curseblob,
-/turf/open/floor/wood,
-/area/template_noop)
-"iw" = (
-/obj/item/storage/fish_case/random/freshwater,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/template_noop)
-"iJ" = (
-/turf/open/misc/beach/coastline_t,
-/area/template_noop)
-"iK" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet,
-/area/template_noop)
-"jV" = (
-/obj/item/toy/beach_ball,
-/turf/open/misc/beach/coastline_t{
-	dir = 1
-	},
-/area/template_noop)
-"jW" = (
-/turf/open/misc/beach/coastline_t/sandwater_inner{
-	dir = 1
-	},
-/area/template_noop)
-"kG" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/turf/open/floor/wood/large,
-/area/template_noop)
-"lO" = (
-/turf/open/misc/beach/coastline_t/sandwater_inner{
-	dir = 8
-	},
-/area/template_noop)
-"mk" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/template_noop)
-"mC" = (
-/obj/structure/fluff{
-	desc = "A humanoid figure shrouded by erratic static.";
-	icon = 'icons/effects/effects.dmi';
-	icon_state = "static";
-	name = "humanoid figure"
-	},
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/misc/beach/sand,
-/area/template_noop)
-"mK" = (
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/template_noop)
-"mL" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/misc/beach/coastline_t{
-	dir = 4
-	},
-/area/template_noop)
-"mN" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 6
-	},
-/area/template_noop)
-"ns" = (
-/obj/structure/bookcase/random/nonfiction,
-/turf/open/floor/wood/large,
-/area/template_noop)
-"nN" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 5
-	},
-/area/template_noop)
-"oh" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 4
-	},
-/area/template_noop)
-"oP" = (
-/obj/effect/overlay/palmtree_l,
-/obj/item/toy/seashell{
-	pixel_x = -7;
-	pixel_y = 5
-	},
-/obj/effect/overlay/coconut,
-/turf/open/misc/beach/sand,
-/area/template_noop)
-"pU" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/water/beach,
-/area/template_noop)
-"qp" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 4
-	},
-/area/template_noop)
-"qK" = (
+"da" = (
 /turf/open/misc/beach/coastline_b{
 	dir = 1
 	},
 /area/template_noop)
-"rc" = (
-/obj/item/toy/seashell,
-/mob/living/simple_animal/parrot,
-/turf/open/misc/beach/sand,
-/area/template_noop)
-"sP" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole,
-/turf/open/floor/wood/large,
-/area/template_noop)
-"tV" = (
+"fa" = (
 /obj/effect/overlay/palmtree_r,
 /obj/item/toy/seashell{
 	pixel_y = -5
 	},
 /turf/open/misc/beach/sand,
 /area/template_noop)
-"ua" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 9
-	},
-/area/template_noop)
-"um" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 10
-	},
-/area/template_noop)
-"vP" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 9
-	},
-/area/template_noop)
-"wS" = (
-/turf/open/misc/beach/coastline_t/sandwater_inner{
-	dir = 4
-	},
-/area/template_noop)
-"ye" = (
-/obj/machinery/door/morgue{
-	name = "Private Study";
-	req_access_txt = "37"
-	},
-/turf/open/floor/engine/cult,
-/area/template_noop)
-"yH" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/floor/wood,
-/area/template_noop)
-"An" = (
-/turf/open/floor/wood,
-/area/template_noop)
-"AM" = (
-/obj/effect/turf_decal/siding/wood,
-/mob/living/simple_animal/hostile/asteroid/curseblob,
-/turf/open/floor/wood,
-/area/template_noop)
-"AR" = (
-/turf/open/misc/beach/sand,
-/area/template_noop)
-"CR" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/misc/beach/coastline_t/sandwater_inner,
-/area/template_noop)
-"DV" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 1
-	},
-/area/template_noop)
-"Er" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/decal/remains/human,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/wood,
-/area/template_noop)
-"ET" = (
-/turf/closed/wall,
-/area/template_noop)
-"Gd" = (
-/turf/open/floor/engine/cult,
-/area/template_noop)
-"Gq" = (
-/obj/item/clothing/shoes/sandal,
-/turf/open/misc/beach/coastline_t{
-	dir = 10
-	},
-/area/template_noop)
-"HC" = (
+"fk" = (
 /obj/structure/fluff/beach_umbrella,
 /obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb{
 	pixel_x = 13;
@@ -308,14 +63,198 @@
 	dir = 9
 	},
 /area/template_noop)
-"IU" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
+"ga" = (
+/obj/item/book/fish_catalog,
+/turf/open/misc/beach/coastline_t{
+	dir = 6
 	},
+/area/template_noop)
+"gt" = (
+/turf/open/misc/beach/coastline_t/sandwater_inner,
+/area/template_noop)
+"iT" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet,
+/area/template_noop)
+"ja" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
 /area/template_noop)
-"Ks" = (
+"jt" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 8
+	},
+/area/template_noop)
+"jN" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"ki" = (
+/obj/machinery/light/directional/north,
+/obj/effect/decal/cleanable/cobweb,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"lG" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"mk" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 6
+	},
+/area/template_noop)
+"mV" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"ou" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"ov" = (
+/obj/effect/step_trigger/message{
+	message = "Please do not come back any time soon, these sorts of things should be kept to a one-in-a-lifetime experience if possible.";
+	name = "leaving message in the tear"
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"pA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"rd" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 5
+	},
+/area/template_noop)
+"rK" = (
+/mob/living/simple_animal/crab,
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"sv" = (
+/obj/structure/bookcase/random/nonfiction,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"tr" = (
+/turf/open/misc/beach/coastline_t/sandwater_inner{
+	dir = 1
+	},
+/area/template_noop)
+"ug" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/template_noop)
+"ux" = (
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"xe" = (
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/misc/beach/coastline_t{
+	dir = 9
+	},
+/area/template_noop)
+"xj" = (
+/obj/item/toy/seashell,
+/mob/living/simple_animal/parrot,
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"yz" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"zp" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 1
+	},
+/area/template_noop)
+"zK" = (
+/turf/open/misc/beach/coastline_b,
+/area/template_noop)
+"AD" = (
+/obj/item/storage/fish_case/random/freshwater,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"AL" = (
+/obj/machinery/door/morgue{
+	name = "Private Study";
+	req_access_txt = "37"
+	},
+/turf/open/floor/engine/cult,
+/area/template_noop)
+"Bn" = (
+/obj/item/toy/beach_ball,
+/turf/open/misc/beach/coastline_t{
+	dir = 1
+	},
+/area/template_noop)
+"Bs" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 4
+	},
+/area/template_noop)
+"Dn" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"DH" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"DN" = (
+/turf/open/floor/wood,
+/area/template_noop)
+"DZ" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood/large,
+/area/template_noop)
+"EK" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 10
+	},
+/area/template_noop)
+"GE" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/fluff{
 	desc = "You're not sure if walking into this is a great idea...";
@@ -333,99 +272,178 @@
 	},
 /turf/open/floor/carpet,
 /area/template_noop)
-"Kt" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/wood/large,
-/area/template_noop)
-"Lc" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 8
-	},
-/area/template_noop)
-"LU" = (
-/obj/machinery/light/directional/north,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/wood/large,
-/area/template_noop)
-"Mi" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 8
-	},
-/area/template_noop)
-"NC" = (
-/turf/open/misc/beach/coastline_b{
-	dir = 6
-	},
-/area/template_noop)
-"PH" = (
-/obj/effect/step_trigger/message{
-	message = "Please do not come back any time soon, these sorts of things should be kept to a one-in-a-lifetime experience if possible.";
-	name = "leaving message in the tear"
-	},
-/turf/open/floor/wood/large,
-/area/template_noop)
-"Tc" = (
-/turf/open/misc/beach/coastline_t{
-	dir = 5
-	},
-/area/template_noop)
-"Vz" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = 10;
-	pixel_y = 2
-	},
-/turf/open/floor/wood/large,
-/area/template_noop)
-"VT" = (
-/obj/item/book/fish_catalog,
-/turf/open/misc/beach/coastline_t{
-	dir = 6
-	},
-/area/template_noop)
-"Wf" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/template_noop)
-"WK" = (
-/obj/effect/light_emitter{
-	name = "daylight"
-	},
-/turf/open/misc/beach/coastline_t{
-	dir = 9
-	},
-/area/template_noop)
-"WP" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/wood,
-/area/template_noop)
-"WW" = (
+"GN" = (
+/obj/item/clothing/shoes/sandal,
 /turf/open/misc/beach/coastline_t{
 	dir = 10
 	},
 /area/template_noop)
-"Xp" = (
+"GP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/carpet,
 /area/template_noop)
-"YY" = (
+"Hv" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"Ie" = (
+/obj/structure/fluff{
+	desc = "A humanoid figure shrouded by erratic static.";
+	icon = 'icons/effects/effects.dmi';
+	icon_state = "static";
+	name = "humanoid figure"
+	},
+/turf/open/floor/wood/large,
+/area/template_noop)
+"Ig" = (
+/turf/open/floor/wood/large,
+/area/template_noop)
+"Ix" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 8
+	},
+/area/template_noop)
+"KA" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 9
+	},
+/area/template_noop)
+"Ln" = (
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/water/beach,
+/area/template_noop)
+"LR" = (
+/turf/open/misc/beach/coastline_t/sandwater_inner{
+	dir = 4
+	},
+/area/template_noop)
+"ML" = (
+/turf/open/misc/beach/coastline_t/sandwater_inner{
+	dir = 8
+	},
+/area/template_noop)
+"MU" = (
+/obj/effect/turf_decal/siding/wood,
+/mob/living/simple_animal/hostile/asteroid/curseblob,
+/turf/open/floor/wood,
+/area/template_noop)
+"Nl" = (
 /obj/effect/overlay/palmtree_l,
 /obj/effect/overlay/coconut,
 /turf/open/misc/beach/sand,
 /area/template_noop)
-"Zj" = (
-/turf/open/misc/beach/coastline_t/sandwater_inner,
+"NV" = (
+/turf/open/misc/beach/coastline_t{
+	dir = 5
+	},
 /area/template_noop)
-"ZO" = (
-/obj/structure/chair/office{
+"PM" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/template_noop)
+"RE" = (
+/turf/open/floor/engine/cult,
+/area/template_noop)
+"SL" = (
+/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/floor/wood/large,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/template_noop)
+"ST" = (
+/obj/effect/step_trigger/message{
+	message = "Life has many doors small one, some are best left closed. Hurry now, before someone less... lenient notices you.";
+	name = "initial warning in the tear"
+	},
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/water/beach,
+/area/template_noop)
+"Tn" = (
+/obj/effect/overlay/palmtree_l,
+/obj/item/toy/seashell{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"TQ" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 4
+	},
+/area/template_noop)
+"TS" = (
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/misc/beach/coastline_t{
+	dir = 4
+	},
+/area/template_noop)
+"TU" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"UU" = (
+/turf/open/misc/beach/coastline_t,
+/area/template_noop)
+"Vd" = (
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"Vk" = (
+/turf/closed/wall,
+/area/template_noop)
+"WJ" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/misc/beach/coastline_t{
+	dir = 1
+	},
+/area/template_noop)
+"XR" = (
+/obj/effect/overlay/palmtree_l,
+/obj/item/toy/seashell{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/effect/overlay/coconut,
+/turf/open/misc/beach/sand,
+/area/template_noop)
+"YI" = (
+/obj/effect/light_emitter{
+	name = "outdoor light";
+	set_cap = 3;
+	set_luminosity = 6
+	},
+/turf/open/misc/beach/coastline_t/sandwater_inner,
+/area/template_noop)
+"ZA" = (
+/turf/open/misc/beach/coastline_b{
+	dir = 6
+	},
 /area/template_noop)
 
 (1,1,1) = {"
@@ -477,7 +495,7 @@ aJ
 (3,1,1) = {"
 aJ
 aJ
-eT
+aq
 aJ
 aJ
 aJ
@@ -499,18 +517,18 @@ aJ
 "}
 (4,1,1) = {"
 aJ
-eT
-pU
-eT
+aq
+Ln
+aq
 aJ
 aJ
 aJ
 aS
-eT
+aq
 aS
 aS
-eT
-eT
+aq
+aq
 aS
 aS
 aJ
@@ -522,20 +540,20 @@ aJ
 "}
 (5,1,1) = {"
 aJ
-eT
-eT
+aq
+aq
 aJ
 aJ
 aS
 aS
-eT
-eT
-eT
-eT
-eT
-eT
-eT
-eT
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 aS
 aJ
 aJ
@@ -545,21 +563,21 @@ aJ
 "}
 (6,1,1) = {"
 aJ
-eT
+aq
 aJ
 aJ
 aS
-eT
-eT
-eT
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
-eT
-eT
+aq
+aq
+aq
+jt
+jt
+jt
+jt
+jt
+jt
+aq
+aq
 aS
 aJ
 aJ
@@ -573,17 +591,17 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-WK
-Mi
-Mi
-Mi
-Mi
-WW
-nN
-Lc
-eT
+aq
+da
+xe
+Ix
+Ix
+Ix
+Ix
+aL
+rd
+jt
+aq
 aS
 aJ
 aJ
@@ -596,17 +614,17 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-DV
-AR
-AR
-AR
-tV
-lO
-Mi
-WW
-gW
+aq
+da
+zp
+Vd
+Vd
+Vd
+fa
+ML
+Ix
+aL
+zK
 aS
 aJ
 aJ
@@ -619,106 +637,106 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-DV
-AR
-AR
-AR
-AR
-AR
-AR
-iJ
-gW
-eT
+aq
+da
+zp
+Vd
+Vd
+Vd
+Vd
+Vd
+Vd
+UU
+zK
+aq
 aS
 aJ
 aJ
 "}
 (10,1,1) = {"
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
 aS
-eT
-qK
-DV
-AR
-aK
-aC
-AR
-AR
-AR
-iJ
-gW
-eT
+aq
+da
+zp
+Vd
+Tn
+rK
+Vd
+Vd
+Vd
+UU
+zK
+aq
 aS
 aJ
 aJ
 "}
 (11,1,1) = {"
-eT
-eT
-eT
+aq
+aq
+aq
 aJ
 aJ
 aS
-eT
-qK
-Tc
-jW
-AR
-AR
-Zj
-qp
-mL
-mN
-gW
-eT
+aq
+da
+NV
+tr
+Vd
+Vd
+gt
+Bs
+TS
+mk
+zK
+aq
 aS
 aJ
 aJ
 "}
 (12,1,1) = {"
-Lc
-Lc
-Lc
-eT
+jt
+jt
+jt
+aq
 aJ
 aS
-eT
-eT
-um
-Tc
-qp
-qp
-mN
-ua
-oh
-oh
-eT
+aq
+aq
+EK
+NV
+Bs
+Bs
+mk
+KA
+TQ
+TQ
+aq
 aS
 aJ
 aJ
 aJ
 "}
 (13,1,1) = {"
-Mi
-Mi
-WW
-gW
+Ix
+Ix
+aL
+zK
 aJ
 aJ
 aS
-eT
-eT
-oh
-oh
-oh
-oh
-eT
+aq
+aq
+TQ
+TQ
+TQ
+TQ
+aq
 aS
 aS
 aS
@@ -728,20 +746,20 @@ aJ
 aJ
 "}
 (14,1,1) = {"
-AR
-YY
-iJ
-gW
+Vd
+Nl
+UU
+zK
 aJ
 aJ
 aJ
 aS
-eT
-eT
-eT
-eT
-eT
-eT
+aq
+aq
+aq
+aq
+aq
+aq
 aS
 aJ
 aJ
@@ -751,17 +769,17 @@ aJ
 aJ
 "}
 (15,1,1) = {"
-aC
-mC
-iJ
-gW
-eT
+rK
+ux
+UU
+zK
+aq
 aJ
 aJ
 aJ
 aS
-eT
-eT
+aq
+aq
 aS
 aS
 aS
@@ -774,17 +792,17 @@ aJ
 aJ
 "}
 (16,1,1) = {"
-qp
-qp
-mN
-gW
-eT
+Bs
+Bs
+mk
+zK
+aq
 aJ
 aJ
 aJ
 aJ
 aS
-by
+ST
 aS
 aJ
 aJ
@@ -797,18 +815,18 @@ aJ
 aJ
 "}
 (17,1,1) = {"
-oh
-oh
-oh
-eT
+TQ
+TQ
+TQ
+aq
 aJ
 aJ
 aJ
 aJ
 aJ
 aS
-eT
-eT
+aq
+aq
 aS
 aJ
 aJ
@@ -820,8 +838,8 @@ aJ
 aJ
 "}
 (18,1,1) = {"
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
@@ -829,9 +847,9 @@ aJ
 aJ
 aS
 aS
-eT
-eT
-eT
+aq
+aq
+aq
 aS
 aJ
 aJ
@@ -843,19 +861,19 @@ aJ
 aJ
 "}
 (19,1,1) = {"
-eT
+aq
 aJ
 aJ
 aJ
 aJ
 aJ
 aS
-eT
-eT
-Lc
-Lc
-Lc
-eT
+aq
+aq
+jt
+jt
+jt
+aq
 aS
 aJ
 aJ
@@ -873,12 +891,12 @@ aJ
 aJ
 aJ
 aS
-eT
-NC
-vP
-Mi
-WW
-gW
+aq
+ZA
+cu
+Ix
+aL
+zK
 aS
 aJ
 aJ
@@ -889,19 +907,19 @@ aJ
 aJ
 "}
 (21,1,1) = {"
-eT
+aq
 aJ
 aJ
 aJ
 aJ
 aS
-eT
-qK
-vP
-wS
-AR
-iJ
-gW
+aq
+da
+cu
+LR
+Vd
+UU
+zK
 aS
 aS
 aJ
@@ -912,21 +930,21 @@ aJ
 aJ
 "}
 (22,1,1) = {"
-eT
-eT
+aq
+aq
 aJ
 aJ
 aS
-eT
-eT
-qK
-jV
-rc
-CR
-mN
-gW
-eT
-eT
+aq
+aq
+da
+Bn
+xj
+YI
+mk
+zK
+aq
+aq
 aS
 aS
 aS
@@ -935,48 +953,48 @@ aJ
 aJ
 "}
 (23,1,1) = {"
-pU
-eT
-eT
+Ln
+aq
+aq
 aJ
 aJ
 aS
-eT
-qK
-Tc
-jW
-iJ
-ua
-eT
-eT
-eT
-Lc
-Lc
-eT
+aq
+da
+NV
+tr
+UU
+KA
+aq
+aq
+aq
+jt
+jt
+aq
 aS
 aJ
 aJ
 "}
 (24,1,1) = {"
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
 aJ
 aS
-eT
-um
-Tc
-mN
-eT
-eT
-eT
-NC
-vP
-WW
-nN
-Lc
+aq
+EK
+NV
+mk
+aq
+aq
+aq
+ZA
+cu
+aL
+rd
+jt
 aS
 aJ
 "}
@@ -988,19 +1006,19 @@ aJ
 aJ
 aJ
 aS
-eT
-eT
-oh
-oh
-eT
-eT
-qK
-vP
-wS
-lO
-Mi
-WW
-gW
+aq
+aq
+TQ
+TQ
+aq
+aq
+da
+cu
+LR
+ML
+Ix
+aL
+zK
 aS
 "}
 (26,1,1) = {"
@@ -1016,14 +1034,14 @@ aS
 aS
 aS
 aS
-eT
-qK
-DV
-hJ
-AR
-AR
-iJ
-gW
+aq
+da
+zp
+aO
+Vd
+Vd
+UU
+zK
 aS
 "}
 (27,1,1) = {"
@@ -1040,13 +1058,13 @@ aJ
 aJ
 aJ
 aS
-qK
-DV
-AR
-oP
-AR
-iJ
-gW
+da
+zp
+Vd
+XR
+Vd
+UU
+zK
 aS
 "}
 (28,1,1) = {"
@@ -1063,13 +1081,13 @@ aS
 aS
 aJ
 aS
-qK
-Tc
-jW
-AR
-Zj
-mN
-gW
+da
+NV
+tr
+Vd
+gt
+mk
+zK
 aS
 "}
 (29,1,1) = {"
@@ -1082,17 +1100,17 @@ aJ
 aJ
 aJ
 aS
-eT
-eT
+aq
+aq
 aS
 aS
-eT
-um
-Tc
-qp
-mN
-ua
-eT
+aq
+EK
+NV
+Bs
+mk
+KA
+aq
 aS
 "}
 (30,1,1) = {"
@@ -1104,17 +1122,17 @@ aJ
 aJ
 aS
 aS
-eT
-eT
-eT
-eT
-eT
-eT
-eT
-oh
-oh
-oh
-eT
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+TQ
+TQ
+TQ
+aq
 aS
 aJ
 "}
@@ -1125,14 +1143,14 @@ aJ
 aJ
 aJ
 aS
-eT
-eT
-Lc
-Lc
-Lc
-eT
-pU
-eT
+aq
+aq
+jt
+jt
+jt
+aq
+Ln
+aq
 aS
 aS
 aS
@@ -1148,13 +1166,13 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-HC
-Mi
-Gq
-gW
-eT
+aq
+da
+fk
+Ix
+GN
+zK
+aq
 aS
 aJ
 aJ
@@ -1171,13 +1189,13 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-fV
-Zj
-VT
-gW
-eT
+aq
+da
+WJ
+gt
+ga
+zK
+aq
 aS
 aJ
 aJ
@@ -1194,13 +1212,13 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-DV
-iJ
-ua
-eT
-eT
+aq
+da
+zp
+UU
+KA
+aq
+aq
 aS
 aJ
 aJ
@@ -1217,12 +1235,12 @@ aJ
 aJ
 aJ
 aS
-eT
-qK
-iw
-mK
-gW
-eT
+aq
+da
+AD
+ug
+zK
+aq
 aS
 aJ
 aJ
@@ -1240,12 +1258,12 @@ aJ
 aJ
 aJ
 aS
-eT
-eT
-mk
-mK
-eT
-eT
+aq
+aq
+lG
+ug
+aq
+aq
 aS
 aJ
 aJ
@@ -1264,15 +1282,15 @@ aJ
 aJ
 aJ
 aS
-eT
-Wf
-mK
+aq
+pA
+ug
 aS
 aS
 aJ
 aJ
 aJ
-eT
+aq
 aJ
 aJ
 aJ
@@ -1288,15 +1306,15 @@ aJ
 aJ
 aJ
 aS
-hN
-mK
+af
+ug
 aS
 aJ
 aJ
 aJ
-eT
-eT
-eT
+aq
+aq
+aq
 aJ
 aJ
 aJ
@@ -1305,45 +1323,45 @@ aJ
 (39,1,1) = {"
 aJ
 aJ
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
 aS
-Wf
-WP
+pA
+PM
 aS
 aJ
 aJ
-eT
-eT
-eT
-eT
-eT
+aq
+aq
+aq
+aq
+aq
 aJ
 aJ
 aJ
 "}
 (40,1,1) = {"
 aJ
-eT
-pU
-eT
-eT
+aq
+Ln
+aq
+aq
 aJ
 aJ
 aS
-Wf
-Er
+pA
+ja
 aS
 aJ
 aJ
 aJ
-eT
-pU
-eT
-eT
+aq
+Ln
+aq
+aq
 aJ
 aJ
 aJ
@@ -1351,21 +1369,21 @@ aJ
 (41,1,1) = {"
 aJ
 aJ
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
 aS
-IU
+SL
 aS
 aJ
-mK
+ug
 aJ
 aJ
 aJ
-eT
-eT
+aq
+aq
 aJ
 aJ
 aJ
@@ -1375,15 +1393,15 @@ aJ
 aJ
 aJ
 aJ
-eT
+aq
 aJ
 aJ
 aJ
 aS
-Wf
+pA
 aS
 aJ
-br
+jN
 aJ
 aJ
 aJ
@@ -1403,8 +1421,8 @@ aJ
 aJ
 aJ
 aS
-Wf
-yH
+pA
+TU
 aS
 aJ
 aJ
@@ -1423,11 +1441,11 @@ aJ
 aJ
 aJ
 aJ
-Wf
+pA
 aJ
 aJ
 aS
-mK
+ug
 aS
 aJ
 aJ
@@ -1446,11 +1464,11 @@ aJ
 aJ
 aJ
 aJ
-Wf
+pA
 aJ
 aJ
 aS
-AM
+MU
 aS
 aJ
 aJ
@@ -1472,11 +1490,11 @@ aJ
 aJ
 aJ
 aS
-An
-mK
+DN
+ug
 aS
-gH
-gH
+Ig
+Ig
 aJ
 aJ
 aJ
@@ -1495,11 +1513,11 @@ aJ
 aJ
 aJ
 aS
-PH
+ov
 aS
 aJ
-gH
-gH
+Ig
+Ig
 aJ
 aJ
 aJ
@@ -1518,7 +1536,7 @@ aJ
 aJ
 aS
 aS
-gH
+Ig
 aS
 aS
 aS
@@ -1535,18 +1553,18 @@ aJ
 (49,1,1) = {"
 aJ
 aJ
-gH
-gH
+Ig
+Ig
 aJ
 aS
-ET
-gH
-gH
-Xp
-iK
-gH
-af
-gH
+Vk
+Ig
+Ig
+GP
+iT
+Ig
+ou
+Ig
 aS
 aS
 aJ
@@ -1562,18 +1580,18 @@ aJ
 aJ
 aJ
 aS
-ET
-dS
-dS
-Xp
-iK
-gH
-Vz
-Kt
-ET
-Gd
+Vk
+DZ
+DZ
+GP
+iT
+Ig
+yz
+Dn
+Vk
+RE
 aS
-eR
+Ie
 aJ
 aJ
 aJ
@@ -1581,20 +1599,20 @@ aJ
 (51,1,1) = {"
 aJ
 aJ
-gH
-gH
-gH
+Ig
+Ig
+Ig
 aS
-ET
-LU
-gH
-Xp
-Ks
-gH
-sP
-ZO
-ye
-Gd
+Vk
+ki
+Ig
+GP
+GE
+Ig
+DH
+mV
+AL
+RE
 aS
 aJ
 aJ
@@ -1608,14 +1626,14 @@ aJ
 aJ
 aJ
 aS
-ET
-ns
-ns
-Xp
-iK
-gH
-kG
-gH
+Vk
+sv
+sv
+GP
+iT
+Ig
+Hv
+Ig
 aS
 aS
 aJ
@@ -1634,8 +1652,8 @@ aJ
 aS
 aS
 aS
-gH
-gH
+Ig
+Ig
 aS
 aS
 aS
@@ -1652,11 +1670,11 @@ aJ
 aJ
 aJ
 aJ
-gH
-gH
+Ig
+Ig
 aJ
-gH
-gH
+Ig
+Ig
 aS
 aS
 aJ
@@ -1678,8 +1696,8 @@ aJ
 aJ
 aJ
 aJ
-gH
-eR
+Ig
+Ie
 aJ
 aJ
 aJ
