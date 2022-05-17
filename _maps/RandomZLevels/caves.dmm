@@ -622,6 +622,10 @@
 	name = "Mining Outpost Delta";
 	requires_power = 1
 	})
+"ec" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/lavaland_atmos,
+/area/awaymission/secret)
 "eg" = (
 /obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
@@ -11967,7 +11971,7 @@ wq
 wq
 wq
 wq
-CN
+ec
 wq
 wq
 wq
