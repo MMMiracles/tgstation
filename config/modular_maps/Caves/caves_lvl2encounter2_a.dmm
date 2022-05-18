@@ -5,6 +5,16 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/template_noop)
+"b" = (
+/obj/structure/rack,
+/obj/item/grown/log/bamboo,
+/obj/item/grown/log/bamboo,
+/obj/item/seeds/bamboo,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
 "c" = (
 /obj/structure/punji_sticks,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -43,12 +53,12 @@
 /obj/structure/bonfire/prelit,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
-"k" = (
-/obj/structure/stone_tile/block/cracked{
-	dir = 1
-	},
+"o" = (
+/obj/structure/chair/stool/bamboo,
 /obj/item/food/meat/steak/goliath,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
+/turf/open/floor/bamboo{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
 /area/template_noop)
 "p" = (
 /turf/open/floor/bamboo{
@@ -69,16 +79,6 @@
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"t" = (
-/obj/structure/rack,
-/obj/item/grown/log/bamboo,
-/obj/item/grown/log/bamboo,
-/obj/item/seeds/bamboo,
-/obj/item/food/meat/slab/goliath,
-/obj/item/food/meat/slab/goliath,
-/obj/item/food/meat/slab/goliath,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "u" = (
@@ -131,6 +131,13 @@
 "I" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
+"K" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
+	},
+/obj/item/food/meat/steak/goliath,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
 "L" = (
 /obj/structure/stone_tile/block,
 /obj/item/spear/bamboospear,
@@ -148,13 +155,6 @@
 /area/template_noop)
 "O" = (
 /turf/closed/wall/rust,
-/area/template_noop)
-"P" = (
-/obj/structure/chair/stool/bamboo,
-/obj/item/food/meat/steak/goliath,
-/turf/open/floor/bamboo{
-	initial_gas_mix = "LAVALAND_ATMOS"
-	},
 /area/template_noop)
 "Q" = (
 /obj/structure/flora/ash/leaf_shroom,
@@ -281,7 +281,7 @@ I
 F
 a
 p
-k
+K
 x
 L
 I
@@ -294,7 +294,7 @@ F
 I
 F
 F
-P
+o
 B
 j
 s
@@ -322,7 +322,7 @@ F
 F
 I
 F
-t
+b
 I
 I
 I
