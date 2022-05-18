@@ -1,0 +1,575 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/stone_tile/block/burnt,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"b" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"c" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"d" = (
+/obj/structure/stone_tile/surrounding,
+/obj/structure/stone_tile/center/cracked,
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"e" = (
+/obj/structure/bonfire/prelit,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"f" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 5
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"g" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"h" = (
+/obj/structure/rack,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
+/obj/item/spear/bonespear,
+/obj/item/spear/bonespear,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"k" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 8
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"m" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"o" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 10
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 9
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"p" = (
+/obj/structure/closet/crate/internals,
+/obj/item/clothing/head/helmet/roman/legionnaire,
+/obj/item/clothing/head/helmet/rus_helmet,
+/obj/item/clothing/head/helmet/rus_ushanka,
+/obj/item/clothing/head/helmet/rus_helmet,
+/obj/item/clothing/suit/armor/vest/russian_coat,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"r" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"u" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 9
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"v" = (
+/obj/structure/table/wood,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"w" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"y" = (
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"z" = (
+/obj/structure/flora/rock,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"E" = (
+/obj/structure/closet/crate,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/lazarus_injector,
+/obj/item/kinetic_crusher,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"F" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 4
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"G" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 9
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 6
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"H" = (
+/turf/closed/wall,
+/area/template_noop)
+"I" = (
+/obj/structure/stone_tile/block/burnt{
+	dir = 1
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"N" = (
+/obj/structure/stone_tile/block/cracked,
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"O" = (
+/obj/structure/stone_tile/surrounding,
+/obj/structure/stone_tile/center/burnt,
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"Q" = (
+/obj/structure/flora/ash/cap_shroom,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"V" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"W" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 4
+	},
+/obj/structure/stone_tile/block/cracked{
+	dir = 10
+	},
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"X" = (
+/obj/structure/stone_tile/slab,
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"Y" = (
+/obj/modular_map_connector,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Z" = (
+/turf/closed/mineral/volcanic,
+/area/template_noop)
+
+(1,1,1) = {"
+c
+Y
+Z
+Z
+c
+c
+c
+m
+c
+c
+c
+Z
+Z
+Z
+"}
+(2,1,1) = {"
+c
+c
+Z
+Z
+c
+c
+g
+e
+a
+c
+E
+Z
+Z
+Z
+"}
+(3,1,1) = {"
+c
+c
+c
+Z
+h
+c
+c
+b
+c
+p
+Z
+Z
+Z
+Z
+"}
+(4,1,1) = {"
+c
+v
+v
+Z
+Z
+c
+c
+c
+c
+Z
+Z
+Z
+y
+Z
+"}
+(5,1,1) = {"
+c
+V
+r
+r
+r
+z
+c
+c
+Z
+Z
+Z
+y
+y
+Z
+"}
+(6,1,1) = {"
+Z
+c
+c
+Q
+r
+r
+Q
+c
+c
+o
+y
+y
+Z
+Z
+"}
+(7,1,1) = {"
+Z
+Z
+c
+c
+Q
+c
+c
+c
+O
+w
+N
+c
+Z
+Z
+"}
+(8,1,1) = {"
+y
+Z
+c
+c
+c
+c
+y
+I
+X
+d
+c
+c
+Z
+Z
+"}
+(9,1,1) = {"
+y
+c
+c
+c
+c
+W
+y
+y
+F
+c
+r
+Z
+c
+Z
+"}
+(10,1,1) = {"
+y
+Q
+c
+c
+c
+c
+k
+y
+c
+r
+Z
+Z
+c
+Z
+"}
+(11,1,1) = {"
+y
+u
+r
+z
+c
+c
+c
+f
+Q
+r
+z
+Z
+c
+c
+"}
+(12,1,1) = {"
+y
+y
+r
+r
+c
+c
+c
+c
+c
+Q
+Z
+Z
+c
+c
+"}
+(13,1,1) = {"
+y
+y
+y
+G
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+"}
+(14,1,1) = {"
+y
+y
+y
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+Z
+"}
+(15,1,1) = {"
+y
+y
+Q
+Q
+y
+y
+Z
+r
+c
+c
+c
+Z
+Z
+Z
+"}
+(16,1,1) = {"
+y
+y
+y
+y
+y
+y
+Z
+Z
+Z
+v
+v
+Z
+Z
+Z
+"}
+(17,1,1) = {"
+y
+y
+y
+y
+y
+y
+y
+Z
+Z
+c
+c
+c
+Z
+Z
+"}
+(18,1,1) = {"
+y
+y
+y
+y
+y
+y
+y
+y
+Z
+c
+c
+c
+Z
+Z
+"}
+(19,1,1) = {"
+c
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+Z
+Z
+"}
+(20,1,1) = {"
+c
+c
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+r
+Z
+"}
+(21,1,1) = {"
+y
+c
+c
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+H
+"}
+(22,1,1) = {"
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+"}
+(23,1,1) = {"
+c
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+"}
+(24,1,1) = {"
+c
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+"}
+(25,1,1) = {"
+c
+c
+y
+y
+y
+y
+y
+y
+y
+y
+y
+c
+c
+c
+"}

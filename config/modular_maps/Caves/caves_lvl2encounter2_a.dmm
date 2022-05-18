@@ -43,11 +43,12 @@
 /obj/structure/bonfire/prelit,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
-"o" = (
-/obj/structure/chair/stool/bamboo,
-/turf/open/floor/bamboo{
-	initial_gas_mix = "LAVALAND_ATMOS"
+"k" = (
+/obj/structure/stone_tile/block/cracked{
+	dir = 1
 	},
+/obj/item/food/meat/steak/goliath,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "p" = (
 /turf/open/floor/bamboo{
@@ -68,6 +69,16 @@
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"t" = (
+/obj/structure/rack,
+/obj/item/grown/log/bamboo,
+/obj/item/grown/log/bamboo,
+/obj/item/seeds/bamboo,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
+/obj/item/food/meat/slab/goliath,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "u" = (
@@ -138,6 +149,13 @@
 "O" = (
 /turf/closed/wall/rust,
 /area/template_noop)
+"P" = (
+/obj/structure/chair/stool/bamboo,
+/obj/item/food/meat/steak/goliath,
+/turf/open/floor/bamboo{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/template_noop)
 "Q" = (
 /obj/structure/flora/ash/leaf_shroom,
 /obj/modular_map_connector,
@@ -147,13 +165,6 @@
 /obj/structure/chair/stool/bamboo{
 	dir = 4
 	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"U" = (
-/obj/structure/rack,
-/obj/item/grown/log/bamboo,
-/obj/item/grown/log/bamboo,
-/obj/item/seeds/bamboo,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "V" = (
@@ -270,7 +281,7 @@ I
 F
 a
 p
-M
+k
 x
 L
 I
@@ -283,7 +294,7 @@ F
 I
 F
 F
-o
+P
 B
 j
 s
@@ -311,7 +322,7 @@ F
 F
 I
 F
-U
+t
 I
 I
 I

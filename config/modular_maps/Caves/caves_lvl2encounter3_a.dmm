@@ -1,0 +1,512 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"c" = (
+/obj/structure/flora/ash/cacti,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"f" = (
+/obj/effect/decal/remains/xeno/larva,
+/obj/item/toy/toy_xeno,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"g" = (
+/obj/structure/flora/rock,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"k" = (
+/obj/item/pickaxe,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"m" = (
+/obj/item/emptysandbag,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"n" = (
+/obj/structure/barricade/sandbags,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"o" = (
+/turf/closed/wall,
+/area/template_noop)
+"p" = (
+/turf/closed/mineral/volcanic,
+/area/template_noop)
+"s" = (
+/obj/structure/alien/weeds,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"t" = (
+/obj/structure/alien/weeds,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"v" = (
+/obj/structure/alien/resin/wall,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"w" = (
+/obj/item/xenos_claw,
+/obj/structure/alien/weeds/node,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"x" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"z" = (
+/obj/structure/bed/nest,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"B" = (
+/obj/effect/decal/remains/human,
+/obj/effect/gibspawner/human/bodypartless,
+/obj/item/clothing/suit/xenos,
+/obj/item/clothing/head/xenos,
+/obj/structure/alien/weeds,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"J" = (
+/obj/modular_map_connector,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"K" = (
+/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"L" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"R" = (
+/turf/open/chasm/lavaland,
+/area/template_noop)
+"S" = (
+/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril,
+/obj/structure/alien/weeds,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"T" = (
+/obj/effect/gibspawner/xeno/bodypartless,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"V" = (
+/obj/structure/flora/rock/pile,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"X" = (
+/obj/effect/decal/remains/xeno,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Y" = (
+/obj/item/organ/alien/plasmavessel,
+/obj/structure/alien/weeds,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Z" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+
+(1,1,1) = {"
+m
+J
+p
+p
+T
+z
+s
+S
+p
+p
+p
+p
+p
+p
+"}
+(2,1,1) = {"
+n
+n
+o
+p
+f
+B
+w
+t
+s
+v
+p
+p
+p
+p
+"}
+(3,1,1) = {"
+b
+b
+p
+p
+X
+Y
+s
+v
+s
+b
+p
+p
+p
+p
+"}
+(4,1,1) = {"
+b
+b
+p
+p
+p
+p
+p
+p
+K
+x
+b
+p
+p
+p
+"}
+(5,1,1) = {"
+b
+b
+b
+K
+b
+g
+p
+p
+p
+b
+b
+p
+p
+p
+"}
+(6,1,1) = {"
+b
+b
+b
+b
+b
+b
+b
+p
+x
+b
+b
+p
+p
+p
+"}
+(7,1,1) = {"
+b
+b
+b
+b
+b
+b
+b
+b
+b
+R
+b
+b
+p
+p
+"}
+(8,1,1) = {"
+R
+g
+c
+V
+b
+b
+b
+R
+R
+R
+b
+x
+p
+p
+"}
+(9,1,1) = {"
+R
+c
+c
+V
+b
+b
+R
+R
+R
+b
+b
+p
+p
+p
+"}
+(10,1,1) = {"
+R
+b
+V
+b
+b
+R
+R
+R
+b
+b
+p
+p
+p
+p
+"}
+(11,1,1) = {"
+R
+R
+b
+K
+b
+R
+R
+b
+b
+K
+b
+p
+p
+p
+"}
+(12,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+b
+b
+b
+p
+p
+p
+p
+"}
+(13,1,1) = {"
+R
+R
+R
+b
+R
+R
+b
+b
+b
+b
+p
+p
+p
+p
+"}
+(14,1,1) = {"
+R
+R
+R
+b
+b
+b
+b
+b
+b
+b
+p
+p
+p
+p
+"}
+(15,1,1) = {"
+R
+R
+b
+b
+R
+R
+R
+V
+b
+b
+b
+p
+p
+p
+"}
+(16,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+p
+p
+p
+"}
+(17,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+L
+p
+p
+"}
+(18,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+k
+p
+p
+"}
+(19,1,1) = {"
+b
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+b
+p
+p
+"}
+(20,1,1) = {"
+b
+b
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+V
+p
+"}
+(21,1,1) = {"
+R
+b
+b
+R
+R
+R
+R
+R
+R
+R
+b
+n
+n
+o
+"}
+(22,1,1) = {"
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+m
+"}
+(23,1,1) = {"
+b
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+Z
+m
+b
+"}
+(24,1,1) = {"
+b
+R
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+b
+"}
+(25,1,1) = {"
+b
+b
+R
+R
+R
+R
+R
+R
+R
+R
+R
+b
+b
+b
+"}
