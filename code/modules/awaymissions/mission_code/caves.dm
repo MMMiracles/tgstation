@@ -63,6 +63,12 @@
 /area/awaymission/caves/main_outpost/seconadry/research/living
 	name = "Delta Outpost Research Post Living Quarters"
 
+/area/awaymission/caves/main_outpost/seconadry/data
+	name = "Delta Outpost Research Post Data Center"
+
+/area/awaymission/caves/main_outpost/seconadry/engineering
+	name = "Delta Outpost Research Post Life Support"
+
 /area/awaymission/caves/main_outpost/seconadry/gateway
 	name = "Gateway Terminal Delta"
 
@@ -78,6 +84,27 @@
 
 /area/awaymission/caves/second_outpost/rest
 	name = "Mining Outpost Echo Rest Area"
+
+/area/awaymission/caves/second_outpost/researchcenter
+	name = "Research Outpost Echo Research Center"
+
+/area/awaymission/caves/second_outpost/researchcenter/dorm
+	name = "Research Outpost Echo Research Center Dorms"
+
+/area/awaymission/caves/second_outpost/researchcenter/work
+	name = "Research Outpost Echo Research Center Offices"
+
+/area/awaymission/caves/second_outpost/researchcenter/messhall
+	name = "Research Outpost Echo Research Center Mess Hall"
+
+/area/awaymission/caves/second_outpost/researchcenter/sitedirector
+	name = "Research Outpost Echo Research Center Site Director's Office"
+
+/area/awaymission/caves/second_outpost/researchcenter/engineering
+	name = "Research Outpost Echo Research Center Life Support"
+
+/area/awaymission/caves/second_outpost/researchcenter/maint
+	name = "Research Outpost Echo Research Center Maintenance"
 
 /area/awaymission/caves/northblock //engineering, bridge (not really north but it doesnt really need its own APC)
 

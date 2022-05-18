@@ -31,14 +31,7 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 	has_gravity = STANDARD_GRAVITY
 
 /area/awaymission/secret
-	var/area_id = "Secret Area"
 	area_flags = NOTELEPORT|HIDDEN_AREA|NO_ALERTS
-
-/area/awaymission/secret/Initialize(mapload)
-	. = ..()
-	if(mapload)
-		name = "[area_id]"
-		addSorted()
 
 /area/awaymission/secret/unpowered
 	always_unpowered = TRUE
