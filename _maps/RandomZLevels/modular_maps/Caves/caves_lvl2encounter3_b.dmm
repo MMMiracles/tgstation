@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"b" = (
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Throws-The-Spear"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
 "c" = (
 /obj/structure/water_source/puddle{
 	pixel_x = -3;
@@ -14,6 +20,12 @@
 	dir = 9
 	},
 /turf/open/chasm/lavaland,
+/area/template_noop)
+"g" = (
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Eats-The-Shrooms"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "h" = (
 /obj/modular_map_connector,
@@ -76,6 +88,12 @@
 /obj/structure/stone_tile/block/cracked,
 /turf/open/chasm/lavaland,
 /area/template_noop)
+"u" = (
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Cooks-The-Meat"
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
 "v" = (
 /obj/structure/stone_tile/block/burnt{
 	dir = 8
@@ -97,6 +115,9 @@
 "z" = (
 /obj/structure/stone_tile/block/burnt{
 	dir = 1
+	},
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Polishes-The-Spear"
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
@@ -140,6 +161,12 @@
 /turf/open/chasm/lavaland,
 /area/template_noop)
 "I" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"J" = (
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Loves-The-Hunt"
+	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "L" = (
@@ -255,7 +282,7 @@ F
 F
 F
 Z
-I
+u
 I
 R
 R
@@ -300,7 +327,7 @@ R
 x
 R
 I
-I
+b
 I
 I
 x
@@ -337,7 +364,7 @@ I
 I
 H
 x
-I
+J
 F
 R
 R
@@ -366,7 +393,7 @@ x
 F
 F
 I
-I
+g
 I
 I
 I

@@ -81,6 +81,12 @@
 	canSmoothWith = list(SMOOTH_GROUP_CATWALK)
 	obj_flags = CAN_BE_HIT | BLOCK_Z_OUT_DOWN | BLOCK_Z_IN_UP
 
+/obj/structure/lattice/catwalk/lava
+	name = "heatproof catwalk"
+	desc = "A specialized catwalk beam for walking across lava. Watch your step."
+	color = "#5286b9ff"
+	resistance_flags = FIRE_PROOF | LAVA_PROOF
+
 /obj/structure/lattice/catwalk/deconstruction_hints(mob/user)
 	return span_notice("The supporting rods look like they could be <b>cut</b>.")
 

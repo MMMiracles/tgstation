@@ -10,54 +10,28 @@
 "e" = (
 /turf/closed/mineral/volcanic,
 /area/template_noop)
-"f" = (
-/obj/item/xenos_claw,
-/obj/structure/alien/weeds/node,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
 "h" = (
-/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril,
-/obj/structure/alien/weeds,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/remains/human,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "i" = (
-/obj/structure/bed/nest,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"j" = (
-/obj/effect/decal/remains/human,
 /obj/effect/gibspawner/human/bodypartless,
-/obj/item/clothing/suit/xenos,
-/obj/item/clothing/head/xenos,
-/obj/structure/alien/weeds,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "k" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
-"m" = (
-/obj/effect/decal/remains/xeno,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"p" = (
-/obj/structure/alien/weeds,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
 "q" = (
-/obj/structure/barricade/sandbags,
+/obj/effect/decal/remains/human,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "s" = (
-/mob/living/simple_animal/hostile/asteroid/goliath/beast/tendril,
+/mob/living/simple_animal/hostile/asteroid/elite/broodmother,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "t" = (
 /turf/open/chasm/lavaland,
-/area/template_noop)
-"u" = (
-/obj/item/pickaxe,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "w" = (
 /obj/structure/flora/rock/pile,
@@ -68,37 +42,22 @@
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "G" = (
-/obj/item/emptysandbag,
+/obj/structure/flora/ash/leaf_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "K" = (
-/obj/effect/gibspawner/xeno/bodypartless,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"L" = (
-/obj/structure/ore_box,
+/obj/effect/mob_spawn/corpse/human/damaged{
+	mob_name = "Probably-Dies-First";
+	mob_species = /datum/species/lizard/ashwalker;
+	outfit = /datum/outfit/ashwalker
+	},
+/obj/item/spear/bonespear,
+/obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
 "M" = (
-/obj/structure/alien/weeds,
+/obj/structure/flora/ash/stem_shroom,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"O" = (
-/obj/item/organ/alien/plasmavessel,
-/obj/structure/alien/weeds,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"R" = (
-/obj/effect/decal/remains/xeno/larva,
-/obj/item/toy/toy_xeno,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"V" = (
-/obj/structure/alien/resin/wall,
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/template_noop)
-"W" = (
-/turf/closed/wall,
 /area/template_noop)
 "Z" = (
 /obj/structure/flora/rock,
@@ -110,11 +69,11 @@ G
 z
 e
 e
-K
-i
-M
-h
 e
+e
+k
+k
+k
 e
 e
 e
@@ -122,227 +81,227 @@ e
 e
 "}
 (2,1,1) = {"
-q
-q
-W
+k
+k
 e
-R
-j
-f
-p
-M
-V
+e
+k
+k
+k
+k
+k
+k
 e
 e
 e
 e
 "}
 (3,1,1) = {"
+G
 k
-k
+G
 e
-e
-m
-O
-M
-V
-M
 k
 e
+e
+w
+Z
+k
+k
 e
 e
 e
 "}
 (4,1,1) = {"
+e
 k
-k
-e
-e
-e
-e
-e
-e
-s
 b
 k
+k
+k
 e
 e
+e
+k
+k
+k
+k
 e
 "}
 (5,1,1) = {"
+e
+e
 k
 k
 k
-s
 k
-Z
 e
 e
 e
 k
 k
 e
-e
+k
 e
 "}
 (6,1,1) = {"
-k
-k
-k
-k
-k
-k
-k
 e
+e
+k
+k
 b
 k
+h
+e
+k
 k
 e
 e
+k
 e
 "}
 (7,1,1) = {"
-k
-k
-k
-k
-k
-k
-k
-k
-k
-t
-k
-k
 e
 e
-"}
-(8,1,1) = {"
-t
-Z
-c
-w
+e
 k
 k
+i
 k
-t
-t
-t
+k
 k
 b
 e
 e
+k
+M
+"}
+(8,1,1) = {"
+t
+e
+e
+w
+k
+k
+w
+t
+t
+k
+w
+e
+k
+k
 "}
 (9,1,1) = {"
 t
-c
-c
+e
+e
+Z
 w
-k
-k
+b
 t
 t
 t
 k
+w
+e
 k
-e
-e
-e
+M
 "}
 (10,1,1) = {"
 t
+e
+e
+e
+e
 k
+K
+t
 w
 k
-k
-t
-t
-t
-k
-k
 e
 e
-e
-e
+M
+M
 "}
 (11,1,1) = {"
 t
-t
+e
+e
+e
+c
+c
+k
 k
 s
 k
-t
-t
-k
-k
-s
 k
 e
-e
-e
+k
+k
 "}
 (12,1,1) = {"
 t
-t
-t
-t
-t
-t
-t
 k
 k
 k
+k
+k
+k
+b
+k
+k
 e
 e
-e
-e
+M
+k
 "}
 (13,1,1) = {"
 t
 t
-t
-k
-t
-t
-k
-k
 k
 k
 e
 e
 e
+k
+k
+q
+e
+e
+k
 e
 "}
 (14,1,1) = {"
 t
 t
+k
 t
-k
-k
-k
-k
+e
+e
+e
 k
 k
 k
 e
 e
-e
+k
 e
 "}
 (15,1,1) = {"
 t
 t
-k
-k
 t
 t
 t
-w
-k
-k
-k
 e
 e
+e
+k
+b
+k
+e
+k
 e
 "}
 (16,1,1) = {"
@@ -353,9 +312,9 @@ t
 t
 t
 t
-t
-t
-k
+e
+e
+e
 k
 e
 e
@@ -369,11 +328,11 @@ t
 t
 t
 t
-t
-t
+e
+e
+e
 k
 k
-L
 e
 e
 "}
@@ -386,10 +345,10 @@ t
 t
 t
 t
-t
+e
 k
 k
-u
+k
 e
 e
 "}
@@ -422,7 +381,7 @@ t
 t
 k
 k
-w
+k
 e
 "}
 (21,1,1) = {"
@@ -437,9 +396,9 @@ t
 t
 t
 k
-q
-q
-W
+k
+k
+e
 "}
 (22,1,1) = {"
 t
@@ -455,7 +414,7 @@ t
 t
 k
 k
-G
+k
 "}
 (23,1,1) = {"
 k
@@ -470,7 +429,7 @@ t
 t
 t
 k
-G
+k
 k
 "}
 (24,1,1) = {"

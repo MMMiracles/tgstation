@@ -157,7 +157,6 @@
 /obj/effect/mob_spawn/corpse/human/damaged{
 	mob_name = "Stabs-The-Tentacle";
 	mob_species = /datum/species/lizard/ashwalker;
-	mob_type = /mob/living/carbon/human;
 	outfit = /datum/outfit/ashwalker
 	},
 /obj/effect/decal/cleanable/blood/old,
@@ -196,6 +195,12 @@
 "oL" = (
 /obj/structure/stone_tile/block{
 	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"oY" = (
+/mob/living/simple_animal/hostile/ashwalker{
+	name = "Fears-The-Goliath"
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/template_noop)
@@ -329,7 +334,6 @@
 /obj/effect/mob_spawn/corpse/human/damaged{
 	mob_name = "Eats-The-Hummies";
 	mob_species = /datum/species/lizard/ashwalker;
-	mob_type = /mob/living/carbon/human;
 	outfit = /datum/outfit/ashwalker
 	},
 /obj/effect/decal/cleanable/blood/old,
@@ -434,7 +438,6 @@
 /obj/effect/mob_spawn/corpse/human/damaged{
 	mob_name = "Charrs-The-Meat";
 	mob_species = /datum/species/lizard/ashwalker;
-	mob_type = /mob/living/carbon/human;
 	outfit = /datum/outfit/ashwalker
 	},
 /obj/effect/decal/cleanable/blood/old,
@@ -562,7 +565,6 @@
 /obj/effect/mob_spawn/corpse/human/damaged{
 	mob_name = "Eats-The-Hummies";
 	mob_species = /datum/species/lizard/ashwalker;
-	mob_type = /mob/living/carbon/human;
 	outfit = /datum/outfit/ashwalker
 	},
 /obj/item/spear/bonespear,
@@ -1001,7 +1003,7 @@ BN
 sI
 sI
 Cc
-BN
+oY
 eX
 sI
 UD

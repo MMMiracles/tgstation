@@ -1,4 +1,4 @@
-directory = "config/modular_maps/Caves/"
+directory = "_maps/RandomZLevels/modular_maps/caves"
 
 #Various bridges on the 2nd floor
 [rooms.caves_lvl2bridge1]
