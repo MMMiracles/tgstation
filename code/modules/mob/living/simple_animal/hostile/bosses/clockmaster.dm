@@ -3,23 +3,54 @@
 	desc = "A man who has gone mad with the promise of great power from a dead god."
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
 	boss_abilities = list(/datum/action/boss/turret_summon, /datum/action/boss/steam_traps, /datum/action/boss/cogscarab_swarm)
+	var/list/phase_2_abilities = list()
 	faction = list("clockwork")
 	del_on_death = TRUE
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "clockminer"
-	ranged = 1
+	ranged = TRUE
 	environment_smash = ENVIRONMENT_SMASH_NONE
 	minimum_distance = 3
 	retreat_distance = 3
 	obj_damage = 0
 	melee_damage_lower = 10
 	melee_damage_upper = 20
-	health = 1000
-	maxHealth = 1000
+	health = 2000
+	maxHealth = 2000
+	speed = 1
 	loot = list(/obj/effect/temp_visual/paperwiz_dying)
 	projectiletype = /obj/projectile/temp
 	projectilesound = 'sound/weapons/emitter.ogg'
 	attack_sound = 'sound/hallucinations/growl1.ogg'
+	var/is_in_phase_2 = FALSE
+
+/mob/living/simple_animal/hostile/boss/clockmaster/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
+	. = ..()
+	if(health < maxHealth*0.5 && !is_in_phase_2)
+		get_angry()
+
+//phase 2 activation of the boss at 50% health, switches to more aggressive abilities instead of defensive/swarm ones
+/mob/living/simple_animal/hostile/boss/clockmaster/proc/get_angry()
+	is_in_phase_2 = TRUE
+	point_regen_delay = 0
+	ranged = FALSE
+	name = "Awakened Clockwork Priest"
+	desc = "A shell of a man who has gone mad with the promise of great power from a not-so-dead god."
+	for(var/mob/living/nearby_mob in urange(8, src))
+		shake_camera(nearby_mob, 2, 3)
+		nearby_mob.Paralyze(25 SECONDS)
+		to_chat(nearby_mob, span_warning("You feel yourself tense up at the sound of [src]!"))
+	say("ENOUGH!")
+	sleep(3 SECONDS)
+	say("I do not care what brought you here, whether it be Nanotrasen or your own foolish curiosities.")
+	sleep(7 SECONDS)
+	say("All I know is that you have become too much of an issue to let mere mortals handle my affairs. This one will have to do until I am through with you.")
+	sleep(8 SECONDS)
+	say("It is a shame you will not live to see my ascension, although I assure you that the view from the after life will be just as interesting.")
+	sleep(7 SECONDS)
+	say("Now, prepare to die.")
+
+
 
 //summons a set of ocular warden turrets placed throughout the arena. If no turret slots avaiable, refund boss points.
 /datum/action/boss/turret_summon
@@ -31,7 +62,20 @@
 	boss_type = /mob/living/simple_animal/hostile/boss/clockmaster
 	say_when_triggered = "Arise once more, watchful guardians! Yrg Uvf Tenpvbhf Yvtug thvqr lbhe nvz gehr!"
 
-//datum/action/boss/turret_summon/Trigger(trigger_flags)
+/datum/action/boss/steam_traps/IsAvailable()
+	. = ..()
+	if(!.)
+		return FALSE
+	if(vents_active)
+		return FALSE
+	return TRUE
+
+/datum/action/boss/turret_summon/Trigger(trigger_flags)
+
+
+/obj/effect/landmark/ocularwarden_boss_spawn
+	name = "occular warden tower spawner for the cool clock cult arena"
+	var/id = "clockmaster"
 
 
 //temporaily activates steam traps placed throughout the arena, which cause burn damage if walked into. If steam traps are active already, refund boss points.
@@ -55,7 +99,8 @@
 	return TRUE
 
 /datum/action/boss/steam_traps/Trigger(trigger_flags)
-	SEND_GLOBAL_SIGNAL(COMSIG_ACTION_TRIGGER_ID,src)
+	if(..())
+		SEND_GLOBAL_SIGNAL(COMSIG_ACTION_TRIGGER_ID,src)
 
 /obj/structure/steamvent
 	name = "steam pit"
@@ -133,14 +178,14 @@
 	icon_dead = "drone_clock_dead"
 	speak_chance = 0
 	turns_per_move = 5
-	speed = 0
+	speed = 2
 	stat_attack = HARD_CRIT
 	robust_searching = 1
-	maxHealth = 25
-	health = 25
-	harm_intent_damage = 5
-	melee_damage_lower = 5
-	melee_damage_upper = 5
+	maxHealth = 17
+	health = 17
+	harm_intent_damage = 3
+	melee_damage_lower = 3
+	melee_damage_upper = 3
 	rapid_melee = 2
 	attack_verb_continuous = "slashes at"
 	attack_verb_simple = "slash at"
