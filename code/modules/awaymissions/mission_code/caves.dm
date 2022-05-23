@@ -150,6 +150,9 @@
 /area/awaymission/caves/main_outpost/seconadry/mecha
 	name = "Delta Outpost Mecha Bay"
 
+/area/awaymission/caves/main_outpost/seconadry/recycle
+	name = "Delta Outpost Recycling Post"
+
 /area/awaymission/caves/main_outpost/seconadry/mecha/living
 	name = "Delta Outpost Mecha Bay Living Quarters"
 

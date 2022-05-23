@@ -42,13 +42,21 @@
 		to_chat(nearby_mob, span_warning("You feel yourself tense up at the sound of [src]!"))
 	say("ENOUGH!")
 	sleep(3 SECONDS)
-	say("I do not care what brought you here, whether it be Nanotrasen or your own foolish curiosities.")
+	icon = 'icons/effects/96x96.dmi'
+	icon_state = "clockpriest_ascend"
+	pixel_x = -32
+	base_pixel_x = -32
+	maptext_height = 96
+	maptext_width = 96
+	say("I should of known relying on mere mortals is a foolish endeavour, as if the ruins of my previous body wasn't evidence enough.")
 	sleep(7 SECONDS)
-	say("All I know is that you have become too much of an issue to let mere mortals handle my affairs. This one will have to do until I am through with you.")
+	say("I do not know what brought you here. Whether it be your employers that enshackle my kin, that wicked blood mother or your own foolish curiosity.")
 	sleep(8 SECONDS)
-	say("It is a shame you will not live to see my ascension, although I assure you that the view from the after life will be just as interesting.")
+	say("What I do know is that I've grown tired of festering in this forsaken pit and a Heretic such as yourself will NOT stop my return.")
 	sleep(7 SECONDS)
-	say("Now, prepare to die.")
+	say("Now, bear witness and cower before me! Rehd qdum, buj jxo ijuqc vbem jxhekwx qdt sewi ifyd! Qbb mybb adem co jhku dqcu ev Ratvar!")
+	sleep(7 SECONDS)
+	gib()
 
 
 
@@ -125,6 +133,14 @@
 		active = TRUE
 		icon_state = "vent_on"
 		addtimer(CALLBACK(src, .proc/VentDisable), 300)
+
+/obj/structure/steamvent/proc/on_entered(datum/source, atom/movable/AM)
+	if(active && isliving(AM))
+		var/mob/living/L = AM
+		var/atom/throw_target = get_edge_target_turf(L, pick(GLOB.cardinals))
+		to_chat(L, span_warning("You're blasted by a searing column of steam!"))
+		L.adjustFireLoss(rand(10,15))
+		L.throw_at(throw_target, 4, 1)
 
 /obj/structure/steamvent/proc/VentDisable()
 	active = FALSE

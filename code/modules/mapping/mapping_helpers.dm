@@ -612,6 +612,17 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	log_mapping("[src] at [x],[y] could not find an airlock on current turf, cannot place paper note.")
 	qdel(src)
 
+//kills a mob on the placed turf, useful for staging post-fight builds with dead simple mobs
+/obj/effect/mapping_helpers/mob_killer
+	name = "Mob killer placer"
+	late = TRUE
+	icon_state = "airlocknoteplacer"
+
+/obj/effect/mapping_helpers/mob_killer/LateInitialize()
+	var/turf/turf = get_turf(src)
+	if(locate(/mob/living) in turf)
+		var/mob/living/found_mob = locate(/mob/living) in turf
+		found_mob.death(gibbed = FALSE)
 /**
  * ## trapdoor placer!
  *
