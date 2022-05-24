@@ -27,3 +27,15 @@ modules = ["caves_lvl2researchpost_a.dmm", "caves_lvl2researchpost_b.dmm", "cave
 #Spooky rift room oooOoooOooOooo
 [rooms.caves_lvl3tear]
 modules = ["caves_lvl3tear_a.dmm", "caves_lvl3tear_b.dmm", "caves_lvl3tear_c.dmm"]
+
+#1st segment of 3 on the 3rd floor
+[rooms.caves_lvl3segment1]
+modules = ["caves_lvl3segment1_a.dmm", "caves_lvl3segment1_b.dmm", "caves_lvl3segment1_c.dmm"]
+
+#2nd segment of 3 on the 3rd floor
+[rooms.caves_lvl3segment2]
+modules = ["caves_lvl3segment2_a.dmm", "caves_lvl3segment2_b.dmm", "caves_lvl3segment2_c.dmm"]
+
+#3rd segment of 3 on the 3rd floor
+[rooms.caves_lvl3segment2]
+modules = ["caves_lvl3segment3_a.dmm", "caves_lvl3segment3_b.dmm", "caves_lvl3segment3_c.dmm"]

@@ -21,6 +21,13 @@
 /obj/item/fireaxe,
 /turf/open/floor/bronze/flat,
 /area/awaymission/cabin/snowforest)
+"pw" = (
+/obj/modular_map_root/caves{
+	key = "caves_lvl2tunnelbridge";
+	name = "lvl2tunnelbridge"
+	},
+/turf/open/space/basic,
+/area/space)
 "qW" = (
 /turf/open/floor/bronze/flat,
 /area/awaymission/cabin/snowforest)
@@ -29,9 +36,7 @@
 /turf/open/floor/bronze/filled,
 /area/awaymission/cabin/snowforest)
 "tH" = (
-/obj/structure/steamvent{
-	icon_state = "vent_off"
-	},
+/obj/structure/steamvent,
 /turf/open/floor/bronze/flat,
 /area/awaymission/cabin/snowforest)
 "xt" = (
@@ -35145,7 +35150,7 @@ qW
 qW
 aW
 Mw
-Mw
+pw
 Mw
 Mw
 Mw

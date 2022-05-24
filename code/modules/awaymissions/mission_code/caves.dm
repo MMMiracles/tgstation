@@ -2,6 +2,9 @@
 /obj/modular_map_root/caves
 	config_file = "strings/modular_maps/caves.toml"
 
+/obj/modular_map_root/tramstation
+	config_file = "strings/modular_maps/Tramstation.toml"
+
 //Mech used by the clockwork miners
 /obj/vehicle/sealed/mecha/working/ripley/mk2/clockcult
 	icon_state = "ripleyclockcult"
