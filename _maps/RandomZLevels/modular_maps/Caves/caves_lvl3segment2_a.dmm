@@ -1,3 +1,4 @@
+"a" = (/turf/open/space/basic,/area/space)
 "b" = (/turf/closed/indestructible/rock,/area/awaymission/caves/bmp_asteroid/level_three)
 "l" = (/turf/closed/mineral/volcanic/lava_land_surface/hardened,/area/awaymission/caves/bmp_asteroid/level_three)
 "n" = (/turf/open/misc/asteroid/basalt/lava_land_surface,/area/awaymission/caves/bmp_asteroid/level_three)
@@ -42,4 +43,5 @@ blnllllllnnnnVVVVVllHHHHHHHHHHHHHHHHHHHHHHHllHHnnnnnnnnnnnnnnnnnnnnlllnnnlllllll
 blnlllllnnnnnlllllllllllllllllHHHHHHHHlllllllHllllllnnnnnnnnlllllllllllnlllllllllllllllllllnllnnnnllllVVVVVVVlllllllllllllb
 blllllllnnnnnllllllllllllllllllllllllllllllllHlllllllllllllllllllllllllnlllllllllllllllllllllllllllllVVVVVVVVVllllllllllllb
 blllllllnnnnnlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllb
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
