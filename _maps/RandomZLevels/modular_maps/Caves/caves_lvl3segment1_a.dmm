@@ -1,5 +1,4 @@
 "aa" = (/obj/structure/stone_tile{dir = 1},/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck,/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
-"ab" = (/turf/open/space/basic,/area/space)
 "aX" = (/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck,/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
 "bs" = (/obj/structure/stone_tile/slab/cracked,/obj/structure/bed/maint,/obj/item/bedsheet/centcom,/turf/open/indestructible/boss,/area/template_noop)
 "bO" = (/obj/structure/stone_tile/block/cracked,/obj/structure/stone_tile/block/burnt{dir = 1},/obj/structure/mineral_door/iron,/turf/open/indestructible/boss,/area/template_noop)
@@ -44,6 +43,7 @@
 "tG" = (/obj/structure/stone_tile/slab/burnt,/mob/living/simple_animal/hostile/ashwalker{name = "Harvests-The-Crop"},/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
 "tJ" = (/obj/machinery/hydroponics/soil,/obj/structure/stone_tile/block/cracked,/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
 "uS" = (/obj/structure/stone_tile/burnt{dir = 8},/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
+"uU" = (/obj/modular_map_root/caves{key = "caves_lvl3segment2"; name = "lvl3segment2"},/turf/template_noop,/area/template_noop)
 "vp" = (/obj/structure/stone_tile/slab,/obj/structure/bed{dir = 4},/obj/item/bedsheet/patriot{dir = 4},/turf/open/indestructible/boss,/area/template_noop)
 "vz" = (/obj/structure/stone_tile{dir = 4},/obj/structure/stone_tile/burnt,/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
 "wx" = (/obj/structure/stone_tile/block{dir = 4},/obj/structure/stone_tile/block{dir = 8},/obj/structure/mineral_door/iron,/turf/open/indestructible/boss,/area/template_noop)
@@ -177,5 +177,5 @@ yGAYAYAYAYAYAYAYAYAYAYAYAYAYAYWkWkWkWkWkWkWkWkAYAYAYAYAYAYAYAYAYAYAYSXAYAYAYAYAY
 yGAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYWkWkWkWkWkAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkHfAYAYAYAYAYAYBTHfWkWkWkWkWkWkSEWkWkWkXhWkWkWkWkWkWkWkWkAYAYAYWkWkWkWkWkWkWkWkWkWkWkWkWkWkRSRSRSLtRSAYAYAYAYAYAYAYAY
 yGAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYWkWkSESESEWkWkRSLtRSRSWkXhXhAYAYAYAYAYWkWkWkWkWkWkWkWkWkWkWkAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAY
 yGAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYSESESEWkRSRSAYAYAYAYAYAYAYAYAYAYAYWkWkWkWkWkAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAYAY
-abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+OeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeuUOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOeOe
 "}

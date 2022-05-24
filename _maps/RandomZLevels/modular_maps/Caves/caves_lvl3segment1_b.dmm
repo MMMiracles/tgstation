@@ -1,4 +1,3 @@
-"aa" = (/turf/open/space/basic,/area/space)
 "aL" = (/obj/effect/turf_decal/stripes/corner{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating/lavaland_atmos,/area/template_noop)
 "bu" = (/obj/effect/turf_decal/stripes/line,/obj/effect/decal/cleanable/dirt,/obj/structure/marker_beacon/burgundy,/turf/open/floor/plating/lavaland_atmos,/area/template_noop)
 "cu" = (/turf/closed/mineral/volcanic/lava_land_surface/hardened,/area/template_noop)
@@ -25,6 +24,7 @@
 "uF" = (/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/wideplating_new/end{dir = 4},/turf/open/floor/plating/lavaland_atmos,/area/template_noop)
 "vo" = (/obj/structure/industrial_lift/tram{icon_state = "titanium_purple"; initial_id = "caves_drill_left"; name = "drill platform"},/obj/structure/barricade/sandbags,/turf/open/misc/asteroid/basalt/lava_land_surface,/area/template_noop)
 "vF" = (/turf/closed/indestructible/necropolis,/area/template_noop)
+"wv" = (/obj/modular_map_root/caves{key = "caves_lvl3segment2"; name = "lvl3segment2"},/turf/template_noop,/area/template_noop)
 "xu" = (/turf/closed/wall,/area/template_noop)
 "xB" = (/obj/effect/decal/cleanable/dirt,/obj/structure/railing,/obj/structure/railing{dir = 1},/turf/open/floor/plating/lavaland_atmos,/area/template_noop)
 "yH" = (/obj/effect/decal/cleanable/dirt,/obj/effect/turf_decal/siding/wideplating_new,/obj/effect/turf_decal/siding/wideplating_new{dir = 1},/obj/effect/turf_decal/bot_red,/turf/open/floor/plating/lavaland_atmos,/area/template_noop)
@@ -126,5 +126,5 @@ oIcurxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxrxcucucucucucucucucucucucuVhrbrxrxrxrxrxrxrx
 oIcucurxrxrxrxrxcucucucucucucucucucucucucucucucucucucucucucucucucucurxrxrxrxrxrxrxrxcucucucWcucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucunIcucucucucucucucucucucucucucucucurxrxrxrxrxrxrxrxcucucucucucucucucucucucucucucucucucucu
 oIcucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucurxrxrxrxrxcucucucWcucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucunIcucucucucucucucucucucucucucucucurxrxrxrxrxrxrxcucucucucucucucucucucucucucucucucucucucu
 oIcucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucucunIcucucucucucucucucucucucucucucucucurxrxrxrxrxcucucucucucucucucucucucucucucucucucucucucu
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+GqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqwvGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGqGq
 "}
